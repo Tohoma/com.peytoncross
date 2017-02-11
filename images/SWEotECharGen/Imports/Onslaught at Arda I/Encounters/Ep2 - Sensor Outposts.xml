@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<Encounter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LastChanged>2014-10-01T10:36:03.537</LastChanged>
+  <NotPersisted>false</NotPersisted>
+  <FileName>Enc134.xml</FileName>
+  <Name>Ep2 - Sensor Outposts</Name>
+  <Key>0339e8e4-e57d-44b7-855e-13bbc7d32d3a</Key>
+  <Description />
+  <Campaign />
+  <Adventure>Onslaught at Arda I</Adventure>
+  <Location>Jagomir</Location>
+  <Notes>Each location (except the one with the explosion) can have any of the following (use only one group per location):
+&lt;UL&gt;&lt;LI&gt;Dream Shimmers&lt;/LI&gt;
+&lt;LI&gt;Bog Spitters&lt;/LI&gt;
+&lt;LI&gt;Evarrian Hunters&lt;/LI&gt;&lt;/UL&gt;
+Use the swamp stalkers and the garrix for the location with the explosion.
+</Notes>
+  <EncGroups>
+    <EncGroup>
+      <Key>19dd246e-2c5a-451c-ab85-8ba81e09009b</Key>
+      <AdvKey>a07ff0a7-0c45-4317-a407-e4310630b25a</AdvKey>
+      <asGroup>false</asGroup>
+      <asRival>false</asRival>
+      <Count>6</Count>
+      <AltName />
+    </EncGroup>
+    <EncGroup>
+      <Key>ddfc654b-059e-4ced-8221-73fb766e19d1</Key>
+      <AdvKey>79931e96-7906-4c99-9892-72c6684ebdf8</AdvKey>
+      <asGroup>false</asGroup>
+      <asRival>false</asRival>
+      <Count>4</Count>
+      <AltName />
+    </EncGroup>
+    <EncGroup>
+      <Key>1c41451e-25cd-471e-a5ec-496193477aed</Key>
+      <AdvKey>cf7c6511-521e-4f41-b551-6544e60f0c43</AdvKey>
+      <asGroup>false</asGroup>
+      <asRival>false</asRival>
+      <Count>3</Count>
+      <AltName />
+    </EncGroup>
+    <EncGroup>
+      <Key>3f46afb1-897d-4f11-81c6-9b22c33bd64c</Key>
+      <AdvKey>417fa398-ab74-4bce-99d5-297560fe3685</AdvKey>
+      <asGroup>true</asGroup>
+      <asRival>false</asRival>
+      <Count>3</Count>
+      <AltName />
+    </EncGroup>
+    <EncGroup>
+      <Key>c2540d19-1c31-435f-97cd-9bc30d735149</Key>
+      <AdvKey>417fa398-ab74-4bce-99d5-297560fe3685</AdvKey>
+      <asGroup>true</asGroup>
+      <asRival>false</asRival>
+      <Count>3</Count>
+      <AltName />
+    </EncGroup>
+    <EncGroup>
+      <Key>bbe5efda-800b-4c01-815f-929321f67e71</Key>
+      <AdvKey>417fa398-ab74-4bce-99d5-297560fe3685</AdvKey>
+      <asGroup>true</asGroup>
+      <asRival>false</asRival>
+      <Count>3</Count>
+      <AltName />
+    </EncGroup>
+    <EncGroup>
+      <Key>65887a75-a895-4b22-8836-82259d803b11</Key>
+      <AdvKey>fc03b6c9-fd92-455e-bf4e-78ebd1724511</AdvKey>
+      <asGroup>false</asGroup>
+      <asRival>false</asRival>
+      <Count>1</Count>
+      <AltName />
+    </EncGroup>
+  </EncGroups>
+  <Vehicles />
+  <Rosters />
+</Encounter>

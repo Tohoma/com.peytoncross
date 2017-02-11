@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<Encounter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LastChanged>2014-02-21T08:48:32</LastChanged>
+  <NotPersisted>false</NotPersisted>
+  <FileName>Enc28.xml</FileName>
+  <Name>Cyber-Nexu Ambush</Name>
+  <Key>d4161f48-00d1-480f-a3a9-560c45118a66</Key>
+  <Description />
+  <Campaign />
+  <Adventure>Beyond the Rim</Adventure>
+  <Location>Cholganna, Wreckage</Location>
+  <Notes>They flee back into the wreckage when they sustain 3/4 wound damage, or suffer 2 critical hits.</Notes>
+  <EncGroups>
+    <EncGroup>
+      <Key>895740e7-57a7-4414-bacc-71cec552b325</Key>
+      <AdvKey>4d2e02da-03a6-449f-9ab2-2ffd88836651</AdvKey>
+      <asGroup>false</asGroup>
+      <asRival>false</asRival>
+      <Count>2</Count>
+      <AltName />
+    </EncGroup>
+  </EncGroups>
+  <Vehicles />
+  <Rosters />
+</Encounter>

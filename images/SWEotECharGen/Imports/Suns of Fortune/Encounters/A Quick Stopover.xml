@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<Encounter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>21295819-7b9c-46f9-a239-75d41dc0c9d7</Key>
+  <Name>A Quick Stopover</Name>
+  <Description />
+  <Source />
+  <Custom>Base</Custom>
+  <Campaign />
+  <Adventure />
+  <Location>Sleeping Rancor Cantina</Location>
+  <Notes>Module encounter from "Suns of Fortune", page 132</Notes>
+  <EncGroups>
+    <EncGroup>
+      <Key>6a5afd71-f0b8-4f02-ad18-06f78755422d</Key>
+      <AdvKey>f91b4cb0-d268-4169-9afc-30ab518eb05e</AdvKey>
+      <asGroup>false</asGroup>
+      <asRival>false</asRival>
+      <Count>1</Count>
+    </EncGroup>
+    <EncGroup>
+      <Key>135b0f91-b9e5-4612-b495-b563dff69d8d</Key>
+      <AdvKey>88845f22-0fd5-44cc-b689-330b96627d2e</AdvKey>
+      <asGroup>false</asGroup>
+      <asRival>false</asRival>
+      <Count>1</Count>
+    </EncGroup>
+    <EncGroup>
+      <Key>47bbe82c-3177-41c5-aaca-d226fac96ebb</Key>
+      <AdvKey>3ec05454-ff9e-4d7c-96a3-67bd7de1dc98</AdvKey>
+      <asGroup>false</asGroup>
+      <asRival>false</asRival>
+      <Count>2</Count>
+    </EncGroup>
+    <EncGroup>
+      <Key>3a9bf456-a8e1-4ea6-b4af-ebe4eab7bca9</Key>
+      <AdvKey>879cb340-ea6e-4c10-864f-af3c1a1bfff6</AdvKey>
+      <asGroup>false</asGroup>
+      <asRival>false</asRival>
+      <Count>1</Count>
+    </EncGroup>
+  </EncGroups>
+  <Vehicles />
+  <Rosters />
+  <FileName>Enc5.xml</FileName>
+</Encounter>

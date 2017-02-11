@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<Encounter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LastChanged>2014-07-22T15:54:32.933</LastChanged>
+  <NotPersisted>false</NotPersisted>
+  <FileName>Enc97.xml</FileName>
+  <Name>Encounter 5: Firefight</Name>
+  <Key>a0ed252f-47a6-4d70-9477-89950179229a</Key>
+  <Description />
+  <Campaign />
+  <Adventure>Takeover at Whisper Base</Adventure>
+  <Location>Onderon</Location>
+  <Notes>Please see page 21 of the Age of Rebellion Beginner Game Adventure Book for details.</Notes>
+  <EncGroups>
+    <EncGroup>
+      <Key>9af0ab1e-e9eb-42c3-987a-7d618b0b5018</Key>
+      <AdvKey>7403709a-3433-40d9-8526-a1ca8ee33de9</AdvKey>
+      <asGroup>true</asGroup>
+      <asRival>false</asRival>
+      <Count>3</Count>
+      <AltName>Guards</AltName>
+    </EncGroup>
+    <EncGroup>
+      <Key>e8fc7fed-a0d3-4313-a461-1f8111e4c139</Key>
+      <AdvKey>7403709a-3433-40d9-8526-a1ca8ee33de9</AdvKey>
+      <asGroup>true</asGroup>
+      <asRival>false</asRival>
+      <Count>3</Count>
+      <AltName>Patrol</AltName>
+    </EncGroup>
+  </EncGroups>
+  <Vehicles />
+  <Rosters />
+</Encounter>

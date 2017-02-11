@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<Encounter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LastChanged>2014-02-28T22:24:50</LastChanged>
+  <NotPersisted>false</NotPersisted>
+  <FileName>Enc30.xml</FileName>
+  <Name>Survivor Camp Attack</Name>
+  <Key>7105b7c9-f55d-4020-8705-ea444d140df0</Key>
+  <Description />
+  <Campaign />
+  <Adventure>Beyond the Rim</Adventure>
+  <Location>Cholganna, The Retreat</Location>
+  <Notes>This encounter should not happen, but if the PCs screw up royally, they might be attacked by the camp.  Can also be used for survivor combat in the [B]Imperials Attack[b] encounter.</Notes>
+  <EncGroups>
+    <EncGroup>
+      <Key>f05446cb-aaf8-41c6-88c6-05d2ab71940f</Key>
+      <AdvKey>5745f678-04b0-48d0-af35-8356cbbfb677</AdvKey>
+      <asGroup>false</asGroup>
+      <asRival>false</asRival>
+      <Count>1</Count>
+      <AltName />
+    </EncGroup>
+    <EncGroup>
+      <Key>6f3d4c7a-aad4-4f35-ae6f-37be69d62f09</Key>
+      <AdvKey>f2a1f34e-3e34-4746-9a9c-5ca7a0005bf8</AdvKey>
+      <asGroup>false</asGroup>
+      <asRival>false</asRival>
+      <Count>1</Count>
+      <AltName />
+    </EncGroup>
+    <EncGroup>
+      <Key>519b8a9d-31d7-4e2d-9de1-1be089dfb565</Key>
+      <AdvKey>38093362-a487-45d5-a233-04e7408032b9</AdvKey>
+      <asGroup>true</asGroup>
+      <asRival>false</asRival>
+      <Count>6</Count>
+      <AltName />
+    </EncGroup>
+    <EncGroup>
+      <Key>a820f5d8-7bf0-4b6c-905e-ff3746152ace</Key>
+      <AdvKey>d550e4f9-79dc-4bb2-8186-4c5a2a2c6820</AdvKey>
+      <asGroup>true</asGroup>
+      <asRival>false</asRival>
+      <Count>6</Count>
+      <AltName />
+    </EncGroup>
+    <EncGroup>
+      <Key>33a3159f-0278-4324-b1f0-8401976f58ac</Key>
+      <AdvKey>d550e4f9-79dc-4bb2-8186-4c5a2a2c6820</AdvKey>
+      <asGroup>true</asGroup>
+      <asRival>false</asRival>
+      <Count>6</Count>
+      <AltName />
+    </EncGroup>
+    <EncGroup>
+      <Key>3c6abc24-aaa8-42b9-b5e2-e1afc5779a49</Key>
+      <AdvKey>4d2e02da-03a6-449f-9ab2-2ffd88836651</AdvKey>
+      <asGroup>false</asGroup>
+      <asRival>false</asRival>
+      <Count>2</Count>
+      <AltName />
+    </EncGroup>
+  </EncGroups>
+  <Vehicles />
+  <Rosters />
+</Encounter>

@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<Encounter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LastChanged>2014-02-20T20:10:23</LastChanged>
+  <NotPersisted>false</NotPersisted>
+  <FileName>Enc24.xml</FileName>
+  <Name>Bark Rat Burst</Name>
+  <Key>ac379261-4923-4855-86f4-dc8d0a27e410</Key>
+  <Description />
+  <Campaign />
+  <Adventure>Beyond the Rim</Adventure>
+  <Location>Cholganna</Location>
+  <Notes>The PCs inadvertently collide with or accidentally blast a bark rat tree-nest (perhaps due to a [DESPAIR] result during combat.  It might be a single limb with a few rats or a whole tree  with two or three minion groups bursting forth and swarming their perceived attackers.</Notes>
+  <EncGroups>
+    <EncGroup>
+      <Key>c38f07f1-94c7-4d26-9494-f158c1033084</Key>
+      <AdvKey>bf92abd1-f868-4a30-88fa-6e5302d84a00</AdvKey>
+      <asGroup>true</asGroup>
+      <asRival>false</asRival>
+      <Count>5</Count>
+      <AltName />
+    </EncGroup>
+    <EncGroup>
+      <Key>d52d8a34-f5e2-4fc8-83a2-722f526c8feb</Key>
+      <AdvKey>bf92abd1-f868-4a30-88fa-6e5302d84a00</AdvKey>
+      <asGroup>true</asGroup>
+      <asRival>false</asRival>
+      <Count>5</Count>
+      <AltName />
+    </EncGroup>
+    <EncGroup>
+      <Key>731ad859-bd17-4482-ad96-1c539a8756e3</Key>
+      <AdvKey>bf92abd1-f868-4a30-88fa-6e5302d84a00</AdvKey>
+      <asGroup>true</asGroup>
+      <asRival>false</asRival>
+      <Count>5</Count>
+      <AltName />
+    </EncGroup>
+  </EncGroups>
+  <Vehicles />
+  <Rosters />
+</Encounter>

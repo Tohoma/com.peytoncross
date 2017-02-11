@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<Encounter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LastChanged>2015-02-02T11:06:07.853</LastChanged>
+  <NotPersisted>false</NotPersisted>
+  <FileName>Enc145.xml</FileName>
+  <Name>Ep2 - Umbra Club</Name>
+  <Key>c3aa52d9-2580-417a-9834-0e78b15911e8</Key>
+  <Description />
+  <Campaign />
+  <Adventure>Under a Black Sun</Adventure>
+  <Location>Umbra Club, Coruscant</Location>
+  <Notes />
+  <EncGroups>
+    <EncGroup>
+      <Key>004d0e29-885c-436f-ac0f-366b15bdf57c</Key>
+      <AdvKey>1ff28b9f-c4cd-4f44-9bee-3aed22248c02</AdvKey>
+      <asGroup>false</asGroup>
+      <asRival>false</asRival>
+      <Count>1</Count>
+      <AltName />
+    </EncGroup>
+    <EncGroup>
+      <Key>28055265-8e89-4f14-a086-0dd7d74164da</Key>
+      <AdvKey>273c0b05-d374-4bb1-afd0-4a2f6a56e13d</AdvKey>
+      <asGroup>true</asGroup>
+      <asRival>false</asRival>
+      <Count>2</Count>
+      <AltName />
+    </EncGroup>
+  </EncGroups>
+  <Vehicles />
+  <Rosters />
+</Encounter>

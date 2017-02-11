@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<Encounter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LastChanged>2015-02-21T15:49:12.613</LastChanged>
+  <NotPersisted>false</NotPersisted>
+  <FileName>Enc159.xml</FileName>
+  <Name>The Dance</Name>
+  <Key>bab367f2-3f0f-4283-b76d-8350d2ad9e8b</Key>
+  <Description />
+  <Campaign />
+  <Adventure>Lords of Nal Hutta - Rubbing Slimy Elbows</Adventure>
+  <Location>Wheeta Palace, Nal Hutta</Location>
+  <Notes>"The Dance" is the second event in the Granee Noopa.  All three groups (Shalo, Torani, and the PC's) will be at odds, unless an agreement was made to cooperate.  Who belongs to which team is noted with the adversary.</Notes>
+  <EncGroups>
+    <EncGroup>
+      <Key>67276525-a508-48bf-bc09-5f879f48fd61</Key>
+      <AdvKey>edce2fd4-5bd0-4722-9ed3-0dfee0e45e74</AdvKey>
+      <asGroup>false</asGroup>
+      <asRival>false</asRival>
+      <Count>1</Count>
+      <AltName>Team Shalo</AltName>
+    </EncGroup>
+    <EncGroup>
+      <Key>4efe6dfc-591a-4f4a-9f34-508562d6c3ce</Key>
+      <AdvKey>fe1e11c4-5170-4b16-a57d-8c6ef04a722a</AdvKey>
+      <asGroup>true</asGroup>
+      <asRival>false</asRival>
+      <Count>1</Count>
+      <AltName>Team Shalo</AltName>
+    </EncGroup>
+    <EncGroup>
+      <Key>1533d5e8-5738-446d-a71e-3aadfb36be3b</Key>
+      <AdvKey>9d2da4fe-49cb-4486-a06a-7350a0b48e90</AdvKey>
+      <asGroup>false</asGroup>
+      <asRival>false</asRival>
+      <Count>1</Count>
+      <AltName>Team Shalo</AltName>
+    </EncGroup>
+    <EncGroup>
+      <Key>e644c5c1-8554-4bf5-ab03-429ba099a0f2</Key>
+      <AdvKey>25066c8a-2431-489e-994c-e32457b85ca7</AdvKey>
+      <asGroup>false</asGroup>
+      <asRival>false</asRival>
+      <Count>1</Count>
+      <AltName>Team Shalo</AltName>
+    </EncGroup>
+    <EncGroup>
+      <Key>2ed16cd0-9a68-44fb-af1e-580d778b1a3f</Key>
+      <AdvKey>2e33343f-5c42-43de-ba1b-caa25dd32892</AdvKey>
+      <asGroup>false</asGroup>
+      <asRival>false</asRival>
+      <Count>1</Count>
+      <AltName>Team Torani</AltName>
+    </EncGroup>
+    <EncGroup>
+      <Key>6334ed57-6e82-4235-a30c-623baea45eba</Key>
+      <AdvKey>7b6b0091-7590-4922-a842-5a00f2bdf784</AdvKey>
+      <asGroup>false</asGroup>
+      <asRival>false</asRival>
+      <Count>1</Count>
+      <AltName>Team Torani</AltName>
+    </EncGroup>
+    <EncGroup>
+      <Key>e92913a3-dc48-42af-8612-88dbd992a4c2</Key>
+      <AdvKey>f92cc879-f9a2-4050-991c-b99a58198c6f</AdvKey>
+      <asGroup>true</asGroup>
+      <asRival>false</asRival>
+      <Count>3</Count>
+      <AltName>Team Torani (Fondo, Tyss, and Plaado)</AltName>
+    </EncGroup>
+    <EncGroup>
+      <Key>c991cd31-69cf-4199-919e-1d83b66e4243</Key>
+      <AdvKey>786b2626-beef-49f2-94cc-71ccf5b900cd</AdvKey>
+      <asGroup>true</asGroup>
+      <asRival>false</asRival>
+      <Count>6</Count>
+      <AltName>Attacks All Present</AltName>
+    </EncGroup>
+  </EncGroups>
+  <Vehicles />
+  <Rosters />
+</Encounter>

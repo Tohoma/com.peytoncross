@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<Encounter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LastChanged>2015-02-02T10:54:47.807</LastChanged>
+  <NotPersisted>false</NotPersisted>
+  <FileName>Enc144.xml</FileName>
+  <Name>Ep1 - Black Sun Thugs</Name>
+  <Key>a377f472-ee8b-422f-9b25-504471095d83</Key>
+  <Description />
+  <Campaign />
+  <Adventure>Under a Black Sun</Adventure>
+  <Location>Coruscant</Location>
+  <Notes>While traveling throughout the city, the PCs may encounter some Black Sun operatives going about their business. At this stage, the Player Characters are still unknown to the greater organization, but there is a chance that they will run afoul of these thugs, deepening the potential for animosity between the PCs and Black Sun.</Notes>
+  <EncGroups>
+    <EncGroup>
+      <Key>643353f6-985a-4d15-b791-4ca02f8e397f</Key>
+      <AdvKey>763f83d7-901e-45ef-84fa-d6a76d41b9e3</AdvKey>
+      <asGroup>true</asGroup>
+      <asRival>false</asRival>
+      <Count>6</Count>
+      <AltName />
+    </EncGroup>
+  </EncGroups>
+  <Vehicles />
+  <Rosters />
+</Encounter>

@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<Encounter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LastChanged>2015-08-16T19:22:32.55</LastChanged>
+  <NotPersisted>false</NotPersisted>
+  <FileName>Enc164.xml</FileName>
+  <Name>Gladiator Night - Round 1, Fight 4</Name>
+  <Key>65f48191-c996-4dca-8c47-d5403009d342</Key>
+  <Description />
+  <Campaign />
+  <Adventure>Spark of Rebellion</Adventure>
+  <Location>Gladiator Arena</Location>
+  <Notes>This is the first fight, Warjak the Feeorin VS. Rugor 'the Red' the Twi'lek.
+[P]
+These two compeditors are very agile and for that purpose the focus on the match is swift movements as well as dodging, relying on finesse with the weapon rather than simply brute strength. If one of your players is also very agile, you may wish to swap him out for one of the gladiators in this match to see how he deals with someone who fights like him.
+[P]
+The winner will proceed to round 2, use these encounters as a template to make round 2, and round 3 (the finals).</Notes>
+  <EncGroups>
+    <EncGroup>
+      <Key>eb51f799-1ee4-44ad-b415-9075e044590a</Key>
+      <AdvKey>f942569f-6b7c-4c0b-af20-b5c44eb8d221</AdvKey>
+      <asGroup>false</asGroup>
+      <asRival>false</asRival>
+      <Count>1</Count>
+      <AltName />
+    </EncGroup>
+    <EncGroup>
+      <Key>b20e28e9-e940-4bfb-a5d2-0d2129cb2e71</Key>
+      <AdvKey>abeb3583-df73-458f-bef5-2735044133d6</AdvKey>
+      <asGroup>false</asGroup>
+      <asRival>false</asRival>
+      <Count>1</Count>
+      <AltName />
+    </EncGroup>
+  </EncGroups>
+  <Vehicles />
+  <Rosters />
+</Encounter>

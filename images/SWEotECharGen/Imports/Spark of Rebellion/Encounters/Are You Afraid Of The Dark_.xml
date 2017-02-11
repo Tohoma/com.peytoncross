@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<Encounter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LastChanged>2015-08-16T19:37:43.82</LastChanged>
+  <NotPersisted>false</NotPersisted>
+  <FileName>Enc160.xml</FileName>
+  <Name>Are You Afraid Of The Dark?</Name>
+  <Key>17f2c63e-a702-4e42-a845-e78021e5e43e</Key>
+  <Description />
+  <Campaign />
+  <Adventure>Spark of Rebellion</Adventure>
+  <Location>Fort Anaxes</Location>
+  <Notes>This encounter sheet is here to allow you to track damage on the different Frynock groups you may have in this encounter.
+[P]
+The encounter is designed to throw overwhelming odds at the PC's, should they defeat a group of Frynocks, another should quickly take its place, there is no way the PC's can eradicate all of them, they must do what they came to do and run.</Notes>
+  <EncGroups>
+    <EncGroup>
+      <Key>4b089d37-ae69-4168-aff0-fe243ff17a93</Key>
+      <AdvKey>852eeecf-917b-498c-abb2-36740de8df13</AdvKey>
+      <asGroup>true</asGroup>
+      <asRival>false</asRival>
+      <Count>4</Count>
+      <AltName />
+    </EncGroup>
+    <EncGroup>
+      <Key>d4af76e7-af1d-49c1-a499-faa080d32872</Key>
+      <AdvKey>c490ee2d-cae9-4786-b0b0-40e407125f0b</AdvKey>
+      <asGroup>false</asGroup>
+      <asRival>false</asRival>
+      <Count>4</Count>
+      <AltName />
+    </EncGroup>
+    <EncGroup>
+      <Key>e7cc8af8-320b-4d23-bedf-5411b35361bd</Key>
+      <AdvKey>5b770851-fe26-4bc5-b0cd-964f89a331e7</AdvKey>
+      <asGroup>false</asGroup>
+      <asRival>false</asRival>
+      <Count>1</Count>
+      <AltName />
+    </EncGroup>
+    <EncGroup>
+      <Key>5a7879ea-190f-4ba1-86e9-1ae036a02883</Key>
+      <AdvKey>852eeecf-917b-498c-abb2-36740de8df13</AdvKey>
+      <asGroup>true</asGroup>
+      <asRival>false</asRival>
+      <Count>4</Count>
+      <AltName />
+    </EncGroup>
+    <EncGroup>
+      <Key>df051dfd-b478-46cc-a601-edf637a49932</Key>
+      <AdvKey>852eeecf-917b-498c-abb2-36740de8df13</AdvKey>
+      <asGroup>true</asGroup>
+      <asRival>false</asRival>
+      <Count>1</Count>
+      <AltName />
+    </EncGroup>
+  </EncGroups>
+  <Vehicles />
+  <Rosters />
+</Encounter>

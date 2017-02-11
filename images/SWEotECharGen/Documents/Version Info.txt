@@ -1,0 +1,1638 @@
+Release Change Log:
+
+Release 1.5.0.0
+
+New/Changed Data:
+
+Updated all data to conform with the release of the Force and Destiny Core Rulebook.
+Added all Force and Destiny adversaries to the "Force and Destiny Core" import.  Most of these were found in the beta import, but have been updated with changes, and some new adversaries were added.  Beta adversaries that didn't make the cut can still be found in the "Force and Destiny Beta" import.
+Added a new import containing adversaries, encounters, and a data set including new species, vehicles, weapons, and more, to support the "Spark of Rebellion" fan-made source book.  This sourcebook supports the popular "Star Wars: Rebels" television show.  Special thanks goes out to Ebak and the entire gang at Rancor Publishing for their hard work on this excellent supplement, as well as for doing most of the work on this new import. 
+Added a new import containing adversaries and encounters for the "Lessons from the Past" adventure found in the back of the Force and Destiny Core Rulebook.
+Added a new import containing adversaries and encounters for the "Hidden Depths" adventure included with the Force and Destiny Game Master's Screen.
+Added a new import containing adversaries and encounters for the "Mountaintop Rescue" adventure included with the Force and Destiny Beginners Game.
+The image for the VX Sidewinder Repeating Blaster was the same for the Z50 Grenade Launcher.  The Sidewinder now has the proper image.
+The Operation Planning Duty from Desperate Allies was not added to the last release.  It has now been added.
+There was a mistyping for the special abilities of the HIC Mercy and the Wipe-3 data-purge grenades.  These have been fixed.
+There was a mistyping for the special ability of the flare jacket.  This has been fixed.
+The Marksman Barrel was only allowed on the original Blaster Rifle.  This has now been changed to any blaster rifle.
+Added Angle Deflector Shields maneuver to both the Astromech and Engineer position for vehicles.
+The A-36 Pathfinder's concussion missile launchers no longer have the Slow Firing quality.
+The A-36 Pathfinder now has the ANQ 3.6 Tracking Computer as a built-in attachment.
+The Loronar E-9 Explorer now has Engineering Access as a built-in attachment.
+Replaced the silhouette of the YT-2400 with a more accurate one.
+Changed the mods for Upgraded Communications Array.  Instead of changing sensor range, it now just notes that communications range has been increased.  This was due to an answered dev question.
+Added a second profile for the DR-45 Dragoon for when it is in carbine mode.
+Split off Specific Motivations to their own master data table.  The upside is that you may now edit the description of specific motivations without needing to customize the parent motivation.  The downside is that all specific motivation descriptions will revert to their defaults.  You will need to re-apply descriptions to specific motivations.  It is also a good idea if you "remove" customization to motivations and revert them to "DescOnly".
+Added "Ranged" and "Non-Heavy Rifle" to the categories of the Model 38 Sharpshooter's Rifle.
+Enhanced Optics Suite still referred to the Surveillance skill in the effect.  This reference has been removed.
+The Greased Palms talent had an incorrect definition.  It is now properly a ranked talent with a Maneuver activation.
+The I-C2 Civil-Industrial Droid now properly costs 1,700,000 credits.
+The Upgraded Comms Array attachment did not have a rarity specified.  It now properly has a rarity of 6.
+Fixed the "Dug Digger"'s encumbrance threshold to 100.
+As per errata, the YZ-775 Medium Transport's light turbo laser and two medium laser cannons now have the Linked 1 quality.
+Added the droids from Enter the Unknown as purchasable gear.
+
+New Features/Enhancements:
+
+Added a new pane to the GM Tools:  Print Trees.  This pane allows you to print generic/empty talent trees, force power trees, and signature ablity trees.  Unlike the trees that show up in the character sheet, these sheets are not associated with a particular character.  These trees may be used for reference, or for any other purpose.
+Added support for creating Inquisitors.  There is a new button in the Edit Adversary pane that will bring up a window that goes through the Inquisitor creation procedure found in the Force and Destiny Core Rulebook.  Just go through the steps and you'll have a new Inquisitor.  Since the Inquisitor is an adversary, it will show up in your adversary list and you can then make any changes to it that you like using the Adversary Editor.
+Changed sorting for the equipment grids.  Prices are now shown formatted (with commas) and will still sort on price value.  Weapon damage will also now sort on the damage value, with added damage (with a +) sorted at the top, and other damage (damage or damage+add) sorted correctly below.
+Vehicle rosters in encounters now support the Defensive Driving talent of the pilot, and will take into consideration the Advanced Targeting Array attachment's upgrade of Gunnery attacks.
+Added career skills to base upgrades.  While bases can still only contribute a single career skill, the choices are now combined from the base focus and any upgrade having career skills.
+Added NPCs to bases.  A base (specifically, the new Rebel base) can now provide its own NPCs.  Previously, only upgrades and ad-hoc additions could contribute NPCs to bases.
+Added an "NPC Caretaker" to the Rebel Base.  Rebel bases have this single NPC to run the base, rather than the one NPC per group member for homesteads and businesses.  It will be added automatically to your NPC list and can be modified as you see fit.
+Updated the editors for Base of Operation and Base Upgrade to reflect the new changes.
+Added a new feature to the generator:  Compact character sheets.  These are single-sheet versions of your character.  They are mainly for convention runs, one-shot games, or for quick reference.  They include a key at the bottom with all dice and symbols, plus however much other information (talents, equipment, Force abilities, etc) can fit.  This is a first pass, of course, so please give your feedback as to what could be improved with the layout. 
+When clicking the Print button in the generator, a dialog will now appear.  This dialog will include several character sheet-related options (found in the Options dialog as well), plus buttons to print a standard sheet, a new compact sheet, or to edit compact sheet options (priorities).
+Modified weapon quality overrides for vehicle weapons in the data editor.  Counts may now have a value of 0.  Ranked qualities with a count of 0 will be removed from the final quality list.  Unranked qualities can now be set with 0 or 1.  0 means quality will be removed, 1 means quality will be added.
+On the character sheet, Force rating will now be listed even if the character has no Force powers.
+A new option has been added to both the weapon editor and the adversary custom weapon editor.  You can now select whether or not to add Brawn to the damage of melee-type weapons.  These are any weapon that has a 0 for base damage and do not use the Mechanics skill (base damage and added damage work differently for explosives).  For instance, lightsaber hilts that contribute no base damage should have this option checked.  Also, melee or brawl weapons that only stun or entangle (or use similar qualities), but do no damage, should also have this option checked.
+Modified the weapon editor to allow and disallow certain options based upon weapon settings.  For instance, vehicle-only options will now be disabled if the weapon type is not "Vehicle".
+Selling price for items is now based upon the total cost of the item, including attachments, rather than the base cost.
+Added three new GM Grants.  You may now choose to use Brawn and Willpower gained from Dedication (or any other talent) to increase your Wound and Strain Thresholds.  By RAW, only starting Brawn and Willpower should affect these attributes.  Also, you may now grant free ranks in skills, as well as making certain skills career skills.
+You can now create desktop shortcuts for your favorite characters.  To do this, click the new "Shortcut" button in the Character pane to create a shortcut for the currently-selected character.  Double-clicking this shortcut on the desktop will run the character generator and automatically load the character.  This is a good feature for players who almost always load the same character every time they run the generator.
+Added support for the new three-way backgrounds presented in Force and Destiny.  Also, modified the titles to more generically match all three CRBs.
+All editors now support a check box combo control for the Source.  This allows you to select multiple sources for an item.
+In the equipment pane, put the reminder text for encumbrance and cybernetics on top of each other, rather than next to each other, to avoid overwriting text with large numbers.
+In the skills grid, the drop-down for non-career skills will show up whenever you have any purchased ranks.  Before, the skill also had to be a career skill.
+Since it was confusing people, lightsaber techniques that allow you to choose a different characteristic for the skill will now work just like any other talent that allows choices.  As soon as you select a technique skill, the "Choose Skill Characteristic" dialog will be displayed.  Also, the "play" button in the bottom right corner will also be available and will also bring up this dialog.  When you load your character, and a choice has not been made for any of your techniques, again, the dialog will be displayed, the same as if you hadn't chosen your Dedication characteristic, for instance.  For convenience, the "Choose Skill Char" button on the specialization pane will continue to work as before.
+Added a search by name filter to the equipment pane.  Each equipment type has its own search string, so if you switch to another type, then back again, the old search string will reappear.  The search string will match a name if the name contains the search string (regardless of case).
+Added a search by model filter when adding a vehicle.  The search string will match a vehicle model if the name contains the search string (regardless of case).
+Duties with a zero size will now be displayed on the character sheet.
+The currently-selected campaign on the Character pane will now be remembered between sessions.
+The launcher now supports a minimize button so it can be minimized to the task bar.
+The tool tip for talents will now display the specializations where the talent can be found.
+The applications have new logos and a new icon.
+You can now select the CRB style (Edge of the Empire, Age of Rebellion, or Force and Destiny) of adversary stat blocks in the Stat Block dialog.  The created stat block will use the appropriate color scheme.
+The generator now supports talents such as Intuitive Improvements that allows hard points to be added to items.  If such a talent exists, an "Add HP" button will appear in the equipment pane, allowing the addition of a hard point to an acceptable item.
+Loading characters in the generator should now be significantly faster than it was before, even for the first character, which takes slightly longer than subsequent loads.
+The adversary control will now use different stored filter settings, depending on where the control is used.  For instance, the adversary pane in GM Tools will store different filters than the NPC editor when editing bases, or the base/focus option dialogs in the data editor.
+Standardized dialog buttons.  All primary function buttons (OK, Cancel, Save, Add, etc) are now all the larger, rounded green buttons, while buttons for other functions are the thinner buttons.  Also, added default buttons (buttons that get "clicked" when you hit enter), as well as making Cancel buttons accessible by hitting escape.  Default buttons are generally of the OK, Add, or Save variety and have a enhancement so you'll know it's the default.  As long as the button is enhanced, hitting Enter will "click" the button.  If the button loses it's enhancement, then it usually means that another button has the focus and will be "clicked" instead when hitting Enter.
+
+Bug Fixes:
+
+There was a bug when printing out morality on the character sheet.  It would only show if morality needed to be printed on a new sheet (that is, it didn't fit on the current sheet).  This has been fixed.
+For PC Adversaries, some talent ranks weren't being added properly when creating the adversary.  This has been fixed.
+The cost of purchased mods for item attachments would increase by 100 credits for each mod purchased.  However, as verified by the developers, each mod should only cost 100 credits.  The cost of modding item attachments has been corrected.
+When retrieving information about item qualities, certain character-based changes due to talents were being applied multiple times from different sources (the item, attachments, etc).  These checks are now properly applied just once to the final quality value.
+The NPC Ally Rebel base upgrade incorrectly cost 1 obligation.  This has been fixed.
+If an adversary was given a weapon that had its skill changed (such as the H9 Pistol Grip), the damage would be calculated correctly for that skill, but the original skill would be listed for the weapon.  The new skill will now be shown.
+For adversaries, talents that came from item attachments would not always count correctly if more than one talent rank was gained by the attachment.  Proper talent ranks from attachments should now be added up correctly.
+Again for adversaries, talents that added damage based upon ranks in a skill were not being checked for.  This should now work correctly.
+Transfering credits in the transfer dialog did not properly set the changed flag so the "Transfer" button would become enabled.  This now works correctly.
+Fixed a bug that would cause long delays after every change once you chose sources from the Options dialog.
+The Edit Adversaries control had a potential bug when using the name filter.  If adversaries were added or removed, or if you used the name filter often, it would cause the filtering to be applied multiple times.  It will now only be applied once when changed.
+The auto-repeat problem while changing characteristics in the Add Adversary dialog should now be fixed.  It'll also respond better to multiple clicks; before, it would sometimes skip every other click of the plus/minus buttons.
+When printing group sheets, if you selected not to use an emblem for your group, character stat blocks would be cut off at the end.  This will no longer happen.
+When displaying information on the Reinforced Shield Generator, the zone displayed was always the first zone defined, even if multiple defense zone mods applied to different zones.  Zone calculation was correct, only the displayed information was wrong.  This has been fixed.
+The three grids in GM Tools would sometimes behave inconsistently when adding or removing items.  They should now all behave similarly, and updating should be quicker and smoother than before.
+There were some issues with choosing attachment options in the attachment dialog.  The first row option would sometimes be stuck on checked, and other various odd things happened with the options.  This should now be fixed.
+The name filter for adversaries wasn't always being saved.  This is now fixed.
+
+Release 1.4.6.0
+
+New/Changed Data:
+
+Added all new data for the Desperate Allies sourcebook that came out earlier this week.
+Added a new import for Desperate Allies containing all droid adversaries in the book.
+The Keldabe-class battleship had an incorrect price.  This has been fixed.
+The BTL-A4 Y-Wing's ion cannons were configured as a turret.  This weapon is only a turret in the S3 configuration.  This has been fixed.
+The scattergun attachment is now limited to Pistols and Rifles.
+X-30 Lancer had an incorrect Pierce quality.  It is now correctly set to 2.
+Note:  The Kappa-class Shuttle from Desperate Allies is named "Kappa-Class Shuttle (Rebellion)" to differentiate it from the Imperial Kappa-class shuttle from the "Dead in the Water" adventure.  The two are slightly different.
+
+New Features/Enhancements:
+
+Vehicle attachments now support a "multiply cost by passenger" flag to support Luxury Passenger Compartments in Desperate Allies.
+Vehicles can now come with built-in attachments.  Only attachments with no optional mods may be included with a vehicle.
+Updated the attachment and vehicle editors to support the above new features.
+A new Rebel Base has been added to the base feature of GM Tools to support Desperate Allies. The new Rebel Base Core perk (reduced rarity when purchasing items) also shows up on the Add/Edit Group description pane, as well as the printed base sheet.
+In GM Tools/Groups/Resources, the rebel base option will now create a rebel base for the group.
+Defensive Training will now add the proper Defensive rating to any equipped melee, brawl, or lightsaber weapons.
+Added a failed mod feature for item attachments.  When in the item attachment dialog, the option list will now have a new check box on the right.  If you fail to install a particular mod, just click the new check box for the mod in the option list.  This will flag the mod as "failed" and will not allow you to use it to upgrade the item.  This failed status will be save with the attachment.  To get the slot back, just uncheck the check box.
+GM Grants now allows the GM to grant free specializations to a character.  Just check off which specializations will be free for this character.  Such specializations do not count when XP is calculated, but any purchased talents from that specialization will cost XP as usual.  If a specialization marked as free is currently not part of the character, it will automatically be added.  If a specialization is later marked as not being free, it will remain in the character, but will count against XP as normal.  You cannot remove a free specialization; you must first mark it as not being free, then remove it as normal.
+
+Bug Fixes:
+
+In adversaries, there was an error calculating the proper wound and strain, based upon base stats.  This has been fixed.
+In adversaries, when converting a PC to an adversary, talents from equipment were being applied multiple times.  This has been fixed.
+Talents that change encumbrance on items were not being taken into account on the encumbrance summary line of equipment lists in the equipment page of the character sheet.  This has been fixed.
+On the first page of the character sheet, when checking for cumbersome or unwieldy values, character talents were not being taken into consideration when calculating the values.  They will now be used.
+The damage for lightsabers changed depending upon the order you bought certain attachments.  If you bought a crystal first, then a hilt, damage would be calculated correctly.  If you bought the crystal last, it would overwrite the additional damage from the hilt.  This has been fixed.
+
+Release 1.4.5.x Bug Fix
+
+1.4.5.3
+The Under Barrel Grenade Launcher didn't have increased encumbrance, or the initial Limited Ammo 1 quality.  This has been fixed.
+When just modifying a description in the Data Editor, the current collection wasn't being flagged properly as needing to be saved.  Adding, modifying, or removing items would flag the collection properly.  This has been fixed.
+1.4.5.2
+The non-career XP fix, along with the fix to allow items to make skills career skills (where the item can be equipped or unequipped at will), caused a problem with existing characters. If an older character had purchased ranks in a non-career skill, they would be charged career XP since the non-career ranks were 0 for characters created before 1.4.5.  This would cause extra XP to appear unspent.  There is a check now to detect such older characters and fix their non-career skill ranks.
+NOTE:  You can actually do this by hand if, for some reason, the character isn't detected and the fix isn't automatically applied.   Just find any non-career skills with purchased ranks.  From the "Buy" dropdown, set ranks to 0, then set them back to the original value.  Do this for all non-career skills with purchased ranks.  Then save the character.  The proper XP will then be displayed and the fix will be permanent.
+Changed the way minion wound is displayed on encounter sheets.  As per RAW, a minion is killed when wounds EXCEED the individual wound threshold.  The counters on the sheets had a minion marked off when wounds EQUALLED wound threshold.  This has been fixed to work by the rules. That is, the first minion is killed when the group takes wounds of threshold+1, then each minion after that is killed in increments of their wound threshold.
+1.4.5.1
+There was an XP calculation error in skills.  This has been fixed.
+If you had two copies of GM Tools running on the same or different computers, accessing the same data, and you modified and saved an encounter on one copy, then on the other copy, the first copy would crash.  This has been fixed.
+
+Release 1.4.5.0
+
+New/Changed Data:
+
+The Jury Rigged "attachment" for weapons now supports an option to require one less advantage to activate an active quality.
+Fixed Retrofitted Hangar Bay to cost 2 hard points.
+"Narrow Escape" and "Unmatched Fortune" still had their custom tag from the editor.  Those have been removed, so they no longer show up as "Added Item".
+Removed an extra "Second Chances" talent and replaced its use in Hotshot with the remaining version of the talent.
+
+New Features/Enhancements:
+
+Cybernetic Weapon Implant now includes an innate weapon Retractable Light Blaster Pistol, so you no longer need to add one to your inventory.
+The routine in the Equipment pane for determining whether or not an item can have an attachment has been made more intelligent.  It now determines whether 0 HP attachments can work on an item with no hard points.  In addition, any item that can have attachments will properly display a mod count, and the Combine button will now also see if an item has attachments when figuring out whether or not they can be combined with other stacks (items with attachments cannot be combined with other like items).
+
+Bug Fixes:
+
+The generator could get an error when adding a vehicle.  This will no longer happen.
+If the GM Tools and the generator were open at the same time, there was a possibility that the generator would get an exception after the character was saved.  This should no longer happen.
+Accessing certain adversaries in GM Tools could cause an exception if they were saved before the innate skills feature was implemented.  This should no longer happen.
+The Signature Vehicle functionality was broken in the last version.  This was due to some of the memory managment changes.  It should now work properly once again.
+If a piece of equipment made a skill a career skill (such as a holocron), the skill calculator would incorrectly set non-career ranks to current ranks, which caused non-career XP to be spent.  This was because it made this check before items were applied to skills and the skill was still seen as non-career.  If a skill was set to a career skill in any other way, it would work.  It will now properly wait until after items are checked before making this change, so XP cost will be correct, and you will be able to change the Non-Career column as needed.
+When clicking the Show Purchasable Items box in an Equipment pane when showing something other than weapons, you could get a fragment of a scrollbar showing if the displayed grid lost its scrollbar.  This was only a display issue caused by the weapon grid being slightly larger than the other two.  This should no longer happen.
+Sorting on the price column for weapons, armor, and gear in the Equipment pane would incorrectly sort alphabetically when formatting was applied to the values.  This happened a couple of releases ago.  The price columns will now correctly sort numerically once again, and retain their new formatting as well.
+The soak bonus for Superior armor would be applied once for each equipped armor.  It will now be added to the armor's soak when determining which soak to use for stacking purposes.  
+On the printed character sheet, the character's story would sometimes not be displayed if it did not fit on the main social page.  It should now be displayed properly.  Made some assurances that similiar issues would not crop up in other printed sheets as well.  Again, this had to do with the memory management I added to recent releases.
+If you created a Signature Vehicle, then changed out or removed the Rigger specialization, the Signature Vehicle attachment would remain on the vehicle until you made another change that updated the vehicle pane.  The attachment will now be properly removed as soon as the specialization is made unavailable.
+
+
+Release 1.4.4.0
+
+New/Changed Data:
+
+Added all data from the Fly Casual Smuggler's Sourcebook, including backgrounds, obligations, species, specializations, talents, motivations, signature abilities, weapons, armor, gear, attachments, and vehicles.  Special thanks goes to Braendig on the FFG forums for entering in all the data.  I couldn't have gotten this release out this fast without his help! 
+Both the one and 100 dose items of Neutron Pixie had the same key, so only the 100 dose item was showing.  They now have different keys.
+Added the seven droid types from the EotE Core Rulebook as purchasable gear.
+The Reinforced Shileld Generator attachment had its price corrected.
+
+New Features/Enhancements:
+
+Made a small change to the way damage is determined.  Instead of handling damage add fields (which add Brawn to the damage) only for a select number of skills, such as Melee or Brawl, it will now perform this check for any skill other than Mechanics (explosives use damage add in a different way).  This was mainly for the throwing dagger, which uses Ranged Light, but still has a damage add for Brawn.
+Added an "Innate Skills" feature to attachments to support the Astrogation and Autopilot droid brains.  The description of the attachment will display any innate skills, including rank and dice pool, that come with the attachment.
+The mod editor now supports the Innate Skills feature.
+Ad hoc item mods may now have a count other than one.
+Added descriptors to support adding and subtracting from a vehicle's passenger count.
+Added descriptors to support adding and subtracting from a vehicle's encumbrance capacity.
+Ad-hoc weapons as part of item attachments has been extended to include vehicle weapons.  The Surface Defense Blaster Cannon attachment uses this new feature.  The editor includes a link to modify vehicle weapon properties, which are now part of the weapon modifier.
+Made some changes to memory management, especially when it comes to releasing resources, so the generator should have a smaller memory footprint now.  When printing sheets, memory usage will probably double or more, but should eventually go back to what it was before the sheets were printed (it would stay high before).  Also, switching between characters a lot in the generator would keep so much memory around that the generator would eventually crash (see bug fix notes, below).  Now, I'm seeing the generator at about 150MB, going up to maybe 210MB during use, and the GM Tools at about 180MB, going up to maybe 250MB during use.
+To support the fix for non-career skill costs, the skill grid now has a new column called "Non-Career".  This column has a value and supports a combo box, but only if a skill is a ranked career skill.  For characters made with older versions of the software, or if you've removed and added skill ranks that used to be non-career, but are now career, this value may be changed to indicate how many of a skill's ranks should cost non-career XP, rather than career XP.
+
+Bug Fixes:
+
+If you loaded and reloaded characters over and over again, the generator's memory footprint would continue to grow until it eventually crashed.  This was due to poor memory management and not properly releasing unmanaged resources, such as images.  The problem should now be fixed (see note above on memory management changes).
+If a Force-using character was created and saved, and then an existing Force power was modified in a new release, the saved character was not picking up new Force ability nodes the next time it was loaded.  If the nodes were selected in the tree, XP was not being calculated for them, and if the character was saved and reloaded, the newly selected nodes were no longer selected.  This was due to the character verifying that a power already existed, but not verifying that all nodes existed as well.  All nodes in are now verified, and missing nodes are automatically added to existing Force powers.
+Fixed an issue with printed inventory lists.  A bug introduced last version would progressively increase the size of the "Special" column, which would cause the "Special" column to be progressively indented, starting at the bottom up.  This bug has been fixed.
+Created a fix for the skill issue where it would refund XP if a ranked non-career skill became a career skill.  It will now keep track of purchased non-career ranks separately. If a non-career skill becomes a career skill, existing ranks should cost the non-career cost.  If you purchase additional ranks, they will be at the career cost.  If you lower a skill past the non-career ranks, then raise it again, the new ranks will be career ranks.  This is a first pass at a fix, so please tell me if you have issues with it.
+
+
+Release 1.4.3.0
+
+New/Changed Data:
+
+Added species, equipment, vehicles, and attachments from Lords of Nal Hutta.
+NOTE: The Nikto species is no longer part of the Unofficial Species Menagerie, and is now an official species.  If you have a character that was created with the old Nikto species, please revisit the Species pane and select the new options for your sub-species.
+Added a new import for Lords of Nal Hutta, including adversaries and modular encounters.
+Updated the Optical Camouflage System attachment to support upgrading the ability of the Stealth skill using the new feature, described below.
+Removed the word "Import" from the various import directories, since it's redundant, and spelled out the module names, just in case the old abbreviations made things unclear.
+Added encounters for the Under a Black Sun adventure import.  Originally, I just had adversaries and the stock characters for this adventure, but I recently prepared it for a convention run, so I am now including the encounters as well.
+Rearranged and added encounters for Beyond the Rim import.  I ran the adventure and added encounters after creating the original import.
+
+New Features/Enhancements:
+
+Added editors for bases of operation, base foci, and base upgrades to the data editor.
+In the species editor, you may now enter an adjustment (plus or minus) to the number of cybernetics that a species may use.  Currently, only the Ganks use this new feature.
+If a weapon modifier exists that applies to all Brawl attacks, the basic "Unarmed" innate weapon will show up in the weapon equipment list already modified.  Before, the basic unarmed attack would show, but would be updated under shown weapons on the character sheet.
+Gear, armor, and attachments may now contain built-in, or innate, weapon definitions, just like species.  This can be used to cause a piece of equipment or an attachment to create an ad-hoc weapon profile on the character.  Repulsor Fist and Under-Barrel Flame Projector use this new ability.  This is also supported in the data editors for these items.
+The term "Held" has been changed to "Carry".  This helps to more accurately define the concept.  "Carried" items are items that the character has on his person, but isn't using, such as items in a backpack, slung on his back, etc.  "Equipped" items are items that are actually being utilized.
+Gear may now be equipped, as well as carried, just like weapons and armor.  A carried piece of gear will contribute encumbrance, but will not add any benefits to the character.  Equipped gear will also add benefits.  This will allow you to, for instance, carry a piece of cybernetics, or a backpack (say, stuffed in an equipped backpack), without actually using it (gaining benefits from it).  Unlike for weapons and armor, there is no limit to the number of gear items that may be equipped.
+NOTE:  Because of this change, you may need to go through your inventory and equip any pieces of gear that gives character benefits, such as backpacks, in order to continue receiving the benefits.
+The "Carry" (formerly "Held") and "Equip" columns will no longer show for any equipment stored in bases, groups, or vehicles.  Such items are "Carried" (stored) by definition and only contribute encumbrance.
+The Equipment pane and Vehicle pane both now allow filtering on source.  In this way, if you know what book, adventure, or user-created source a particular piece of equipment or vehicle is from, you can filter on just that source.
+Added a new die modifier called "Upgrade Ability".  Currently, only the Optical Camouflage System uses this ability for Stealth.  When selected for a skill, the skill will be displayed upgraded the number of times selected.  This ability works wherever die modifiers are found (attachments, items, species, etc). 
+Armor attachments for adversaries are now listed with the armor.
+Adversaries may now gain benefits from items and attachments that give bonus talents.
+In group sheets, if member details are being shown, the Wound and Strain panels have been extended slightly and are divided in two.  The wound/strain threshold is in the first half, and the second half is blank.  You can use the second half to keep track of wound and strain in between sessions (or during a session, as required).
+Printing both encounters and bases now has a new "include" option for adversary/NPC description.  If checked, the entered description, if any, will be included for the adversary or NPC (under stat block, right before skills).  If unchecked, it won't be shown.  This setting defaults to unchecked for encounters (where it takes up valuable space), and checked for bases (where you might want to display an NPC's back story).
+
+Bug Fixes:
+
+Weapon modifiers in subspecies weren't being properly applied to shown weapons on the front page of the character sheet.  They will now be applied properly.
+Fixed connection issues with the Heal/Harm Force power.
+Weapon qualities that added advantage or threat (Superior, Inferior) were not being applied to skill blocks for adversary weapons.  They will now be applied to both standard and custom weapons.
+For adversaries, die modifiers from weapons or armor weren't being applied if they were part of the item's base mods, rather than from an attachment.  They will now be properly applied to the adversary's skills.
+Fixed an issue with the equipment pane.  If a filter was selected for one item group (Weapons, Armor, or Gear), and you changed to a different item group with different types or categories, nothing would be displayed on the grid, even though "All Categories" and "All Types" was selected.  It will now detect that nothing is displayed and reset the filters so that everything is visible.
+
+Release 1.4.2.0
+
+New/Changed Data:
+
+Beast-Hide Armor had the wrong encumbrance.  It is now correct.
+"Storm" Charge Suit had the wrong encumbrance.  It is now correct.
+Flak Vest had the wrong encumbrance.  It is now correct.
+Protector 1 Combar Armor had the wrong encumbrance.  It is now correct.
+"Steelskin" Anti-Concussive Armor had the wrong encumbrance.  It is now correct.
+Padded Armor had the wrong encumbrance.  It is now correct.
+Added starship profiles for the Syliure-25 Hyperdrive Sled, the Syliure-31 Hyperdrive Docking Ring, the TIE/SH, and TIE/BR.  They were in sidebars and I missed them the first time around.
+Changed the Vicious quality of the Fusion Cutter to Vicious 3 instead of 1.
+Changed the sensor range of the Preybird-class Starfighter to Close.
+Changed the sensor range of the HLAF-500 Starfighter to Short.
+Changed the sensor range of the Delta-7 Interceptor to Close.
+
+New Features/Enhancements:
+
+Added the speed track to vehicles on encounter sheets, along with an expanded shield panel that lets you keep track of current shield values.  These were actually added in 1.3.7, I just forgot to mention it.
+Added a new option for printing group sheets.  If a group sheet includes duty, you may now choose whether or not to show zero-sized Duty entries.  This can be useful during play to know the type of duty each PC has, even if it can't be triggered.
+Added a section on the vehicle sheet for keeping track of active actions, such as Evasive Maneuvers or Stay on Target.  You can check or uncheck these actions as they're performed or expired.
+To support the above feature, the vehicle action editor has a check box to set an action as lasting for an amount of time after it is performed.  These are the actions that will be displayed in the active action panel on the vehicle sheet.
+Changed the printed display of some of the larger numbers (such as credit amounts) to include decimal separators.  For US versions of Windows, this means comma-separated numbers, but each locale will have its own standard.
+Added some text to the bottom of the skill grids on the first page of the character sheet that will inform you of any difficulty increases accrued by using either Cumbersome or Unwieldy items.
+The printer settings used when printing sheets will now be saved, including all custom printer settings.  This is in addition to page settings and style settings, which have been saved all along.
+The Characteristics pane in the generator will now inform you if any purchased characteristics goes over your starting XP.
+
+Bug Fixes:
+
+For PC Adversaries in GM Tools, the character's version of the talent will now be transferred, along with skill and Dedication choices, instead of just the base talent without choices.  This means talents that increase characteristics or skills should be properly applied to the PC adversary.
+When selecting vehicle weapons in the add/upgrade dialog, if you selected the Quad Laser Cannon, then selected another weapon, an exception occurred.  This should no longer happen.
+In certain Force power trees, the bottom corner abilities would sometimes not become available, depending on the direction in which you arrived at them.  They should now properly become available.
+Made the same change for signature abilities as well.  Talent trees already worked properly.
+Made another change to the outside-change feature of the character, adversary, group, and encounter cache lists to help prevent crashes when another application makes changes to a file.  The database connection object is now protected by a mutex, so there should no longer be any access violation errors.
+
+Release 1.4.1.0
+
+New/Changed Data:
+
+The Artisan tree had a few wrong connections.  These have been fixed.
+The HLAF-500 starfighter had an incorrect image and silhouette.  It should now be correct.
+
+New Features/Enhancements:
+
+In the vehicle weapon list dialog used for adding or upgrading a weapon, text is now added that describes the selected weapon.
+On group sheets with the duty option selected, if you have no duty scores, but a positive contribution rank, the contribution rank will now be added without the duty table so the group's contribution rank will always be shown.
+For PC Adversaries in GM Tools, translating a PC into an adversary would copy base items to the adversary.  It will now copy the PC's version of the item, including renames and item attachments.
+Another change was made to portraits.  All displayed portraits will display without fill bars on the sides or top/bottom if their dimensions do not fit the portrait space.  The size of the portrait could vary, depending on the aspect ratio, but will always fit within the alloted area of the portrait.  This is true for portraits in the editing windows, as well as printed portraits.
+On group sheets, morality is now sorted by the d10 roll required, rather than the size.
+
+Bug Fixes:
+
+The obligation mechanic was incorrectly implemented in the new base feature.  Instead of having a special form of group obligation that cannot be removed (and doesn't show up in the group obligation list), each base will be associated with a "Debt" obligation whenever obligation is incurred by the base, such as when it is created or when an upgrade is purchased.  This obligation can be bought down, or even removed, and the default notes for the obligation can be edited.  If the obligation is removed and more obligation is incurred, a new "Debt" obligation is re-created automatically.  When you remove a base, you may now also optionally remove the obligation associated with the base, if it exists.
+Base upgrades now cost either credits OR obligation, not both, as per the rules.  
+When upgrading weapons on a vehicle with an innate Linked quality, the price of the upgrade was incorrect.  It should now be correct.
+Fixed a couple of potential access violation errors when advancing contribution rank in the group dialog.
+When printing vehicles, groups, or bases, stored weapons were being displayed with stock damage values, even if the weapon had an attachment that increased damage.  The damage will now be correct.
+The obligation and duty charts were presented lowest size to highest size.  They should have been highest to lowest.  This has been fixed.
+Loading an adversary could generate an error if it contained a piece of gear with an attachment, such as the modular backpack.  The adversary link routine will now properly link attachments belonging to gear, just as it does for weapons and armor.
+In GM Tools, the adversary pane was being cut off if your screen was set to a higher DPI setting.  This should no longer happen.
+
+
+Release 1.4.0.0
+
+New/Changed Data:
+
+Lambda-class shuttle had incorrect weapon counts for its front-facing weapons.  These have been corrected.
+The MSP100 hover pod had an incorrect price.  This has been fixed.
+Modified the names of the tracker utility vest and mountaineer armor to include the "A/KT" prefix.
+Changed a typo in the HT-2200 freighter, and removed the reference to FnD Beta, since the ship has been officially released in Far Horizons.
+
+New Features/Enhancements:
+
+Added support for group bases, as described in Far Horizons.  Bases are added and edited using the Group dialog.  A group can have any number of bases, each with their own upgrades, NPCs, and equipment.  You can print individual base sheets for each base, or include base sheets when printing the group.  This version will not contain data editors for bases and upgrades, but you will still be able to change descriptions from the default page numbers.  Editors will be added in a future release.
+Added bases as a transfer source for groups and characters.
+Portraits are now treated more intelligently.  All portraits are zoomed, which means their largest dimension will fit exactly into the same dimension in the picture frame.  Additionally, any borders remaining will will be filled with the most common color in the portrait, or white if the portrait has a transparent pixel in the upper left.
+
+Bug Fixes:
+
+A few versions back, a bug was introduced into the data editor which caused it to remove stock items completely, rather than just removing descriptions or customizations.  The itens were not actually removed, and would return the next time the data editor was run, but they'd disappear for the session.  This problem has been fixed.
+When the data editor saved changes, it would save all custom data.  It will now only save tables that have been changed, which will improve the performance.
+On all printed sheets, ensures that the name, base, category, etc., printed at the top will fit into the space provided, reducing font size if necessary.  This will allow long text to be displayed without being cut off.  This check is also performed with certain long text that must fit into a particular panel size.
+A bug fix for the transfer dialog from the last release had an unintended side effect of causing all characters and groups used as the source to be saved when the transfer was completed.  This could cause unwarranted delays, as well as unneeded saves.  This will no longer happen, and only entities involved in a transfer will be saved.
+When changing a group portrait, the new portrait would not be shown in the summary at the bottom until another change was made to the group.  It will now update immediately.
+
+
+Release 1.3.7.0
+
+New/Changed Data:
+
+The A/KT Shockrider crash suit was added for Stay on Target, but an incorrect version of it was already included from Enter the Unknown.  The newer entry was removed, and the older entry was corrected.
+Concealing robes was missing a mod.  It is now included.
+The helmet comlink attachment from FnD used 1 HP, when it should be 0.  This has been corrected.
+The Outer Rim/Piloting Space holocron had a typo for its price.  The price has been fixed.
+Added seven new "generic" items to the gear list.  They represent any items you want with an encumbrance value from 0 (Incidental Item) to 6 (Very Large Item).  All seven items can be easily found by filtering on the "Generic" type.  The items can be renamed to whatever you want them to be, and notes can be added to describe the items, or mention any special features the items have.
+
+New Features/Enhancements:
+
+Equipment grid (and the source grid in the transfer dialog) now supports splitting and combining stacks of items.  When you purchase an item, you can decide whether or not it will stack with like items, or be its own item.  If you select an item with more than 1 count, you can split that stack, either by number of stacks, or number of items to go into another stack.  Finally, you can select an item and combine all like items into a single stack.
+Renamed items are now seen as a different item from its base item.  Items of the same type (identical keys) that have been renamed the same thing will be seen as identical.
+The equipment grid now supports drag-and-drop as a means of reordering items.  Select an item, hold down the moust button, and move or scroll to another item.  The dragged item will be inserted right before the selected item.
+There is now a way to turn off sorting in the equipment grid, specifically to facilitate dragging and dropping.  Just do a control-click in the header and the grid will revert back to the original, unsorted order.
+Now supports ordering pizza!  The trick is figuring out how to do it... ;-)
+
+Bug Fixes:
+
+Defense values for weapon qualities (such as Defensive and Deflection) were being incorrectly subjected to the armor-stacking code, which interfered with the final values.  This has been fixed, so defense values from Defensive and Deflection will properly be added to the character's defense attributes.
+Damage calculations for lightsabers were still showing incorrectly in the weapon list on the character sheet, though it was correct everywhere else.  The weapon lists will now show the proper damage for lightsabers.
+There was a bug in the transfer dialog, where if you transferred items, and then cancelled the transfer, all original item counts were set to 0.  This has been fixed.
+Changed the first initiative ability in the Foresee Force power to cost 10 XP instead of 15.  Also switched the XP cost of the control and range abilities in the third position of rows 3 and 4.
+
+
+Release 1.3.6.0
+
+New/Changed Data:
+
+Added all new data from Stay on Target, including species, specializations, signature abilities, talents, duty, motivations, weapons, armor, gear, vehicles (including images and silhouettes for almost all vehicles), vehicle attachments, droids, riding beasts, and new astromech vehicle actions.
+Added an import for Stay on Target for droid and riding beast adversaries.
+Added droids from Far Horizons and Stay on Target as purchasable gear.
+Added riding beasts from Stay on Target as purchasable gear.
+
+New Features/Enhancements:
+
+Generator and GM Tools now have support for Stay on Target's Signature Vehicle feature.  The Signature Vehicle talent will allow you to choose a Signature Vehicle from among the character's personal vehicles, as well as vehicles belonging to any group that the character belongs to.  This will create a special attachment for the vehicle that contains all of the mods accessible from other Rigger talents and apply them to the Signature Vehicle.  The Overstocked Ammo talent will also add 1 to the Limited Ammo quality of all applicable SV weapons.  The GM Tools is also Signature Vehicle-aware and will apply any character's SV talents to appropriate group vehicles.
+Option choices for species always included an internal method for adding or subtracting from starting XP, which is now being used for the new Dressellian species.  This method is now also supported by the Species editor so that option choices can be configured to have an XP cost, or give bonus XP.  Additionally, such choices will now be displayed in the character generator as having "XP Cost" or "XP Bonus".
+Changed the maximum encumbrance in the Vehicle editor to 1,000,000, up from 10,000, so you can now make very large-capacity cargo vessels.
+Modified the way the vehicle sheet looks.  The defense dial now has space to change the default value for each of your shields.  Also, there's now a speed tracker you can use to keep track of your current speed.  Zero and your max speed are marked specially for convenience.  Some things were shuffled around a bit to accomodate the new features.
+
+Bug Fixes:
+
+Species selected for a character weren't including any sub-species's talent modifiers, if any.  They will now be included properly.
+Superior quality for armor was adding one to soak, but not reducing encumbrance by one.  It will now do this.
+Mod for thermal cloak was incorrectly added and did not show up.  It will now show up.
+When a rifle with the pistol grip was displayed on the first page of the character sheet, it would correctly show Ranged-Light as the skill, but would use Ranged-Heavy for the dice pool.  The dice pool will now correctly show the Ranged-Light dice pool.
+Soak and defense of armor no longer stack.  The best soak and defense of any piece of equipped armor is used instead, as per RAW.
+There was a chance when two or more instances of the character generator were accessing the same data (such as using cloud storage for your data directory) at the same time that one of the instances could crash.  I believe this was caused by the main thread and the file change worker thread trying to access the main SQL connection object at the same time, which caused corruption.  The change thread now uses its own connection, so this shouldn't happen anymore.
+
+Release 1.3.5.0
+
+New/Changed Data:
+
+Comm Jammer's rarity was incorrect.  It is now rarity 3.
+The Fusion Cutter had an older page reference to the AoR beta.  It has been updated to the AoR Core Rulebook.
+
+New Features and Enhancements:
+
+Talent editor can now set a talent as a Force talent (requiring a FR of 1+ to use).
+If Reflect or Parry talents are selected, their values will be displayed under "Soak" on the first page of the character sheet.
+
+Bug Fixes:
+
+Lightsaber hilts that have a 0 base damage were being treated like melee/brawl weapons and having the base characteristic added to damage.  This no longer happens.
+Clicking on a Cyber cell in the skill grid would cause an error.  This has been fixed.
+Certain cells in the skill grid were incorrectly enabled for editing.  You can no longer change the values of these cells.
+If a character had Morality due to the ignore Force rating option being turned on, extra XP was not being applied if that Morality option was selected.  It will now be applied.
+
+
+FaD Update #9:
+
+Changed Control and Ranged in Heal/Harm.
+Changed Strength upgrades and costs in Protect/Unleash.
+
+FaD Update #10:
+
+Updated Delta-12 Skysprite, Civilian Pathfinder, HT-2200, and IR-3F vehicles.
+
+FaD Update #11:
+
+Modified Electrostaff, Ancient Sword, Cortosis Shield, and Cortosis Sword.
+Changed prices of ancient talismans.
+
+
+Release 1.3.4.0
+
+New/Changed Data:
+
+Changed Ryyk blade critical to 2.
+Changed restricted flag of training lightsaber emitter to false.
+
+New Features and Enhancements:
+
+In attachment editor, added two new settings:  Min Encumbrance and Max Encumbrance.  If the attachment only works with items of a certain encumbrance, use these settings to indicate the encumbrance range.
+You may now sort on the skill list's Career column.
+For shown weapons, if you have a talent that adds damage to only one hit of an attack, and you're using either a two-weapon set, or a weapon with the auto fire, blast, or linked qualities (any of which can generate multiple hits), the extra damage will now be shown in brackets and not included with the main damage, indicating that it is not necessarily applied to all hits.  If a single weapon does not have any of those qualities, damage from such talents will be included in the total, as it was before.  Also, if any damage is shown bracketed, an explanatory note will be shown at the bottom of the grid.
+
+Bug Fixes:
+
+Some lightsaber weaopns (specifically the Ancient Sword) have a +dam value, rather than a straight dam value.  However, only Brawl and Melee weapons were checked for this, resulting in a 0 damage.  Lightsaber-skilled weapons will now also be checked.
+If you selected a character in the character pane, then set a campaign filter that hid the selected character, and then clicked "New", an exception would be generated.  This no longer happens.
+Droids, and other non-Force species, were able to choose FaD careers, which give a Force rating.  They are no longer allowed to do this.  They can still, however, purchase FaD specializations, since none of them give a Force rating.
+In adversaries, if you chose a lightsaber technique that used a characteristic other than Brawn, it would show properly for skills, but not for weapons.  It will now show properly for weapons as well.
+Fixed issue in adversary description where a referenced skill could cause an exception if it didn't exist in the profile.
+In group sheets, Duty help text now correctly indicates change to Wound instead of Strain.
+In group sheets, added more help text for dark side/light side threshold changes.
+
+FaD Beta Update #5:
+Changed morality options to start with 29 or 71 Morality.
+Changed double-bladed lightsaber and hilt to have Unwieldy 3.
+Changed shoto lightsaber and hilt to give a -1 to damage instead of -2.
+Changed Shadowsheath attachment so that it can be used by any weapon with encumbrance of 2 or under.  Also made changes for this in the attachment editor.
+Made cost and HP changes to crystals and emitter.
+
+FaD Beta Update #6:
+Removed threat from Zabrak's special ability.
+Made changes to Provincial Law Enforcement Officer, Toydarian Merchant, Imperial Assassin, IG-100 Magnaguard, Stalking Acklay, Jakobeast, Kouhun, Mature Tusk Cat, and Ysalamir.
+
+FaD Beta Update #7:
+Made changes to Hutt Slave Dealer, Imperial Assassin, Cautious Smuggler, Dandy Gambler, Fallen Master, Stalking Acklay, and Jakobeast.
+
+FaD Beta Update #8:
+Replaced Battle Meditation Range ability with new Control ability.
+Changed Heal/Harm's basic power to 20 XP.
+
+
+
+Release 1.3.3.0
+
+New/Changed Data:
+
+Added adversaries and encounters for the "Debts to Pay" adventure found in the Edge of the Empire GM's Kit.  Read the READ ME FIRST.txt file first.
+Added adversaries, encounters, stock vehicles, and custom data for the "Onslaught at Arda I" adventure module.  Read the READ ME FIRST.txt file first.
+Added the TIE Hunter from Onslaught at Arda I to the main data.
+Added the MSP100 Pteropter Hover Pod from Onslaught at Arda I to the main data.
+The J-Type Skiff and Lancer Frigate's silhouettes were facing the wrong way.  They are now facing properly.
+Changed Bantha laser sight to have a new item descriptor that adds advantage to successful rolls.  This is used on the shown weapon list on the first page of the character sheet.
+
+New Features and Enhancements:
+
+Weapon, armor, and gear grids on the character sheet now include a sub-total of the encumbrance of held items at the bottom of the grid.  Additionally, all common columns, such as name, quantity and encumbrance, have been moved to the front and will line up.
+Added Two-Weapon sets.  If you want to use two weapons, you can now configure how you want these sets to look.  Select a primary weapon from the owned grid in the inventory pane and click the new "Two-Weapon Sets" button.  This will bring up a dialog that allows you to select one or more secondary weapons from your inventory.  Each set can be shown or not on the first page of the character sheet by clicking the check box next to the secondary weapon.  Each weapon that has a two-weapon set will be displayed with a two pistol icon on the grid.  On the character sheet, the same icon will be displayed for a set, as well as both weapon names, both skills (if different), both ranges (if different), both crits (if different), and a dice pool made up of the lowest skill rank and characteristic of the two weapon skills.  If a secondary weapon contributes an advantage or threat to the pool after it is activated, that is also shown on the dice pool, following a slash.  The "Special" column will have weapon qualities for both the primary and secondary weapon.
+In the adversary dialog, when creating a custom weapon, there's now a checkbox next to the skills combo box that will allow you to choose any skill, not just combat skills.
+In the adversary dialog, when adding or inserting special abilities, custom armor, items, or weapons, the one just added or inserted is now automatically selected and is ready to edit.
+The Characteristics pane of the character generator now supports injuries, or loss of characteristics.  To lower a characteristic due to a critical injury, check the "Allow adding or removing injuries" checkbox.  A new column will appear for characteristics that allow you to add injury points to a characteristic.  For each injury point added, the characteristic is reduced by one and the final characteristic is displayed in red.  A characteristic cannot be lowered below one.
+Added a new button to the Description pane called "GM Grants".  This button will bring up a dialog that allows the user to select non-standard options that his GM deems available to the character.  Currently, only one grant exists, which allows a GM to grant a FR of 1 to a character for free.  GM Grants are defaulted to being NOT available.  To make GM Grants available to the generator, go to the Options dialog and check "Allow GM Grants".  If this option is not checked, any selected GM Grant for any character will be ignored.
+
+Bug Fixes:
+
+The web controls in the career pane weren't growing down properly when the form was expanded.  It should now grow down properly.
+The new adversary name search feature wasn't added to the encounter dialog.  Choosing an adversary in the encounter dialog now supports the name search filter.
+A rare error occurred when upgrading vehicle weapons.  If a vehicle had, say, two weapon groups, and after upgrading all weapons to the same weapon, the vehicle ended up having only one weapon group, an error would occur.  This was because the weapon upgrade was still expecting that second weapon group to exist so it could obtain a reference to the stock weapon.  Each weapon upgrade will now have its own reference, so the error will no longer occur.
+When upgrading weapons, the cost of the upgrade would only be valid if the linked quality changed, and 0 if it did not.  Upgrading an existing weapon to another weapon will now give the proper cost of the new weapon, including half again for each additional Linked quality added.
+When importing a data set, the skill validator expected a valid Key value in the SkillModifier class used in species and other places.  However, the SkillModifer class had been recently updated to include a SkillType, which allowed the modification to be applied to all skills of a particular type.  When used like this, the Key was blank.  This caused skill validation to fail because it could not find a skill with a blank key.  This situation is now handled properly by the skill validator.
+When selling items, the sell price was being multiplied by the quantity twice.  So, for instance, if you sold 5 of something at 100 credits each, instead of getting back 500 credits, you'd get back 2500 credits.  This has been fixed.
+
+FaD Update #2:
+Added Fallen Apprentice and Fallen Master adversaries.
+
+FaD Update #4:
+Dark side Force users may now get a wound bonus for low morality.
+Made all changes to Protector, Soresu Defender, Shadow, and Aggressor specialization trees.
+Added Prey on the Weak talent.  Resolve and Unrelenting Skeptic are still in the talents collection, but are unused.
+
+
+
+Release 1.3.2.0
+
+New/Changed Data:
+
+The Falleen species had incorrect titles for their skill options.  They now have the correct skill name.
+The High-Output Ion Turbine changed between EotE and AoR.  AoR has no restrictions on its installation, so the restrictions have been removed.
+Added 10 new holocrons based on the table in FaD Beta Update #2.
+Removed the gear type "Holocrons/Ancient Talisman" and created two other types, "Holocrons" and "Ancient Talisman".
+
+New Features and Enhancements:
+
+Modified the species editor to allow a species to be given an innate Force rating.  This feature should be used for Force-sensitive species instead of granting the species a Force Rating talent, since a character needs to have a Force rating before any Force talents are applied.
+Added "Add Setback" and "Add Threat" to all die modifier options in the Data Editor.
+Skills may now have setback and threat added to them.
+Added a new pane in the Group dialog called "Resources".  This pane allows you to select a campaign type (one of the three CRBs), and then select an appropriate starting resource for the group using the resources step in the selected CRB (at the end of the character generation chapter).  The resources can just be selected and notes written, or you can have an appropriate resource added to your group by clicking the "Validate Resource" button.  If you've selected a ship, a Y-Wing squadron, or a holocron, the "Validate Resource" button can automatically add them to your group.
+Several changes to the Force power pane.  First, Force rating is now displayed in a red panel, so it looks neater.  Second, a checkbox appears next to the combo box to allow you to purchase the basic ability of the power for the mentor 5 XP discount.  The discount is applied to each power separately, so if you lose your mentor (or Darth Vader runs him through with his lightsaber), you can buy new powers without the discount.  Third, the power combo box now displays how many abilities you've purchased with each power.  I was finding I couldn't always remember which powers a character had purchased, and would have to go through them all until I found one with purchased abilities.  Now, a count of purchased abilities will be shown with the power.
+Added last modified date and time to character, encounter, and group sheets.
+On group sheets, added contribution rank to the top title.
+In the Adversary pane of GM Tools, there is now a text box that allows you to filter adversaries by name.  The filter is case-insensitive and will match the text anywhere in the name.
+
+Bug Fixes:
+
+Die modifier calculations for adversary were being applied multiple times, causing more die modifiers to appear next to affected skills than were supposed to.  This has been fixed.
+
+FaD Beta Update #2
+
+Changed Cerean strain threshold to 13 + willpower.
+Added a rank in Cool to Miralans.
+Changed Zabrak special ability.
+Added mentor discount to Force pane.
+Added the new holocrons from the "Holocron Skills" table.
+
+
+Release 1.3.1.0
+
+New/Changed Data:
+
+Fixed the price and restricted flag for Armored Robes.
+Collar-Amp (Upgraded) from Far Horizona had a user key.  It has now been given an actual key (COLLARAMPUP).
+The FasClean Atmospheric Reactive Damper's name was incorrect.  This has been fixed.
+"The Local Leader" was missing from background hooks.  It has been added.
+Changed Unmatched Expertise signature ability to include two versions of Activation and Reduce Difficulty.
+The Keldabe battleship had an incorrect "type".  It should now be properly set to "Battleship".
+The Heal/Harm Force power was missing a Control upgrade and had Strength instead.  This has been fixed.
+A Togruta option choice had a misspelling.  This has been fixed.
+The Augmented Buffer from the Jewel of Yavin adventure was incorrectly limited to airspeeders.  It is now properly limited to vehicles with silhouette 2 or lower.
+Shien Expert tree incorrectly had Touch of Fate instead of Toughened. This has been fixed.
+Updated the CAAF-2 Avionics Interface to give a skill rank in Piloting - Space if a basic rank already exists (using the below new feature).  It's mods have also been split up between the aforementioned mod and an ad hoc mod for the situational increase in Piloting - Planetary if piloting an airspeeder.
+The Caamasi has been modified to add boost ranks to Knowledge skills with ranks (again, using the below new feature).
+
+New Features and Enhancements:
+
+The vehicle list in any vehicle pane will now default to being sorted by name.
+The weapon list in the vehicle upgrade dialog will now be sorted by name.
+When you choose a vehicle weapon to upgrade, when the vehicle upgrade dialog is displayed, all settings will default to the weapon being upgraded.  You can then make any changes you like to it.
+All apps will now check for valid installed printers before printing is allowed.
+Added an option to die modifiers where the modifier is only applied if the skill in question is ranked.  When editing die modifiers in the Data Editor, just click the far right checkbox next to the skill to turn this feature on.
+A skill mod may now be set to only apply if the skill already has basic ranks (ranks not coming from items or attachments).  A new checkbox has been added to the mod editor to select this feature.
+The skill pane will now keep its selection, sort, and scroll location between character updates.
+
+Bug Fixes:
+
+The new campaign sorting from the Character pane would only show a single character when filtering was turned on.  It should now work properly.
+The campaign setting in the Description pane would display the previous campaign value when a new character was loaded that did not have a campaign.  It will now properly show a blank campaign.
+When upgrading a vehicle weapon to a weapon that intrinsically has the linked quality (such as the Quad Laser Cannon), the cost would be based the linked quality as an upgrade, rather than taking into account the original linked value.  Costs should now be calculated correctly.
+When copying a PC adversary in GM Tools, the copy was not saved and did not show up the next time the app was launched.  This was because PC adversaries, by definition, do not persist, so the copy was not persisting either by default.  Copies of PC adversaries will now be saved correctly and treated like normal adversaries, rather than like PC adversaries.
+When printing an encounter sheet with a minion group with a count over 10, it would only show the 10's digit for 2 digit counts under "Remaining".  Now, 2 digit counts will use a smaller font that will properly show both digits.
+If the data folder was switched to an empty folder, the previous items weren't being removed properly from the cache database.  This would cause errors, since the old XML files were expected to exist, but didn't.  If no items are found, the respective table will now properly be cleared.
+For adversaries, the category list was being populated by the actual adversary list, rather than the display list.  It will now properly be populated by the display list.
+When the relink method was performed on a character, in certain cases, it was causing a recalculate to be performed as well.  Since a recalculation always requires the character to be properly linked, this could cause a null reference exception.  A relink will no longer accidentally cause a recalculation.
+
+Changes for FaD Update #1:
+
+Togruta's "Pack Hunters" ability changed to "Pack Insincts".
+Reflect (Improved) changed to "Incidental (Out of Turn)".
+
+
+Release 1.3.0.0
+
+New/Changed Data:
+
+All apps have been updated with new data to support the new "Force and Destiny Beta Rulebook" released at GenCon this year.  This includes all new careers, specializations, talents, Force powers, species, equipment, motivations, and the new morality mechanic.  
+Added an import for all adversaries found in "Force and Destiny Beta Rulebook".
+Added all data from "Far Horizons", including weapons, armor, gear, vehicles, specializations, obligations, motivations, signature abilities, and talents.
+Added an import for all droid adversaries found in "Far Horizons".
+Added an import for the "Lost Knowledge" adventure found in the Force and Destiny Beta Rulebook.  This indcludes adversaries, encounters, and a data set for the adventure.
+
+New Features and Enhancements:
+
+Various (and many) code changes were made to support the new features and mechanics of Force and Destiny.
+Created the Morality pane for "Force and Destiny".  The Morality pane will only show up if a character has a Force rating, amd at least one source supports Morality.  There is an option (see below) to allow non-Force users to use Morality as well.
+The Duty and Obligation will now only show up if a core source supports either duty or obligation.
+Added a new skin to the launcher for Force and Destiny.
+You can now create your own name for any piece of equipment you own by clicking the "Rename" button from the equipment pane.  Been wanting to call your favorite blaster rifle "Vera"?  Now you can do it.  This will come in handy when buidling your own lightsaber from scratch starting with the hilt.
+To support the various lightsaber techniques, a new button called "Choose SKill Char" will appear in the specialization pane upon selection of a technique.  This will display a dialog that will allow you to choose which characteristic to apply to the lightsaber skill.  Note that this is now a standard mechanic for talents and is supported by the talent editor.  You can create your own talent that will make any characteristic available for any skill.  All skills can have their characteristics chosen from this new dialog.
+Force talents will now be shown as such from the specialization pane.  A light "success" blast will be displayed in any talent block that is a Force talent.  Additionally, if a Force talent is purchased without the character having a Force rating (which is possible if a EotE/AoR character buys one of the new F&D specializations), the talents will not be taken into consideration when recalculating the character, and will not show up in the list of talents on the character sheet.
+The Force power trees now have ability panels that resize based on the length of the descriptive text, similar to how the talent trees work.
+The group sheet from GM Tools now supports a Morality table for triggering group member Morality.
+The character sheet now supports and displays selected morality.
+Dice and symbol tags now have shortened versions.  For instance, [PROFICIENCY] can be shortened to [PR].  A full list of shortened tags can be found in the Data Editor.
+In the Data Editor, clicking on a symbol icon in the right help pane will now insert the proper tag at the current cursor location in the description text box.
+Added a new print style called "Full Color, No Background".  This style will remove the datapad background and use the same margins as the simplified style, but will print in full color.  This will work in all sheets.
+By default, Morality is only available for Force-using characters.  If you wish to have it available for non-Force-using characters, there is now an option in the Options dialog for making it available to everyone.  If you are creating a new character, or editing a character that does not have Morality, you will need to select a source that supplies Morality options (currently, the Force and Destiny Beta Rulebook source).
+Added an editor for Morality in the Data Editor.
+In the Character Generator, you can now specify a campaign for your character in the Description pane.  This can be used in the Characters pane to filter the characters by which campaign the characters belongs to.
+When adding an encounter from GM Tools, the campaign drop-down will now also contain any campaigns specified in characters, as well as campaigns found in encounters.
+
+Bug Fixes:
+
+Removed duplicate talent for Master Grenadier and fixed specializations that use it.
+Removed duplicate talent for Unrelenting Skeptic and fixed specializations that use it.
+Fixed an issue in the Data Editor when, if you removed all items that referenced another item, then attempted to remove the referenced item, it would say that it was still being referenced.  This was because the original items weren't being removed properly from all data collections.  The items are now removed properly and take much less time to remove.
+
+
+Release 1.2.1.0
+
+New/Changed Data:
+
+The "Sleight of Mind" talent was set as unranked.  It is now properly set as ranked.
+Commodore spec had some incorrect connecting lines.  This has been fixed.
+Slicer spec had an incorrect connecting line.  This has been fixed.
+Added an import for the "Crates of Krayts" adventure found in the Edge of the Empire Beta Rulebook.  This indcludes adversaries and encounters for the adventure.
+Added an import for the "Operation: Shadowpoint" bonus adventure for use with the Age of Rebellion Beginner Game.  This indcludes adversaries, encounters, and custom vehicles for the adventure.
+The Foresee Force power was incorrect based on the release version of Age of Rebellion Core Rulebook.  It is now up-to-date.
+
+New Features and Enhancements:
+
+Added support for Contribution Rank to groups.  Groups will now keep track of Contribution Rank.  This value can be changed directly, or when duty is high enough, you can click on the "Advance" button.  This will reset all current duty from the group and all members and advance the rank appropriately.
+Added contribution rank and group credits to the group sheet.
+The cache file is now stored in its own location, based on the currently-logged in user.  It is no longer in the data folder.  This should help eliminate occasional errors when multiple users are accessing the same data (such as when you're using cloud storage for your data folder).
+Added a cybernetics rank column for both characteristics and skills in the character generator.
+Added "Force Rating" to the Force Power pane.
+Force powers have a "minimum rating" setting to support future Force powers that might require a Force rating higher than one.  Unfortunately, I wasn't supporting this setting and you always saw all Force powers.  You will now only see acceptable Force powers.  If your Force rating drops too low for a high-ranking Force power, it will be removed.
+In the species pane, if a species skill was flagged as being a career skill, this fact was not noted in the species description panel.  It will now be displayed.
+
+Bug Fixes:
+
+Forgot to include the new CoreSources.xml data file.  This could cause issues with sources not being available.
+The new import directories weren't being added properly to the app directory.  They should now be added to the correct location.
+Specific motivations were causing problems when all sources had been selected.  Motivations will now work properly.
+Sources would have issues if all sources were selected.  Selecting all sources should now work properly.
+When adding a talent to adversaries that included a skill choice, the GM Tools would get an exception.  This feature will now work properly.
+When transfering credits or equipment within a group, the transfer was supposed to save both the group and the character, vehicle, etc., being transferred to.  However, the group itself was not being saved properly.  It will now save as it should.
+Zero-sized obligation and duty will no longer show up in the group sheet.
+If a skill got ranks from cybernetics twice, an invalid value could be set for the purchase dropdown, causing an error.  This will no longer happen.
+The Add/Modify Species dialog in the Data Editor had issues dealing with both skills and talents, both adding and removing them.  These features should now work properly.
+
+Release 1.2.0.0
+
+New/Changed Data:
+
+Pretty much all data has been revisited and modified to support the two core rulebooks (Edge of the Empire and Age of Rebellion).  Data specific to EotE has been given the "Edge of the Empire Core Rulebook" source, and all default page number descriptions have been updated and standardized.  For the most part, the AoR Beta data has been updated to the new AoR core rulebook, although items from Beta that were removed in the new AoR CRB have been retained as "Age of Rebellion Beta Rulebook".
+AoR adversaries have had their categories updated to the new categories found in the AoR CRB, and EotE adversaries have had their categories prefixed with "Edge of the Empire".
+The Unofficial Species Menagerie has had all versions of the source combined into a single source.
+Added an import for the Perlemian Haul adventure in the Age of Rebellion Core Rulebook, including adversaries, encounters, and a data set containing the new vehicles.  See the READ ME FIRST.txt file before importing.
+Added an import for the Dead in the Water adventure in the Age of Rebellion GM's Kit, including adversaries, encounters, stock vehicles, and a data set containing the new vehicles.  See the READ ME FIRST.txt file before importing.
+Added an import for the Takeover at Whisper Base adventure in the Age of Rebellion Beginner Game, including adversaries, encounters, and a data set containing the new vehicles.  See the READ ME FIRST.txt file before importing.
+Updated the Trouble Brewing import folder to include encounters, plus a data set for the sentry droid and Z-TIE.  Also added images and silhouettes for the two vehicles.  See the new READ ME FIRST.txt file before importing.
+Modified the two extra profiles for the Corellian Bow to remove incorrect qualities, and to change the skill to Ranged Light.
+
+New Features and Enhancements:
+
+Source options have been enhanced to support a "core" source.  There are currently two "core" sources:  Edge of the Empire Core Rulebook, and Age of Rebellion Core Rulebook.  When a source has been flagged as being a "core" source, it means that at least one them must be selected in order to have a workable set of data.  In the current situation, you must select either EotE, AoR, or both core sources.  If you want to create strictly an EotE character, just select the EotE core source.  If you want only to create an AoR character, just select the AoR core source.  If you want to combine both games, select both.  All other available sources are optional, as before.
+Modified Motivations so that they support sources for specific motivations (this includes the data editor for specific motivations).  In this way, I was able to include the specific motivations from the AoR Beta that have been changed in the new AoR CRB.  If you want to only see the specific motivations mentioned in the new AoR CRB, then make sure that the "Age of Rebellion Beta Rulebook" source is deselected.
+Newly-added or modified adversaries should now be automatically selected when the edit dialog is closed.
+Newly-added or modified encounters should now be automatically selected when the edit dialog is closed.
+Added "skins" to the apps.  You can select from the original EotE skin, or the new AoR skin, from the launcher.  All three apps will work with the selected skin.
+
+Bug Fixes:
+
+When printing out encounters, if one or more adversaries were too complex to fit onto a single page, strange things could happen, such as no pages being printed, or multiple pages being printed with just a "Notes" section.  The print routine will now split the description of such adversaries so that they will fit on multiple pages.  This will only occur if an adversary is at the top of the page (if it doesn't fit elsewhere, it will be put at the top of the next page automatically).  This will avoid adversaries with smaller description blocks being needlessly split and making the encounter sheet more difficult to use.
+When deleting a data set in the data editor, if a problem occurred (for instance, a file was opened somewhere in the directory structure), the editor would get an exception.  The exception is now trapped and a warning dialog is displayed.
+The data set import button was only enabled if a data set other than the default data  set was selected.  The import button is now always enabled.
+When editing an adversary in the GM Tools, changing die modifier counts for Special Abilities would cause an error if something other than boost dice were being changed.  This no longer happens.
+The experience calculator had a bug when purchasing an additional specialization, then changing your career.  The XP cost for purchasing specializations should now be correct.
+Some specialization trees could still have an issue with enabling and disabling talents depending on the talents selected, and their connections.  I believe this only happened to talents in the corners where some of the connecting lines were rather oddly designed.  The one tree I found this in was the Infiltrator, where depending on how you arrived at it, the Dedication talent wouldn't always enable properly.  I fixed this by adding an additional pass to the tree traversal routine.
+
+Release 1.1.5.0
+
+New Features and Enhamcements:
+
+When selecting skills for ranked talents such as Knowledge Specialization, it will save the skill choice for all instances of the talent.  When you click the Play button in any instance, it will display the same skill as being selected.  This fixes an issue where it allowed different skills to be selected, even though only one selection would be counted.
+The Deadly Accuracy talent will now allow you to select a unique combat skill for each rank you select.  Previously selected skills for this talent will no longer show up in the skill list.
+Added a new flag to the talent editor to reflect the change to Deadly Accuracy.
+
+Bug Fixes:
+
+If a vehicle is given an attachment that also adds an innate talent, printing the vehicle from somewhere other than a character (stock vehicles, groups, or encounters) would cause a crash.  This is because it was attempting to look up the talents in the character's talent list, and no character was associated with the vehicle.  Printing will now check for this and ignore the character aspect if no character has been specified.  This prevents the crash.
+If you printed a sheet with a particular printer, then removed the printer from your system, subsequent printing would get an error.  This is becaused the saved printer settings still contained the old, non-existant printer.  The preview dialog will now check to make sure the saved printer is valid before continuing, using the system default printer if it is not.
+The Trast A-A5 Heavy Speeder Truck had an incorrect silhouette. It is now Silhouette 3.
+The species image for Selonians was incorrect.  They now have an accurate image.
+The Play button on talents that allow you to choose characteristics, skills, etc, was no longer showing up.  It will now show up on appropriate talents.
+When upgrading a vehicle weapon with a new weapon that already has the linked quality (such as the quad laser cannon), the innate linked quality will be ignored and it will be treated as a single weapon system.  So, you can now replace an existing weapon system with a quad laser cannon and it won't cost an HP.
+If an attachment gave an innate unranked talent (such as Quick Draw for Filed Front Sights), and the weapon was equipped, the talent would show up as automatically selected in talent trees when a connecting talent was selected.  This should only happen if the talent came from the character and not equipment.  This will no longer happen.
+The Blaster Carbine and Geonosian Blaster Carbine now have the "Non-Heavy Rifle" category, so they will now work properly with attachments that limit by this category.
+When performing a data restore from the data editor, if you clicked cancel when choosing a file to restore, a blank back/restore dialog would be displayed that would only respond to a close.  Now, if you cancel when choosing the file, the restore function will be aborted and the dialog will not appear.
+Removed the capability to import or export the default data set.  This function can be performed by the backup and restore features and is not needed.  If you want to save all of your custom data, use backup instead of export, then use restore to replace your custom data at a later time.
+
+Release 1.1.4.0
+
+New/Changed Data:
+
+The Ghtroc 720 Light Freighter had incorrect shields.  This has been fixed.
+
+New Features and Enhancements:
+
+Modified the force abilities panel when adding adversaries.  The abilties are no longer sorted (so they'll be grouped together by power), the grid font is now 10 point, so more information is displayed, and there is now a drop down at the top to filter by force power.  This should make it easier select abilities belonging to a particular power.  When a force power is selected from the drop down, the power descriptor is also removed from the ability's name in the grid, since it's redundant.
+Modified the talent trees to be able to grow and shrink depending on the text description.  This includes the tree shown on the character sheet.  I'll look into doing the same thing for Force powers and signature abilities, but as of now, they do not do this.
+Added an option when printing group sheets to exclude the destiny pool.
+
+Bug Fixes:
+
+PC adversaries were no longer being added to the adversary list.  This was due to a retooling of the load form.  They are now added properly and are also saved properly to the cache for quicker access.
+All brawl weapons were supposed to combine the weapon qualities with the qualities of the standard unarmed attack.  However, the shown weapons on the character sheet weren't doing this.  All shown brawl weapons will now also include qualities inherited from the standard unarmed attack.
+Certain brawl weapons, such as vamblades and blast knuckles, cannot deal stun damage as a normal unarmed attack.  This was signified by an ad hoc item descriptor.  However, with the changes to brawl weapons on the character sheet, this needs to be known so that the Stun Setting quality is not added to the weapon.  A new item descriptor, NOSTUN, has been added and all such weapons will have this as a base mod.  The shown weapons on the character sheet will now exclude the Stun Setting from brawl weapons that have this mod.
+There was a bug when choosing group emblems.  If the GroupEmblems directory didn't exist under DataCustom, it would crash.  It now works.
+Most of the generator no longer respected sources.  Sources should now be working again.
+
+Release 1.1.3.0
+
+New Features and Enhancements:
+
+Added the ability to print trees on the character sheet.  You can print talent trees, Force power trees, and signature ability trees.  The tree pages appear after page 3.  You may select which trees to print in the Options dialog.
+The Tinkerer talent may now be used on items with no HP.  If applied to a stack of items, one item will automatically be taken out of the stack and have the HP applied to it.
+
+Bug Fixes:
+
+If you started the GM Tools without a cache database (or an empty one), any newly cached encounters weren't showing up.  They'd appear the next time you ran GM Tools, but not the first time.  This has been fixed.
+The specialization editor would always come up with "Adversary" in all of the drop downs when you edited an existing specialization.  It will now be populated with the proper talents.
+The 64-bit SQL Server Compact install was still not working.  After playing around with it a bit, I realized that I was including the 32-bit and 64-bit DLLs from different versions of the product.  It now includes the DLLs from the same version.  I was only able to test this on a 32-bit system, so if anyone using 64-bit Windows still has a problem, please let me know.
+The Medic tree had some incorrect connections.  This has been fixed.
+Importing pretty much anything did not relink the objects properly, which caused a crash.  This has been fixed.
+
+
+Release 1.1.2.0
+
+New Features and Enhancements:
+
+Added auto-refresh to both the GM Tools and Character Generator.  Whenever a character, encounter, adversary, group, or stock vehicle is modified outside of the application, it is automatically detected and all lists are updated accordingly.  This is particuarly useful if you're using a cloud storage system or network share for your data.  If someone on another computer (or another instance of an app on the same computer) creates, modifies, or deletes an item, the changes will show up in all other instances without having to manually refresh.
+Added a summary for encounters in GM Tools;
+The apps now keep track of the last time a character, encounter, etc., has been updated.  This value will show up in the summary for those items, and will also be displayed in the character summary panel in the Character Generator.
+The GM Tools load window now uses a background worker thread for smoother UI.  The percentages in the progress bar will now more accurately display the progress of the objects being loaded.
+
+Bug Fixes:
+
+Unranked talents were not contributing die modifiers properly for characters, but did for adversaries.  It will now work for characters as well.
+Performing a refresh from the GM Tools would cause a crash.  This was because reloaded characters weren't being properly calculated.  They are now calculated correctly, so the crash no longer occurs.
+Adversaries were also not being properly recalculated, which could cause die modifiers not to show up.  They will now always be recalculated.
+Quality overrides for vehicle weapons were incorrectly changing the quality counts for the weapon stored in base data, not just the vehicle weapon.  This was causing current weapons systems to not match up properly with their vehicle weapon or upgrade, which could cause a crash when displaying a vehicle summary.  Base data should never, ever, be changed by anything.  When figuring out quality overrides, cloned copies of the quality descriptors are now used instead of the actual descriptors for the base weapon.  Base weapon data is no longer changed, and vehicle weapons systems are matched properly with the current weapon list.
+In the vehicle summary control, the default silhouette image was being taken from the incorrect location.  This has been fixed.
+The last install included a local copy of the SQL Server Compact 3.5 framework so you didn't have to install it from Microsoft.  Unfortunately, I just included the 32-bit versions of the DLLs, which won't work in 64-bit Windows (the apps would either crash or lock up).  The install now includes both 32-bit and 64-bit versions of the DLL, so 64-bit Windows should now work out of the box.  If you're installing from a ZIP file, be sure to install into a new folder, or remove all files from the old folder before copying the new release.
+There was a bug when importing certain items, such as adversaries, where equipment was not being imported.  This is fixed.
+The summary panel at the bottom of the Add Adversary dialog was not scaling properly at higher DPI settings.   This is now fixed.
+
+
+Release 1.1.1.0:
+
+New Imports:
+
+Added all adversaries and encounters (and a data set) for "The Jewel of Yavin" adventure.
+Note on the Velker:  The Velker, as defined in the adventure, is actually a vehicle, which can be found in the data set import.  In order to create a proper roster for this "vehicle", a Velker adversary is also included.  The Grand Prix encounter uses both the vehicle version and the adversary version to create a roster entry for the Velker, with the "adversary" providing "pilot" and "gunner" positions in the "vehicle".  When using the Velkor in an encounter, ignore the adversary's wound and soak and only keep track of the Vehicle roster entry.  The adversary version is only there to provide the skills required to "fly" and "attack" with the Velker vehicle.  When you are finished with "The Jewel of Yavin", you can safely remove the "Jewel of Yavin" data set so the Velkor and its custom weapons won't clutter up your vehicle list.  If you don't want to bother with the Velker at all, don't import the data set, and remove the Velker adversary from your adversaries in GM Tools.  This will automatically remove it from the Grand Prix encounter as well.
+
+New/Changed Data:
+
+Added new weapons, attachments, and vehicles from "The Jewel of Yavin" adventure.
+Changed Storm IV Cloud Car to be a single-pilot vehicle.  This allows them to be used in minion squadrons.
+Changed the E-11s sniper rifle to be a restricted item.
+Added the mini thermal detonator from "Under a Black Sun".
+Updated the droid species with all of its abilities, including inorganic, mechanical being, etc.
+Added the arc welder innate weapon to the R-Series Astromech sub-species of droid.
+Modified the names of all Control Force abilities to describe what the control feature does.  This expanded name will also be displayed on the character sheet.
+Resized vehicle images to 196x196, which is the size required for the character sheet.  This should save some download time.
+Modified the following species to take advantage of the new "advantage symbol for skills" feature (below): Zeltron, Ugnaught, Verpine, Devaronian, Duros
+
+New Features and Enhancements:
+
+Characters, encounters, groups, and stock vehicles now use a database-based caching system.  The first time you run GM Tools, for instance, it'll take the same amount of time to load everything as it did before.  But after that, it loads in a matter of seconds.  Not only that, but the GM Tools takes up a LOT less memory (the char gen should as well, to a lesser degree).  Performance should be about the same since I did some optimizing with grid displays.
+Changed my versioning.  This new version is now 1.1.1.0.  I'll use the last digit for doing revisions to the current release, which is supported by ClickOnce.  So, if this version needs a quick fix, the new version will be 1.1.1.1, the next would be 1.1.1.2, etc.  For new releases, I'll increment the third (build) number.  So, the next release will be 1.1.2.0, then 1.1.3.0, etc.  The first release of a new version will always have a 0 as the last number (revision).
+Added force die support for skills.  If a force ability allows you to use your force rating to enhance skills, a number of force dice equal to your current force rating will be displayed in the dice pool for that skill.  This is the max you can use:  if you have any committed, or use any for other powers, you may be limited in the number of usable dice.
+Added force die support for skills in the data editor.  This includes any editor that allows adding boosts or setbacks, such as talents or option choices.  
+Added advantage symbol support for skills.  Species, abilities, and several other things can now be set to add advantage symbols to dice pools.  This will show up in the character generator, adversaries, and printed sheets as a number of advantage symbols next to a skill's dice pool.
+Added advantage symbol support for skills in the data editor.  This includes any editor that allows adding boosts or setbacks, such as talents or option choices.
+Modified the remove setback icon.  Instead of a red X, it now has a red minus sign.
+Boost/Setback/Force dice support has been added to the force ability editor.
+The die modifier control has been modified.  Instead of radio buttons to select between boosts, remove setbacks, etc., there is now a drop down list with the various options.  With the addition of advantage symbols, radio buttons became impractical.
+Added a Type filter combo box to the equipment screen.  Type and Category now work in tandem to help filter items that you want to see.
+Added support for keeping track of cybernetic implants on the equipment screen.  If you are currently using cybernetics, you'll see a label similar to encumbrance that tells you how many cybernetics you currently have, and what your max is.  This label won't show up if you aren't using cybernetics.  If you go over your max, there's no penalty, and you won't be asked to un-hold one of them, just in case there's a special reason you have so many.  The label is shown for information purposes only.
+In the description pane of the character generator, there's a new button called "Award".  You can use this to bring up a dialog that allows you to enter the XP and credits awarded to the character.  These values are then added to the actual XP and Credits for the character.  In other words, you can just enter the amount to add instead of having to do the math.
+The size, location, and windows state of the print dialog will now be saved between launches.  As with sheet style and page settings, the character generator and GM Tools will each have their own saved settings.
+Item attachments can now specify the maximum silhouette of the vehicle on which they may be installed.
+Added a new way of tracking initiative on the encounter sheet.  In the Rolls panel, you can write down the triumphs, successes, and advantages rolled by both you and the players.  In the Slots panel, which is similar to the original init panel, you check PC or NPC,depending on the precedence of the rolls.  You can also keep track of which initiative slot you're on, and which round you're on.  The number of displayd slots in the tracker can now be specified (it rounds up to even numbers).  The tracker will use the number of groups in the encounter, plus whatever you enter for "PC Slots" in the print encounter sheet dialog.  If you don't want initiative, you can uncheck the option in the print encounter sheet dialog.
+The import feature for adversaries and encounters will now default to the application directory.  This allows easy access to the Imports directory.
+Added text size to the stat block editor.  You can now select what size (tiny, small, medium, large, extra large) to make the main text part of the stat block.  The default is extra large, which is what was used previously.
+
+Bug Fixes:
+
+The encumbrance label in the equipment screen was still not updating all the time.  It should now update whenever anything is done to a character.
+When upgrading a vehicle weapon, the current weapon was removed from the list.  However, there may be cases where you want to keep the same weapon, but just change the link quality.  So, the current weapon is no longer removed from the list.
+Not necessarily a bug, but HP cost for vehicle weapon upgrades has been altered.  The rules state that "Weapon systems combining two or more weapons always costs one hard point, even if replacing an existing weapon system." (CRB pg 271).  Originally, I was taking that at face value; specifically, if you replace a weapon system with another weapon system that was linked, it would always cost 1 HP, no matter the Linked quality of the original weapon system.  However, due to user feedback, I've now modified the cost routine so that it compares the current weapon count with the new weapon count and will only charge an HP if the new one has more weapons.  So, if you upgrade a weapon system that has the Linked 1 quality with another weapon system with the Linked 1 quality, it won't charge an HP.  If, however, you replace a weapon system without the Linked quality with a weapon system WITH the Linked quality, or replace a weapon system with the Linked quality with another weapon system with a higher Linked quality, it will charge an HP.
+In the dialog for upgrading weapons, the "LINKED:" label was misleading.  It did not represent the value of the Linked quality, but rather the weapon count of the weapon system.  So, a 1 actually meant no Linked quality, while a 2 meant Linked 1, a 3, Linked 2, etc.  The label has now been changed to "COUNT:" with a note below it saying "Linked if more than 1".  This should clarify the meaning of this field.
+For adversary stat blocks, the name label's font size will now scale so that the entire name will be displayed.
+When upgrading vehicle weapons, the weapon would not keep the ventral arc setting.  It will now.
+The Enhance force power had some incorrect lines connecting the force abilities.  It should now be properly connected.
+Fixed a potential bug when loading characters whose species was given new option choices.  It should no longer crash.
+New species option choices would not show up on existing characters because they were only added if an option was removed.  They will now be added properly.
+The various choose portrait dialogs no longer functioned properly after the data directory was moved out of the application folder.  Even when they worked, they wouldn't find portraits in the custom data directories or data sets.  Both of these issues have been fixed.
+There was a potential bug when printing.  Certain print drivers, such as DoPDF, will prompt you for a location to store created files.  If you changed to a different directory, when printing was finished, there was a chance that the current directory for the application would change (depending on the driver).  When this happened, the application could no longer find DataCustom, Characters, Encounters, etc.  Under normal circumstances, this bug would never show itself, but when it did, the program would get an exception when you tried to save something.  The print routine will now save and restore the current directory so this will never happen.
+When you clicked to print from a print preview, the Print Dialog would come up, but it would not have focus.  You would have to click on it once just to "wake it up", then it would respond to clicks as normal.  In other words, you had to click "Print" twice to get it to print, which was slightly annoying.  The print dialog will now get focus when it is displayed, so this won't occur.
+Made the same two fixes for the Page Setup dialog as well, just in case.
+Added boosts for Physical Training talent.
+Adversary editor would get a stack overflow when trying to insert custom armor from another adversary.  Potential overflow situations have been fixed for all insertable items.
+In the item attachment editor, min encumbrance size and min silhouette controls were present, but they didn't work.  They will now properly change the values.
+In the item attachment editor, when either mod list was changed, the attachment description would not be updated.  It is now updated.
+When adding new categories in the vehicle or equipment editors (rather than selecting existing ones), the data editor would crash.  It will now properly add the new category.
+The oversized weapon mount was not lowering the low limit of the weapon size requirement correctly.  So, for instance, silhouette 5 weapons were not showing up for silhouette 4 ships like they should have.  This has been fixed.
+When importing adversaries or encounters, there was no indication that the import was actually working, plus the screen could get refresh problems during the import.  The wait cursor will now be displayed and the screen updated properly during an import.
+If an adversary was given a piece of equipment that raised a skill (such as the immune implant), but that skill was not selected for the adversary, an exception was thrown.  This will no longer happen.
+For characters, skills are now properly capped at 5, while characteristics are capped at 6.  When cybernetics are involved, skills are capped at 6, while characteristics are capped at 7.  This does not apply to adversaries.  That is, there is no cap at all for adversary skills and characteristics.
+Fixed display issues in the character generator for background and the bottom panel.  Both will now size properly.
+On higher DPI screens, skill pools would have the top and bottom of the icons cut off.  The pool is now properly sized for the height of the row.
+When loading a character, species options always used the features (such as die modifiers, talent modifiers, etc) that were saved with the character.  However, these features might change on the species.  If they did, the character wouldn't be updated properly.  Selected options are now updated with the values from the completed species (base plus any subspecies) when the species is linked.  Now, characters will automatically gain any new advantages and abilities from a modified species.
+
+
+Release 1.1.0.12:
+
+New Features and Enhancements:
+
+Added support for removed setback for skills from the same sources that support boosts.  A new icon (setback die with a red X) is used to show removal of setback.  Since skills blocks can grow rather large, they now scale to the width of the skill column, so the entire skill block is shown.
+Boosts/setbacks for skills now supports boosts/setbacks for all skills of a particular type (ie, knowledge, combat, general, etc).
+Species options, talents, and adversary special abilities, along with the mod editor, now support added boosts/removed setback for skills.
+Modified both Arkanians and Ortlans to support skill boost dice, along with a bunch of talents for both boosts and removal of setback.
+
+Bug Fixes:
+
+The career skills panel wasn't scrolling properly when the character generator window was small.  It should now scroll if it is too small to show both skill grids.
+The item attachment editor window would have its controls shrink strangely on high DPI screens with low resolution.  It will now properly scale and gain scroll bars if the screen is too small for the content.
+The default data directory was acquired correctly, but the folder itself was not being created.  This would cause crashes when any of the apps were run.  It is now created if it doesn't exist.
+Attachment costs were incorrect.  Not only was it ignoring silhouette multipliers for vehicles (which used to work fine), it was also charging a flat rate for options, instead of a graduated rate (this also used to work).  Both have been fixed.
+
+
+Release 1.1.0.11
+
+New Imports:
+
+Added encounters, a data set, and a stock vehicle for the "Operation:  Shell Game" adventure found in the Age of Rebellion beta rule book.  The data set should be imported using the feature in the Data Editor.  Also, this import requires that the Age of Rebellion adversaries be imported as well, since it uses some of them.  This can be found under "Imports\AoR Adversary Import".
+
+New Features and Enhancements:
+
+The launcher app has been enhanced.  You can now choose an alternate location for your data, instead of storing it in the standard application data location.  This might come in handy if you want to point your data to your synched cloud storage directory.  See the documentation for a complete list of changes to the launcher.
+The up/down spin control will now show up in grids where you can change the rank of something.  This should help people realize that the value can, in fact, be changed.
+The data editor's data set feature has been enhanced.  You can now set a "Move/Copy" mode in order to move or copy items from one data set to another.  To do this, check the "Move/Copy Mode" box, select the data set you wish to move items to, then check the custom items displayed in the list.  When you've chosen the items you want, click either the "Move to Current" button to remove the item from its original data set and add it to the selected data set, or "Copy to Current" to save a copy of the items to the selected data set.  While in Move/Copy mode, you cannot add, remove, or modify any items, including the descriptions.
+Added support for boosts to appear for skills that unconditionally get them due to talents or attachments.  You can access this feature for your own creations via the mod editor, which is available in any editor that includes mods.  This should work for all skill blocks for characters, rosters, and adversaries.
+Added a "Add Damage Per Skill Rank" setting to talents to support Deadly Accuracy's additional damage.  This damage will show up under "shown weapons" on the character sheet.
+
+Bug Fixes:
+
+The encounter load routine was not preserving white space in the XML.  It will now properly preserve whitespace.
+The encounter information block on the encounter sheet was improperly converting new line characters into breaks.  This could cause HTML to format the information incorrectly.  This has been fixed.
+Pasting or selecting a portrait for a character was not resetting the Save button.  It will now.
+Exporting a character was not checking to make sure the file name was valid.  It will now. 
+When importing a character that you didn't currently have, the key would be re-created.  This was unneeded, since the key is universally unique.  The file name might change when you import, but the key will now remain unmodified.  This may come in handy if you created a group for the character, then removed the character, and then added him back in.  Unless the group was modified, the character should automatically show back up in the group.
+The truncheon was listed as having a rarity of 10.  It has been fixed to have a rarity of 1.
+Some editors, specifically the item attachment editor, would get an error when you tried modifying an item.  This was due to an incorrect reference for description processing.  This has been corrected.
+The "Sound Investments" talent was misspelled.  It is now spelled correctly.
+Not a bug per se, but when you clicked the "Save" button in the data editor, only your currently-selected list was saved.  It will now save all of your custom data.
+
+
+Release 1.1.0.10
+
+New Data:
+
+Added Piddock's Geonosian weapons from "Long Arm of the Hutt".
+
+New Features and Enhancements:
+
+Added data sets to the data editor.  You can now have your custom edits belong to a named data set, instead of always being part of the main DataCustom directory.  These data sets are stored in their own directory under DataCustom.  You can create new data sets, remove existing data sets, or export and import data sets using ZIP files.  This will make it easier to share specific data with friends, so it won't interfere with data that they've already created.
+Added Backup and Restore to the data editor.  Instead of having to manually back up each of your data folders (Characters, Adversaries, DataCustom, etc), the data editor will now do it for you.  Like data sets, the backups will be stored in ZIP files that you can save off wherever you like.  If you mess up your data, remove a character accidentally, or just install the software on another machine, you can restore all of your data from these back up ZIP files.
+The software now has a launcher app.  From this launcher, you can run the character generator, GM Tools, and the data editor.  You can also launch the documentation and FAQ PDFs, and it will even open the installation folder for you.
+The software now supports ClickOnce installation over the web.  This is still in the testing phase, but the link is active and you can try it out if you like.  The link to the Setup.exe program to perform the ClickOnce installation is:
+
+https://db.tt/R9lkkh9V
+
+The ClickOnce install has a few benefits over the ZIP file installation.  When you run the setup program, it'll automatically install all the software for you over the web.  You'll get a short cut for the new launcher application, so it's easier to access the software.  It'll also automatically check for updates each time you run the application and give you the option of downloading and installing the updates automatically.  It also supports incremental updating, which means you'll only download the files that are required to bring you up to the latest version.  Finally, you can use the Programs and Features control panel to remove the software if you don't want it installed anymore.
+Added alternate text to all HTML rendering of dice and symbol images.  If you copy HTML out of one of the web browser controls to paste into an HTML-enabled app, instead of having blank spaces or broken images where the dice and symbols should be, it should now display text-alternatives.
+Changed the organization of the install directory.  The two PDFs and version file are now in a directory called Documents.  All images are in a directory called Sample Graphics.
+
+Bug Fixes:
+
+The new ordnance grid on the vehicle sheet was not printing in B&W when simplified sheets were selected.  It will now display in the proper color.
+The fix I made for the character-not-reverting issue used a clone feature that I hadn't updated in awhile.  Unfortunately, it caused white space characters, such as new line characters, to be removed from text, such as character stories or notes.  This has been fixed.
+Cortosis and Deflection qualities were not showing up for custom adversary weapons.  They'll now show up properly.
+There was a problem in printing characters with vehicles enabled where the generator would crash.  This feature now works properly.
+In the armor editor, the encumbrance was being saved with the soak value.  It will now properly save encumbrance.
+Added innate weapons for species/sub-species would use both the crit and crit-add values and set crit value to 1 if it was 1 or less.  This was incorrect.  It no longer uses crit-add (which is for "all weapons using skill" innate weapons, such as Trandoshan claws, and not actual innate weapons) and the check will now cap at 0 if it is less than that.
+If you tried importing something other than what you were supposed to in adversaries and encounters, the GM Tools would crash.  This is because I wasn't checking for a returned null before trying a relink, and if incorrect XML is given to load, it'll return a null.  It will now just tell you that it couldn't load instead of crashing.
+
+
+Release 1.1.0.9:
+
+New Data:
+
+Added all data from "Dangerous Covenants", including weapons, armor, gear, attachments, vehicles, specializations, obligations, motivations, signature abilities, and talents.
+
+New Features and Enhancements:
+
+Made various tweaks and code changes to support new concepts in "Dangerous Covenants".
+Changed the way species are implemented to work with "Dangerous Covenants".  The concept of a sub-species is now built-in to species, instead of just being an option choice.  You can now have different characteristics, attributes, innate weapons, and option choices for sub-species, as well as species-wide selections.  The following species have been modified to support the new sub-species feature:
+Aqualish
+Droid*
+Gungan*
+Nikto*
+
+* Indicates that a previous species with sub-species selected as an option choice has been updated to use the new sub-species feature.  If you have an existing character of this species, the option choice has been removed and you will need to edit your character and select the proper sub-species.  The first defined sub-species will be selected by default.
+
+In order to support the new missile options for vehicles, the vehicle pane now supports an "Ordnance" option.  Clicking the "Ordnance" button will bring up an inventory window that will allow you to purchase ordnance, such as missiles, for your vehicle.  These weapons will show up on a special "Ordnance" grid on the vehicle sheet.
+Updated the species pane so that single-choice options no longer display under "Species Options" (as they are not really options), but rather under the species summary.  Also, if a species does not have any options, the option panel is hidden.
+Added the ability to add "mods" to weapons.  Any mod, other than qualities, can be added this way, but it can also be used to add ad-hoc descriptions about special characteristics of the weapon.
+Modified the character sheet to show both damage and additional damage for explosives (any weapon that uses Mechanics).
+The species editor has been modified to support sub-species.
+The weapon editor has been modified to support the new mods feature and the ordnance flag.
+You no longer have to specify a mod as choosing defense zones when you choose mods.  This feature triggers automatically from the "Increase Defense Zone" mod.
+Added a feature that allows you to select a vehicle weapon for an attachment.  This is used in the Oversized External Weapons Mount attachment and is triggered if you include the "Choose Vehicle Weapon" mod for a vehicle attachment.  The selected weapon will be listed as if it were a normal vehicle weapon, but will automatically be removed if the attachment is removed, or another weapon is chosen for the attachment.
+
+
+Bug Fixes:
+
+There was a bug in the character generator where you'd modify a character, did not want to keep the changes and loaded another character (or created a new character), then returned to the original character.  When you did this, the changes you had made were still present; the character was not reverted back to its original state.  This has been fixed.
+The obligation pane in the Group Editor in GM Tools was not sized properly, preventing obligation from being edited.  This has been fixed.
+When the species was changed, the characteristics pane was not updated with the new starting characteristic values.  It will now be updated properly.
+Fixed an issue with the Bodyguard specialization.
+Fixed an issue with the Assassin specialization.
+Fixed an issue with the Politico specialization.
+Fixed the main list in the data editor so that it'll remember your sort column and which row you added or modified and keep it selected and scrolled into view.  This annoyed a lot of people (myself included).
+
+
+Release 1.1.0.8:
+
+New Imports:
+
+Forgot the boss adversary for the "Trouble Brewing" adventure.  Bandin Dobah has been added.
+
+New Features and Enhancements:
+
+Added stat block export to vehicles.  You can now save a vehicle's stat block as a PNG file, similar to saving a stat block for an adversary.
+In GM Tools, in the Add Group dialog, there is now a Refresh button.  This will refresh the character list.  You can use this if you add a character with the generator, then want to add that character to a group when the GM Tools is already loaded.  Instead of having to close and re-open the GM Tools, you can now just refresh the list. Any changes (new or removed characters) will show on the character grid, and PC adversaries will be added or removed accordingly (see below).
+In GM Tools, for encounters, added filters for Campaign and Adventure.  Also, the list will keep its sort and selected encounter between adds and edits.
+In GM Tools, for encounters, you may now add a descriptive name to each adversary group or roster vehicle, defined at the bottom of the list for the current item.  If this name isn't blank, it'll be added before the name of the adversary or vehicle within parentheses on the encounter sheet.
+In GM Tools, for adversaries, the current set of PC's will now be added to the list as adversaries. These special adversaries cannot be removed or modified, will change depending upon your current set of PC's, and will belong to the category "Player Characters" for easy access. You can add these adversaries to encounters, just like normal adversaries. They will be denoted as "Nemesis-PC" on the encounter sheet. Each PC adversary will have the same key value as its PC, so encounters will remember them between loads, assuming you do not remove a PC.
+When importing a character, the generator will now detect whether or not that character already exists. If it does, it will give you the option of replacing the character with the imported one, or adding a copy of the character. In this way, if you get updated character files from your players, you can import them back in and replace the current one so groups and encounters that might use the PC will not be affected. The next time you run the GM Tools, or do a Refresh (see above), the latest version of the character will automatically be part of the group, and encounters with the PC as an adversary will be updated as well.
+Modified the way characters are handled in the generator. Response for selecting, adding, removing, and copying characters should be much faster now.
+Added more info to the character summary, including specializations, XP, and credits.
+Any place that dislays characteristic names will now use the name of the characteristic from the Characteristics.xml file.
+A number of grids that display text that is usually on the long side have had their font size reduced to display more information.
+
+Bug Fixes:
+
+Silhouette image for the J-Type Star Skiff was upside down.  It is now rightside up.
+Fixed a persistent problem with print margins that has existed since the beginning.  While the print preview window would show pages correctly, when they were actually printed, the left and top margins would be larger than they were supposed to be.  This was actually due to a design issue with .NET that had never been taken care of.  I finally got a fix for this, so printed pages should have the correct margins.
+The divider for encounter notes was not being set to its proper simplified version when the simplified style was selected.  It remained as a full-color divider.  This has been fixed.
+In the Scientist specialization, there was a missing line between Respected Scholar and Natural Scholar.  This has been fixed.
+The YT-1000 starship had an incorrect image.  The image is now an actual YT-1000.
+The E-11 sniper rifle and X-30 Lancer were missing several categories.  They now has the proper categories.
+Made a minor fix to the way attachments were being displayed.
+A few problems with the Gunner specialization were fixed.
+Displayed encumbrance threshold in the equipment screen wasn't being updated if you added an attachment that increased encumbrance threshold.  It'll now update properly.
+Long motivations (such as "Extended Family/Clan") were being cut off.  All motivation and obligation titles will now shrink-to-fit the labels.
+The quad laser cannon had the Accurate quality, but did not have a rank, so it did not show up.  It now has a rank of 1 in Accurate.
+On the first page of the character sheet, "Ranged" defense title said "Value".  It now properly says "Ranged".
+Weapons with the Deflection quality were not properly adding ranged defense.  It will now add ranged defense properly for both characters and adversaries.
+Positive handling values were not displayed with the plus sign in vehicle encounters.  They will now be displayed properly.
+A weird issue with the web browser control in the species pane prevented you from clicking on the species dropdown and just scrolling through species. Each time you did this, the dropdown would lose focus. It will now retain focus and allow you to scroll through all the species.
+
+
+Release 1.1.0.7:
+
+New Data:
+
+Added the "Dunelizard" starfighter from "Long Arm of the Hutt" adventure.
+Added the "YKL-37r Nova Courier" freighter from "Long Arm of the Hutt" adventure.
+Added "TIE Defender" from "Age of Rebellion".  This was unintentionally omitted.
+
+New Imports:
+
+Added adversaries and stock vehicles for "Long Arm of the Hutt" adventure.
+Added adversaries and stock vehicles for "Escape from Mos Shuuta" adventure from the Beginner Game.
+
+New Features and Enhancements:
+ 
+Added custom armor to the adversary editor in GM Tools.
+Added tracking to vehicles on the encounter sheet.  Vehicles now have the same style of tracking as adversaries, with hull trauma, system strain, a place to put damaged components, and critical hits.
+Also added minion vehicles to encounters.  Vehicles used as minions must have the "Single-Pilot Craft" option enabled (see below), and you must have at least one minion adversary group selected for the encounter.  Minion vehicles are designated in the Rosters pane by checking the box next to the vehicle and selecting a minion adversary group.  Such a group cannot be used in any other roster.  On the encounter sheet, a modified version of vehicle tracking is displayed, similar to minion adversaries.
+Added the "restricted" setting to all equipment, vehicles, and attachments.  You can now filter on restricted items when purchasing them.  When descriptions are displayed in the dialogs, the restricted icon (red circle with white horizontal bar) will be displayed next to the rarity.  On the sheets, each item grid will now also display the restricted icon next to any restricted item.
+All data has been updated to reflect the new restricted setting for restricted items.
+Added Rarity to attachments, as well as the restricted setting.
+Editors have been updated to reflect the new setting(s).
+Added the "Single-Pilot Craft" option to the vehicle editor.  Check this box if the vehicle is a starfighter, speeder, or some other craft that requires a single pilot.  Such vehicles can be used as minion vehicles in encounters.
+
+Bug Fixes:
+
+Changed the source for the "Driver" specialization to "Enter the Unknown".
+The I-Class Star Destroyer and the Victory-Class Star Destroyer had mixed and matched portraits and silhouettes.  They both now have the proper images.
+The Gundark adversary in the CRB import directory had its "Meaty Fists" misspelled.  This has been corrected.  The Gundark was also duplicated in the AoR import directory.  It has been removed.
+The Shortened Barrel attachment had an incorrect HP cost.  It now costs 1 HP.
+The Augmented Spin Barrel attachment had its application limited to the Blaster Rifle and Heavy Blaster Rifle.  This has been changed to be usable by any weapon with the "Blaster Rifle" category, which includes several new weapons from recent supplements.
+Fixed other assorted spelling issues.
+If you created a new character, added equipment and vehicles to it, then performed an equipment transfer, it would say that the character must be saved, but if you returned to the character pane, the new character wasn't there.  The character was saved, but the character list was not being updated.  It is now updated properly.
+
+Release 1.1.0.6:
+
+New Data:
+
+Added the following species from the new "Unofficial Species Menagerie 3.0" (thanks goes to Donovan Morningfire and Cyril for their outstanding work on this supplement):  Arcona, Besalisk, Chevin, Dressellian, Lepi, Pau'an, Talz, Thakwaash, Ubese, Ugnaught, and Zygerrian.  
+Made all changes to existing "Unofficial Species Menagerie 2.0" species that were modified in the 3.0 version of the document.  These species have had their source changed to "Unofficial Species Menagerie 3.0".
+Added new weapons, armor, gear, and vehicles for "Suns of Fortune" sourcebook.
+Added a new vehicle attachment to support the "Sunflare" swoop in the "Taming the Dragon" modular encounter in "Suns of Fortune".  "Swoop Speed Modification" adds 1 to speed and removes 1 from hull trauma, and has an option to add 1 system strain.
+Added a new vehicle attachment to support the "Bloodblade" patrol boat in the "Corellian Shuffle" modular encounter in "Suns of Fortune".  "Predictive Targetting Array" is explained on page 143 in "Suns of Fortune".
+
+New Imports:
+
+Added adversaries, stock vehicles, and modular encounters (imported in the GM Tools as encounters) for "Suns of Fortune" sourcebook.  This can be found in the Imports folder in the ZIP file.  Be sure to read the READ ME FIRST.txt file.
+Added adversaries and two custom vehicles for the "Trouble Brewing" adventure, found in the CRB.  This can be found in the Imports folder in the ZIP file.  The two vehicles should be copied to your "DataCustom\Vehicles" directory if you wish to use them.  I won't be including them as stock data, since they're very specific to this adventure.  Be sure to read the READ ME FIRST.txt file.
+
+New Features and Enhancements:
+
+You may now ignore the starting size limitation of obligation options by checking the appropriate checkbox in the Options dialog.
+Added the "Massive" setting to vehicles.  Descriptions will include this setting, as well as tell you how many advantage to add to crit rating.  This same information will be included in the information list when you print a vehicle.  Setting "Massive" to 0 means that it doesn't have the quality.  The vehicle editor has also been enhanced with this feature.
+All massive vehicles listed in the week 5 AoR update have had their "Massive" setting set to the appropriate value.  If you have customized any of these vehicles, they will need to be modified with the proper "Massive" values.
+The vehicle editor now supports hyperdrive increments of .1.  The spin controls will still increment by 1; just click the number and type in decimal values yourself.  Also made changes to the vehicle code to support this.
+Added a new notes feature to the equipment screen.  Any owned item may be annotated with a note.  To do this, click the new "Notes" button.  A dialog will appear that allows you to enter your note.  You may include tags for special symbols and dice in your note.  Item notes will appear on the printed sheets in the "Special" column of the appropriate grid.
+By popular demand, you can now equip two pieces of armor.  Make sure, however, that your GM will allow you to do this.
+You can now import and export encounters.  The new modular encounter imports from "Suns of Fortune" take adventage of this new feature.
+Modified the way adversaries are identified.  They all now have a universally unique key that will never change.  In this way, encounters can be shared as long as they use standard adversaries.
+Modified ALL ADVERSARIES to use this new universal key.  
+
+Note: If you want to use future saved encounters that use any included adversary found in the Import folder, and you've already imported a version of them from previous releases, you will need to remove all of those adversaries and import them again.  This is true for some of the saved encounters for SoF that use CRB adversaries.  In order for them to work properly, you will need to remove your old CRB adversaries, then add them again.  Remember that Import now supports multiple file import...
+
+Removed characteristics, skills, and talents from the ItemDescriptor.xml file.  Instead, all characteristics, skills, and talents (even custom ones) will be added automatically to ItemDescriptors from the actual characterisics, skills, and talents collections.  This means that they will all be available for weapons and attachments, instead of just the ones I happen to put into the file originally.
+Because a lot more talents are now available for item descriptors, the Add Mod dialog in the Attachment editor has been modified to allow filtering based upon skills, talents, qualities, characteristics, and other mods.  This will make it easier to find the exact mod you're looking for.
+You can now add Jury Rigged as a talent for adversaries.  You cannot modify an adversary's items with it, however; its inclusion is only descriptive.
+Images for vehicles, vehicle silhouettes, species, and equipment can now be added to the DataCustom directory instead of Data.  New images can be added there for your custom creations, or you can override the stock images bye adding new images to DataCustom with the same name format (images found in DataCustom take precedence over those found in Data).  The locations for these images within DataCustom can be found in the documentation, starting on page 31.
+More combo boxes have been sorted alphabetically.
+
+Bug Fixes:
+
+In the Encounter editor in GM Tools, if you remove an adversary that's being used for a vehicle position, the position would not be removed.  This caused a crash when the encounter was reloaded (or GM Tools was relaunched).  The primary problem was that the "Equals" function used to compare two positions was assuming that the adversary reference was in place, which it wouldn't be.  The routine has been modified to first check to see if the two position references are identical before comparing their content.  Second, the position should have been removed after the adversary was removed.  This check was being made when vehicles were removed, but not adversaries.  Now, after removing an adversary after first including it in a roster, the saved encounter file will no longer have the orphaned position.
+In the Encounter editor in GM Tools, if you added the same stock vehicle multiple times to an encounter, it would only show up once in the roster list.  This was because the stock vehicle's key was not being created new for each vehicle.  Added stock vehicles will now have their keys created new each time to make each vehicle unique, and they will also now show up separately in the roster, and on the printed encounter sheet.
+When rosters were being printed, the gunner divider was showing up, even if the vehicle had no gunners.  Now, the gunner divider will not be added to a vehicle's roster section if the roster has no gunners.
+There were certain inconsistancies in the way unranked talent mods were being displayed in descriptions, depending on whether or not the mod had a count.  Some older attachments had unranked talents, such as Quick Draw, defined without a count, while others (including any created with the editor) would have a count of 1 or higher.  Now, all unranked talent mods are displayed as if they have no count, regardless of what the count actually is, since a count would only make sense for a ranked talent (that is, you can only benefit from Quick Draw once).  For instance, a Quick Draw mod will now look like "Innate Talent (Quick Draw) Mod", rather than "1 Innate Talent (Quick Draw) Mod", or "Innate Talent (Quick Draw) Mods" (if count was 0).
+The vehicle grid in both the group and character sheets was missing the Strain (system strain) column.  Strain will now show up.
+If you performed a transfer when editing a group, and subsequently hit Cancel, the group would still have the inventory if you edited it again.  If you closed and relaunched GM Tools, the inventory would be properly removed.  This was due to the local cache not being updated properly after the forced save.  This has been fixed, and will also work properly if you transfer, then hit Cancel during a "New" group.  The group will still show up as being added because of the forced save.
+Model 77 air rifle had the incorrect quality count for Pierce.  It is now Pierce 4.
+Fixed an issue when shock gloves were given to adversaries.  The app no longer crashes and shock gloves are added correctly.
+Fixed an issue with the vehicle grid if you had more vehicles listed than would fit in the grid.  Whenever a vehicle was clicked, the grid would scroll unpredictably.  It no longer does this.
+Fixed an issue with attachments being added to stock vehicles.  If you switched panes, then went back to the vehicle pane, any added attachments were gone.  It will now keep added attachments.
+Fixed some issues with encounter printing.  If encounter notes were present on the first page, they could remain on subsequent pages.  Also, if only rosters were being printed, and not adversaries, encounter notes would not be printed at all.  A potential print anomaly also existed if a vehicle roster had no positions and was being printed toward the bottom of the page.  The normal test that was done to make sure it fit was not being performed.  Finally, I somehow got in a situation where I had more than one count of a nemesis.  Nemeses are supposed to be limited to 1 per group.  All of these issues have been fixed.
+When the Add Attachment dialog came up, the description of the selected top attachment did not appear.  You had to change the selection in order to have the description show.  This has been fixed.
+
+Other Changes:
+
+Updated the documentation and FAQ to correspond to this release, including a few more questions that have been answered on the forums.
+
+
+Release 1.1.0.5:
+
+Added the following vehicles from "Beyond the Rim":  Jawa Salvage Skiff, IPV-1 System Patrol Craft, Skywatcher-Class Deep Space Scout Ship, and V5 Medium Cargo Floater.
+Added "Show Purchasable" checkbox back in the equipment screen.  Apparently, a number of people still find it useful.
+The durasteel armor vehicle attachment cost an incorrect number of hard points.  It now correctly costs 2 hard points.
+Added a SmartTranq attachment especially for the Model 77 Air Rifle.
+Added another profile for the Model 38 Sharpshooter Rifle that shows the changes made for using the Detonator round.  If you want to use Detonator rounds for this rifle, purchase the rifle as usual, then add the weapon with the Detonator profile without purchasing it.  Do not hold both weapons, or you'll be charged double for encumbrance.  You may also want to do a "Shown" on both of them if you switch back and forth during combat.
+Added extra reload gear items for both the Detonator and SmartTranq ammo.
+Added a "Random" button to the Motivation and Obligation/Duty panes.  Clicking on this button will remove all of your current motivations or obligations/duty and choose a random one for your character.  Obligation/Duty size will be the same as the "Starting Size" you've selected from the dropdown.  You have the same chance as stated in the CRB for getting two of either one.  Two obligations/duty will divide your currently selected starting size between the two of them.  Two motivations will assure that two different motivations are selected.  Since starting size is not relevant for group obligation or duty, the "Random" button is not available when editing groups in the GM Tools.
+Modified how encounter information works when creating an encounter.  Encounter info is now treated like a standard description field that accepts tags and HTML.  It is no longer displayed in the header table, but rather has its own space at the top of the first encounter sheet.  This space can grow to fit whatever you type in for information (you're still limited to one page).  The group sections will be displayed beneath the information, as usual.  If no information has been typed in, the information block won't be displayed on the encounter sheet.
+The equipment screen will now display information for the last clicked item in either the equipment grid or the owned grid (before, it only showed items clicked in the equipment grid).  The info displayed for weapons also shows more information, such as damage and range and, if clicked from the owned grid, any item attachments present.
+When adding attachments, the New attachment list wasn't sorted.  It now defaults to being sorted on the name of the attachment.
+Fixed a potential bug for obligations, duties, and motivations.  If a character was given any one of these items from a particular source, and the source was then unchecked from the Options button, the grid would throw an error because the created combo box would not have that item in it.  The code will now check the character's obligations, duties, and motivations and make sure that they exist in the dropdown.  If they don't, they're added.  This prevents the error.
+
+Release 1.1.0.4:
+
+Obligation options were not capping extra obligation to the starting value.  It now will.
+Changed the character summary in the generator to be more asthetically pleasing (to me, anyway; the old summary was the same from the beginning, and was starting to look dated) and take up less space.
+Moved obligation, duty, and credits from the top green bar to the new character summary.  Also, added encumbrance to the summary.
+Added starting and earned XP to the top bar.
+Changed adversary summary in the GM Tools's Add Adversary dialog to match the new format in the generator.
+Changed group summary in the GM Tools's Add Group dialog to match the new format in the generator.
+Added a new button "Insert" to Add Adversary dialog's custom weapon, custom item, and special abilities panes.  Clicking "Insert" will bring up a list of other custom items that have already been added to any defined adversary.  You can then choose the item to insert into your list.  This should save some time in creating adversaries (I, too, get tired of re-typing the "Droid" ability for each droid adversary I create).
+Removed "Show Purchasable Items" in the equipment screen.  This was only useful before the purchase dialog allowed you to pick your own price.  Now, pretty much everything is "purchasable" if you can drop the price low enough.
+Added a "None" setting to the sensor range on vehicles.  Vehicles don't have to have sensors.
+The Force Power dropdown was using the power's name as a key.  This worked fine until I fixed a spelling error in the Foresee power's name.  After fixing the error, the generator crashed when selecting the Foresee power from the dropdown with older characters.  Fixed the dropdown so that it will properly find a force power based on its key.
+Found another couple of places where the ad-hoc mod fix from 1.1.0.1 wasn't applying properly to items with ad-hoc mods when added to adversaries.  The fix will now work for adversaries as well.
+The force power editor had an annoying habit of scrolling itself back to the top after a node was edited in some way.  It'll stay put now.
+On WinXP systems, performing Imports and Exports could change the current directory, which in turn would cause XML files to be saved in the wrong place.  All places that use open or save dialogs will now restore the current directory after use.
+In careers, if you selected your career skills and/or spec skills, then changed careers so that they went back to being unselected, the totals at the bottom of the lists would not update.  They will now update properly.
+The equipment screen now saves your grid selections.  Before, whenever you did something that would recreate the equipment grid (such as change species), the equipment grids' scroll location and selected items would be reset.  The selected item will now continue to be selected and will be scrolled into view.  Your current item will also continue to be selected when you move between weapon, armor, and gear grids (they were being reset before).
+A strange corner case occurred with obligations, duties, and motivations.  If you added two of any item, then removed the first one, then added a new second one, then saved the character, when reloaded, the top item disappeared.  This was due to duplicate keys in the objects.  This won't happen again, but existing characters with this problem will need to be modified and re-saved.
+I noticed that .NET's garbage collection wasn't doing such a great job giving up resources unless it absolutely had to.  I now do a lot of manual garbage collecting after forms close to force the programs not to grow too much in memory.
+Added a new import directory for the "Under a Black Sun" adventure.  This directory contains conversions of the stock characters, plus all of the adversaries.  Just import whichever characters and adversaries you need.
+The bottom right talent of the Politico specialization was incorrectly set to "Intense Focus".  It has been changed to "Intense Presence".
+After the above talent fix, I noticed that if you had selected "Intense Focus" in a previous character, it would properly have "Intense Presence" selected in the tree when the character was reloaded.  However, when you printed your character, it still said that you had "Intense Focus".  When linking specializations, it will now verify that your saved talents are the same as the ones found in the specialization at any particular row and column.  If not, the saved talent will be changed to the proper talent (in this case, "Intense Focus" will be changed to "Intense Presence").
+
+Release 1.1.0.3:
+
+When purchasing attachments, the cost was not being deducted from total credits.  It will now deduct properly.
+Corrected spelling of the Foresee power and Basic Power ability.
+When removing an item in the data editor, it wouldn't allow a custom item to be removed if it was referenced somewhere else, even though it would just revert to the original stock item with the same key value.  It will now only perform this check with added items.
+There was a data error in the ItemAttachments.xml data file.  Reinforced Shield Generator was sharing the same key as Upgraded Comms Array.  Upgraded Comms Array now has its own unique key.
+Gaffi Stick was misspelled.  It is now spelled correctly.
+The Mk. VI Modular Backpack pouch attachment was causing the generator to crash when loading a character that had it in its inventory.  It will no longer do this.
+When selling or removing equipment, the encumbrance value and/or threshold wasn't updating on the equipment screen.  It will now update properly.
+When editing the name or notes of a vehicle, the text box would sometimes lose focus after the name updated.  It will now keep focus properly
+To avoid issues, the install no longer comes with Core Rulebook adversaries already installed.  These adversaries have been moved to their own Import folder, just like the adversaries from the other sourcebooks.  You no longer have to worry about modifications made to stock adversaries being overwritten when upgrading.
+Modified the documentation and FAQ files to reflect the above change.
+
+Release 1.1.0.2:
+
+The Unmatched Mobility signature ability had a line connecting the base ability to the first Free Maneuver, but the Free Maneuver was not selectable when the base ability was selected.  It is now selectable.  Also, this same Free Maneuver was connected to the node below it, but that node was not accessible when the Free Maneuver was selected.  This connection should not have been there at all and has been removed.
+Modified the description of the Mk. VI Modular Backpack to explain how to add accessory pouches because this may not be readily obvious.  Basically, accessory pouches are added to the backpack by using a special attachment.  Just click the "Attachments" button from your inventory and select the accessory pouch attachment.  You'll get a +1 encumbrance threshold for the attachment, plus you'll be able to select up to two more optional +1 threshold mods as well (for a total of three "pouches").
+Fixed an annoying issue in the Force Powers pane where each selected force ability would cause the power dropdown to re-select the first power.  It will now stay on the current power.
+When purchasing items at quantity, it would charge you only for a single item.  It will now charge you for the actual quantity.
+After modifying and saving a character, if you switched back to the character pane, the scrollbar did not function.  This has been fixed.
+Did some reformatting of the documentation and added a section for installation and updating.
+Added a FAQ after scanning through all 37 pages of the forum topic, looking for questions.
+
+Release 1.1.0.1:
+
+When a force rating-producing specialization was purchased that turned on force powers, the force power panel was not updating.  It will now update.
+Changed the source of All Terrain Driver, Full Stop, Master Driver, and Natural Driver talents to "Enter the Unknown".  They are in both EtU and Age of Rebellion Beta, but as EtU is an official, released source, and AoR Beta is not, it is better having them sourced to EtU.
+Fixed an issue with certain gear containing built-in mods.  The code wasn't checking to see if it referred to a real descriptor, or an ad-hoc description.  It now checks for this.
+The new obligation/duty option feature was not being saved with the character.  It will now be saved.
+The enviro-suit armor should have been part of the "Sealed" category, since it is a sealed, full-body suit.  This has been fixed.
+Updated the editors for armor and gear to support built-in mods, including ad-hoc mods.
+
+Release 1.1.0.0:
+
+New Features & Enhancements:
+
+Added new data from Age of Rebellion, Enter the Unknown, and Beyond the Rim.  Special thanks to Donovan Morningfire and lordfireeyes for doing a lot of the grunt-work in entering the new data.
+Added Signature Abilities from the Enter the Unknown source book.  The Signature Abilities button will only show up if the specified career has signature abilities (currently, only Explorer has these), and only if you have a specialization tree that is capable of having a signature ability attached to it.  A list of your signature abilities will show up on the character sheet in the talents/force powers page.
+Added Duty to the Obligations pane for both characters and groups.  You can now use a drop-down to select whether to edit obligation or duty.
+Due to popular demand, Obligation/Duty pane now supports increase/reduction in return for XP and credits.  You may set a starting value of between 5 and 20, and it will enable or disable the options based on this value and the value of your obligation or duty.  Selected options will remain selected, even if your obligation or duty goes out of range, so you can later modify them without losing your option.
+Also due to popular demand, the data editor now supports creation and editing of item attachments.  As this is a rather complex editor, please see the documentation for details on its functionality.
+Groups may now "own" vehicles and equipment.  The group editor now contains the same equipment and vehicle panels as the character editor.
+Vehicles may now carry equipment as cargo.  Vehicles do not "purchase" equipment; all equipment on a vehicle must be transferred there from another source. 
+Equipment pane now contains a "Transfer" button.  This button allows you to transfer equipment between the equipment owner and any other equipment sources accessible by that owner.  For instance, a character may transfer equipment between itself and any vehicles it owns, groups it belongs to, and vehicles owned by any of those groups.  A group may transfer between itself and any character belonging to that group and any vehicle it owns.  For characters in the generator, you may also transfer credits to and from the character and any group that the character belongs to.
+The GM Tools now contains a "Stock Vehicle" pane.  Stock vehicles are pre-made customized vehicles.  Characters and groups may now add these stock vehicles instead of always having to create new customized vehicles.  When used, copies of the vehicles are made, so any subsequent changes made to a character's or group's stock vehicle will not modify the original stock vehicle.
+Added vehicles and vehicle rosters to encounters in the GM Tools.  You can now add vehicles to an encounter and assign encounter adversaries to various vehicle positions.  Each position has a list of actions and skills associated with those actions.  
+The encounter modify dialog has been enhanced to include multiple panes for the various parts of an encounter, including description of the encounter, adversaries, vehicles, and rosters for those vehicles.  In order to edit a roster, at least one adversary and one vehicle must be included in the encounter.
+The encounter sheet has been modified to include vehicle rosters, including positions, actions, and associated skills belonging to the adversaries that hold those positions.  Weapon positions are organized by weapon group and lists all adversaries (and their appropriate weapon skill) assigned to each individual gun in a group.
+New print options are now available for encounter sheets.  You may now choose what information you want on the encounter sheet, including adversaries, vehicle rosters, and vehicle sheets for all of the vehicles defined for the encounter.
+Added an "Option" button to the top of the character generator.  This will bring up a dialog that will allow you to choose which optional source material for data to use for generating your character.  Core rule data is always present, and limiting displayed data will not effect characters that use other data.  For instance, if you have a Jawa character, but de-select Menagerie 2.0 from the sources, your character will still be a Jawa, but Jawa will not be displayed in the species drop-down.
+The "Option" dialog will also allow you to choose whether or not to include character vehicles when printing out character sheets.  Checking this option will add vehicle sheets to the printed character sheet for every vehicle a character owns.
+Group sheets now have new options in addition to selecting which character(s) to include.  You may now optionally include obligation and duty charts, an inventory of group equipment, full vehicle sheets for all group vehicles, and member details.  Checking member details will display a stat block for each member in addition to their name and description.
+Did a complete overhaul of the character, encounter, group and vehicle sheets.  All sheets will now automatically overflow to additional pages if needed to fit all data, such as for long lists of talents or equipment, and even for large numbers of obligations, duties, and motivations.  Most panels will now adjust to fit text, such as for motivations, obligations, and stories, so you don't have to worry about long notes being cut off (they must still fit on one page).  Vehicles will also now show any items stored within the vehicles, and character and group sheets will now optionally include vehicle sheets for any owned vehicles.  All sheets will also now display a page number at the bottom and will fill unused page areas with a notes section. Many other changes and efficiencies have also been made to printed sheets.
+Added Copy feature to adversaries in GM Tools, characters in the generator, and vehicles in the vehicle panes.  You can now make a copy of any of these items in case you want to work off of duplicates.
+Modified Import feature of adversaries in GM Tools and characters in the generator to allow the import of multiple items at one time.
+Added Import and Export to the vehicle panes.
+Added Copy feature to the data editor.  Now, all types of data that can be added may now be copied.  When making a copy of an item, you will immediately be presented with an editor for the copied item, including a new default key for the new item, but everything else being replicated from the original.  The item will only be added if you click "Add" from the editor.
+The cost/quantity dialog will now be displayed for both selling and purchasing an item.  A new option allows you to enter in your own percentage of the original price, from 1% to 500%.
+Modified data editor to include a Source field.  Source can be selected via the drop-down (if any sources exist for custom data), or by typing a new source in the drop-down.  Core rulebook data cannot have its source modified.
+Added editors for vehicle actions, vehicle positions, signature abilities, and signature ability nodes.
+Most combo boxes and grids with no headers will now be sorted alphabetically.
+Intrinsic mods associated with armor will now be displayed on the character sheet along with any attachments to that armor.
+Enhanced certain gear to include on-the-fly mods in their description, if they modify any checks with boosts or setbacks.
+All numeric fields, including XP and Credits, have been converted to numeric up/down controls.
+Species innate weapon display in the species editor has been enhanced to better describe the configuration.
+Also for species innate weapons, you may now select from all skills, rather than just combat skills (e.g., Ithorian's use of Resilience for its Bellow weapon).
+
+Bug Fixes:
+
+On the Vehicle pane, the name and notes weren't showing up when the vehicle was selected.  They will now show up.
+Some editors did not force uppercase for key values.  All should now force keys to be uppercase.
+In the talent editor, fixed career skills were not being saved.  They will now be saved.
+The Trandoshan species incorrectly had Enduring as an innate talent.  This has been removed.
+The Trandoshan species had two separate entries for its innate "Claw" weapon modifier.  The extra one has been removed.
+The Shortened Barrel attachment had an incorrect price.  This has been changed to the correct price.
+Fixed an issue with species weapons where the Range field was getting the name of the skill.  It will now get the proper range value.
+Fixed an issue with the attachment editor where multiple ranks of Jury Rigged talents were not accumulating properly.  The result was that only one item could be jury-rigged at a time, instead of one item for each rank.  It will now allow the proper number of Jury Rigged "mods" to be added to equipment.
+Selecting an item to be Tinkered will now properly set the "dirty" flag on the character so the "Save" button will become active.
+There was an issue with duplicate unranked talents appearing on the first row of a specialization.  Such talents would not auto-select themselves when one was selected.  This was because there would be no way of unselecting such a talent once selected.  The generator will now check for this contingency and give you the option of removing the talent from all specs.  Other talents that rely on the unranked talent will also be deselected.
+Fixed an issue where human non-career skills, as well as specialization skills, were allowing more than the proper number of skills to be checked.  The extra skill would not actually be selected, and subsequent checks would deselect all skills.  This was a grid configuration problem and is now fixed.
+Fixed an issue where changing a specialization would keep old specialization skill choices intact.  Specialization skill choices will now be cleared each time a specialization changes.  Note that changing careers properly cleared both career and specialization skill choices.
+There were several instances of drop down lists with static information being editable.  They've all been converted into non-editable lists.
+Fixed an issue with human non-career skill ranks.  If you selected a non-career skill, then chose a talent or specialization that gave you that skill as a career skill, the skill would become deselected and removed from the grid.  While this makes logical sense, the game does not allow you to retroactively go back and re-do your non-career skills; once selected, it should remain selected.  Now, if a skill has been selected in the non-career skill grid, it will remain in the grid and selected, even if that skill later becomes a career skill.  If, for whatever reason, you later decide to uncheck the skill, it'll immediately be removed from the grid and you will be unable to select it again.
+Species innate weapons have a feature where the innate weapon will either replace the standard "Unarmed" weapon, or be added as an additional weapon.  For instance, the Ithorian "Bellow" was supposed to be an additional weapon to "Unarmed".  However, this feature was not being implemented properly in either the character or the species editor.  Innate non-"All Skill" weapons were always replacing "Unarmed" and there was no way in the editor to select or deselect the replace feature.  This feature now works properly: the species editor has been modified to implement the replace feature, and the Ithorian will have both its "Bellow" weapon and the standard "Unarmed".  Note: If you've added species with innate weapons before this release, they will default to being in addition to the "Unarmed" weapon.  If you had intended them as a replacement, you'll need to edit the weapon with the species editor.
+
+Imports:
+
+All adversaries from the adventure module "Beyond the Rim" have been included in the "BtR Adversary Import" directory.  These adversaries may be optionally imported into the GM Tools by using the Adversary import feature.
+All adversaries from "Age of Rebellion Beta" have been included in the "AoR Adversary Import" directory.  These adversaries may be optionally imported into the GM Tools by using the Adversary import feature.
+Droid adversaries from "Enter the Unknown" have been included in the "EtU Adversary Import" directory.  These adversaries may be optionally imported into the GM Tools by using the Adversary import feature.
+
+Release 1.0.0.12:
+
+Fixed an issue in the data editor where generated "user" keys were being validated against the main data, rather than custom data.  It will now validate against custom data.
+In the data editor, you can now use your own keys instead of the editor always creating "USER" keys for you.  Any key you create must be unique for that type of item in both main and custom data.  You may only specify a key when the item is added, not when it's modified.
+Made some internal enhancemnts to armor, weapons, and vehicles (moddable items) and the corresponding item attachments they may have.  You can now give moddable items one or more categories that they belong to.  These categories can now be used by item attachments as a limit to what items can use the attachment, rather than only having exact item key matches.  This will allow added weapons to be able to accept particular attachments as long as those items are given the proper categories.  For instance, if an attachment only works for Carbines and Rifles (two of the new categories), you can create your own rifle-like weapon and give it a category of Rifle and the attachment will work for it as well.  Additionally, item attachments can now be limited by Type (such as "Melee" or "Energy Weapon") or by Skill (e.g., attachments that only work on Ranged - Light weapons, or Gunnery weapons).
+Enhanced editors for weapons, armor, gear, and vehicles to use the new multi-category feature.
+Updated armor, weapons, and item attachments to use the new category methodology.
+Changed all vehicle categories to correspond to new category methodology.
+Added capability to filter equipment by category in the Equipment pane of the character generator.
+Added editors for Force Abilities and Force Powers.
+Fixed an issue with Filed Front Sights attachment, which could also affect other attachments.  When comparing MiscDesc-type mods (ones that aren't stored in ItemDescriptors.xml), all white space characters are now removed before the comparison to make sure only the text is compared.  Before, extraneous carriage return characters were being added when the MiscDesc property was being transferred to the character, and the comparisons were returning False.  The Filed Front Sights attachment will now keep its optional mod settings.
+Fixed an issue in the character sheet where miscellaneous mods from attachments were showing up for weapons and armor as "Qualities".  Now, only actual weapon and armor qualities will be listed there.  Miscellaneous mods will only be listed under the appropriate attachment.
+Added the "Heating System" attachment for armor.  This attachment was unintentionally left out.
+Added the "High-Output Ion Turbine" attachment for vehicles.  This attachment was unintentionally left out.
+Fixed pricing and made changes to a few vehicle attachments that were incorrect.
+Fixed a potential issue with force powers where loaded characters were getting their force powers recalculated before all the references were in place.  This would cause an exception.  This problem has been fixed.
+Changed "Light Saber" skill name to "Lightsaber".
+Fixed an issue in GM Tools where if you add an encounter group, then immediately try to modify it, an exception was raised.  This will now work properly.
+Fixed an issue with innate weapons (such as unarmed) where the "Shown" status wasn't being saved between loads.  Because innate weapons do not have a reference to an actual weapon, all innate weapons were being removed on character load, then added back with the "Shown" status set to default (false).  Innate weapons loaded from the character file will no longer be removed on character load, and the "Shown" status will remain intact.
+Added a new property to Force Abilities called "Power".  This field should be something descriptive of the power the ability goes with and is used primarily to differenciate similar abilities across powers.  For instance, the "Strength" ability is found in all powers, so the "Power" property for Move would be "Move".  For "Control" abilities, of which there can be several per power, I'm using something like "Sense-1" and "Sense-2" to differentiate between them.  This property has no actual use within the generator.  However, it will be displayed in the Force Powers data editor so that you can tell which ability is which, without resorting to showing keys.  All current abilities have been updated with this new property.
+The documentation has been updated to reflect recent changes.
+
+File Changes:
+
+Made changes to the following files:  
+  Data\Weapons.xml
+  Data\Armor.xml
+  Data\Force Abilities.xml
+  Data\ItemAttachments.xml
+  Data\ItemDescriptors.xml
+  Data\Skills.xml
+  All files in Data\Vehicles
+
+Release 1.0.0.11:
+
+Fixed one more anomoly when using higher DPI settings.  If screen resolution was too low, the stat block at the bottom of the char gen would be partially off the screen.  This has been fixed for both the main char gen screen and the adversary form.
+Fixed even more DPI weirdness by restructuring almost all the forms in all the apps.  Now, every area that has something of interest is scrollable, including button panes, main panes, and summary panes.  Also, the windows sizes are now checked upon opening and adjusted to fit the current screen.
+Added a boolean flag in the species files called "NoForceAbilities".  If set to true, that species cannot purchase a specialization that adds to force rating.
+Added checkbox to species editor to support new "NoForceAbilities" flag.
+Modified droid to have the new "NoForceAbilities" flag.
+Added groups to the GM Tools.  You can now create adventuring groups with group members selected from your pool of characters.  Groups can have emblems and group obligation.  You can also print out a group sheet that lists all of the members that will be present during your current session, plus an obligation chart and a destiny pool tracker.
+Updated documentation to include groups for the GM Tools.
+
+File Changes:
+
+Added a new folder: Data\GroupEmblems
+Added 13 generic PNG files to Data\GroupEmblems.  You can select these for group emblems, or you can always use your own images.  Emblems can be of any size, but should be square (same width and height).  If you want your own emblems to be available to choose as "stock", just add them to this directory.
+Modified Droid.xml in Data\Species
+
+
+Release 1.0.0.10:
+
+When adding the Reinforced Shield Generator attachment, the firing arc wasn't being saved with the character.  This has been fixed.
+When selecting the Reinforced Shield Generator attachment, the choose arc dialog would always show all four arcs, even if the ship's silhouette was less than 5.  This has been fixed.
+When any attachment is now active and has a choice option for a mod (currently, only the defense shield mod has such an option), a "Choose" button will now appear at the top right.  Clicking this will run down all choices for an attachment.  For instance, if you have the shield attachment with one base defense shield mod and have also selected one additional shield mod, clicking "Choose" will bring up the dialog twice, once for each mod.
+Changed the price of the vibro-knife to 250 credits.
+The generator was needlessly saving vehicle attributes with the character.  As this is calculated by the generator based on other data, it is not required to be saved.  It no longer is.
+The light blaster cannon (a vehicle weapon) had the same key as the light blaster pistol.  Light blaster cannon has had its key changed to BLASTCANLT and heavy blaster cannon to BLASTCANHVY.  All vehicles that use these weapons have had their keys modified.
+Made a major change to the way data is customized.  All customized data is now saved in separate files in the DataCustom directory.  You can now copy new releases over old ones and still have your data saved.  The data editor has also been enhanced to use this new model, and a facilty to convert older custom data to the new format is also included.  SEE "SPECIAL NOTE" FOR IMPORTANT STEPS TO CONVERT YOUR CUSTOM DATA.
+Added a vehicle editor to the data editor app.  You can now add your own vehicles and starships.
+Added a column to the main grid of the editor to indicate if an item is custom or not.  Blank means it's a base item, "DescOnly" means you've only changed the description, "CustomItem" means it will completely replace the base item, and "Added" means it's a new item.
+The context menu for vehicle portraits would only work properly if you first visited the background pane.  This has been fixed.
+Starfighters weren't showing up in the vehicle summary on both the vehicle pane and in the new vehicle dialog.  This has been fixed.
+
+Special Note:
+
+This release changes the way custom data is stored.  You will need to convert your existing custom data before doing a complete install. If you have not updated descriptions, items, or added items, then you do not have to perform these steps.  To convert your existing data, follow these steps:
+
+Copy over the executables and DLL files from this release, but NOT the new data.
+Run the data editor app
+Click the "Convert" button to the top right of the main grid.  This will bring up the conversion dialog.
+Conversion has three steps.  The first step will take USER items that you've added yourself, remove them from your current data, and add them to the "DataCustom" directory.  Click the Step 1 button.  These items will be marked as "Added" and saved to your "DataCustom" directory.
+Step 2 involves you selecting base data that you've changed descriptions for, but nothing else.  Go through all tables and select items for which you've ONLY modified descriptions and click the check box next to them.  When you're done, click the Step 2 button.  This data will be marked as "Description Only" and saved to your "DataCustom" directory.
+Step 3 involves you selecting base data that you've custom modified (not just the description).  Click "Unselect All Tables" to revert the grid back to everything being unselected, then go through everything again, selecting anything that you've customized beyond just changing descriptions.  These items will completely override the base item of the same type.  When you're done, click the Step 3 button.  This data will be marked as "Custom Item" and saved to your "DataCustom" directory.
+Exit the convert dialog and the data editor.
+Check the "DataCustom" directory and make sure all of your changed items are there.  If not, repeat the above steps until everything you want saved can be found in "DataCustom".
+Copy over the "Data" directory with the data from the current release.
+Run the apps as normal.
+
+From now on, your custom data will be safe and you can always just copy over the base data with the latest from the release.  If the release notes specifically mention a change to an item that you've already customized (beyond just changing the description), either make the change yourself, or remove your custom data.
+
+
+
+
+Release 1.0.0.9:
+
+Added Attribute Bonuses to the specialization editor.  You can have a specialization give bonuses to any attribute.  To make a specialization "force-aware", just add 1 to Force Rating.
+Added scrolling to the panel-based forms so that you can reach all controls that might become hidden due to low resolution.  This has been done for the main character generator window, the GM Tools window, and the edit adversary window.
+Starting skill rank of minion groups in the encounter sheet was incorrect.  This has been fixed.
+The biggy for this release, the character editor now let's you purchase and upgrade vehicles, including starships.  You can purchase as many as you can afford, add attachments and upgrade weapons, name it, add some brief notes for it, and print up a vehicle sheet (full-color and simplified, just like the other printed sheets).  All vehicles, attachments, and weapons from the CRB are included.
+Added a vehicle summary on page 4 of the character sheet.
+
+File Changes:
+
+Added the following vehicle-only weapons to Data\Weapons.xml:
+
+  Auto-Blaster
+  Light Blaster Cannon
+  Heavy Blaster Cannon
+  Concussion Missile Launcher
+  Light Ion Cannon
+  Medium Ion Cannon
+  Heavy Ion Cannon
+  Light Laser Cannon
+  Medium Laser Cannon
+  Heavy Laser Cannon
+  Proton Torpedo Launcher
+  Quad Laser Cannon
+  Light Tractor Beam
+  Medium Tractor Beam
+  Heavy Tractor Beam
+  Light Turbolaser
+  Medium Turbolaser
+  Heavy Turbolaser
+  Electromagnetic Harpoon
+  Concussion Grenade Launcher
+
+Added the following vehicle-specific attachments to Data\ItemAttachments.xml:
+
+  Advanced Targeting Array
+  Enhanced Carbon-Durasteel Armor
+  Electronic Countermeasures Suite
+  Hydraulic Control Circuits
+  Reinforced Shield Generator
+  Retrofitted Hangar Bay
+  Hyperdrive Generator
+
+Added the following descriptors to Data\ItemDescriptors.xml:
+
+  Increase Armor
+  Decreases Handling
+  Decreases Strain
+  Increases Strain
+  Increase Defense Zone
+  Convert 25 encumbrance capacity to smuggling compartment
+  Retrofits Hangar Bay
+  Increase Silhouette Capacity of Hangar Bay by 1
+  Decreases Hyperdrive Class by 1, to a minimum of 1
+  Decreases Hyperdrive Class by 1, to a minimum of .5
+
+Added folder Data\Vehicles
+Added 35 vehicle XML files to Data\Vehicles
+Added folder Data\VehicleImages
+Added 35 vehicle image files to Data\VehicleImages, plus one default image file
+Added folder Data\VehicleSilhouettes
+Added 35 vehicle silhouette image files to Data\VehicleSilhouettes, plus one default silhouette image file
+
+
+
+
+Release 1.0.0.8:
+
+When exporting a character, it would try to export the currently-loaded character, rather than the character selected in the list.  It will now export the selected character, so you no longer have to load the character first.
+Spelling mistake in Career pane ("You my choose" istead of "You may choose") has been fixed.
+Fixed a stack overflow error when choosing a species that gives extra career skills, taking the extra skills, then either switching species or switching species options.
+If you double-clicked on the header row of the character grid when you had no characters, it would throw an error.  This has been fixed for any grid you can double-click.
+In the descriptive text for minions on the encounter sheet, I forgot to add "above one" in the skill rule.  That's been fixed.
+The encounter editor was erroneously not allowing multiple groups of the same type of adversary.  You can now add the same adversary as different groups with different group counts.
+If an adversary's name was too long, it would become truncated on the encounter sheet.  The font size of the name is now adjusted so that the name will fit into its space, no matter how long it is.
+The weapon editor was not setting the crit control, so crits were always showing up as 1.  This has been fixed.
+Standardized all crit controls so that you can enter a minimum of 0 and a maximum of 6.
+A bug was introduced in species edit when you add a skill to an option.  The skill would always show up as having rank 0.  This has been fixed.
+A discrepancy was found in the definitions of many species.  For some, skills and optional skills were being added using the RankAdd tag, while for others, it was the RankStart tag.  These have been standardized to RankStart and the species editor has been standardized to RankStart as well.  Consequently, many older species have been modified.
+Added the following new species from Menagerie 2.0:  Togorian, Togruta, Toydarian, Verpine, Weequay, Whiphid, Zabrak, and Zeltron.  These are the last of the species from Menagerie 2.0.
+
+File Changes:
+
+The following species files have been modified under Data\Species:
+  Chiss.xml
+  Dashade.xml
+  Devaronian.xml
+  Duros.xml
+  Ewok.xml
+  Farghul.xml
+  Gotal.xml
+  Twi'lek.xml
+  Squib.xml
+  Noghri.xml
+The following new species files have been added under Data\Species:
+  Togorian.xml
+  Togruta.xml
+  Toydarians.xml
+  Verpine.xml
+  Weequay.xml
+  Whiphid.xml
+  Zabrak.xml
+  Zeltron.xml
+The following new species portrait files have been added under Data\SpeciesImages:
+  TOGORIAN.png
+  TOGRUTA.png
+  TOYDARIAN.png
+  VERPINE.png
+  WEEQUAY.png
+  WHIPHID.png
+  ZABRAK.png
+  ZELTRON.png
+
+Release 1.0.0.7
+
+Added a special weapon to all characters called "Unarmed".  This represents the standard unarmed weapon option.  It cannot be removed, sold, equipped, or held, but it can be shown or not shown, depending on whether or not you want to display it on your character sheet.
+Added a new feature to species to support specialized innate weapon options, such as claws.  Species modified with such abilities include Barabel, Cathar, Gamorrean, and Trandoshans.
+Modified the species editor to support the new innate weapon feature.
+An incorrect lookup was causing a bad xp calculation when purchasing non-career specializations.  This has been corrected.
+Padded armor incorrectly had 2 hard points.  It now has 0.
+Fixed price of shock gloves to be 300 credits.
+In the Survivalist tree, a connection between Swift and Outdoorsman was incompletely defined.  It is now fixed.
+In the Gadgeteer tree, removed an incorrect one-way link from Point Blank to Disorient.
+Skills that had been modified with attachments were having their XP calculated incorrectly.  This has been fixed.
+The Vacuum Sealed armor mod was incorrectly priced. This has been fixed to 1000 credits.
+The Cybernetic Leg (Mod II) implant was incorrectly priced.  This has been fixed to 10000 credits.
+For printing, full color/simplified and default page settings will now be saved between launches.  This applies to character sheet printing, as well as new print features.
+For all non-dialog windows, such as the main generator window and the main editor window, the last position and size of the window will now be saved between launches.
+If you purchased more than one specialization that included a force rating (you would have to create your own, as the generator only includes Force Sensitive Outcast), your force rating would be cumulative.  This has been fixed so that all specializations can only contribute a maximum of one to your force rating.
+Added a new feature to species.  Species can now designate certain skills as career skills.  The species editor has been updated to offer this feature, as has the following species:  Shistavanen, Squib.
+Skills selected in species and species option can now have a minimum rank of 0 and a maximum rank of 5.  If a species designates a skill as a career skill, but does not offer a bonus to that skill, just specify 0 for the rank and check the Career? checkbox.
+Added the following species, from Menagerie 2.0:  Shistavanen, Sluissi, Snivvian, Squib, Sullustan.
+Added a new application for GM Tools.  Currently, this application supports adding and editing of adversaries, creating graphical adversary stat blocks that you can include in your own documents, and creating and printing out encounter tracking sheets.  I'll be adding more features to this, including group sheets and starships, in upcoming releases.  See the documentation for full details on the new GM Tools.  Special thanks goes to jshock at the RPTools forums for his fantastic work on the icons I'm using for conditions and effects.
+Added a donate button to the generator.  A lot of people have been asking for this, and I really appreciate the support!
+A few dialog windows had the "Show in taskbar" setting turned on.  Now, only the main app window will show in the task bar.
+Updated the documentation with the new GM Tools feature, as well as some other changes.  Also included a table of contents, and it now indicates the time/date it was last updated, as well as the version of the software that it was updated to.
+Added the Lightsaber skill in order for Force-wielding adversaries to have a skill to use with their lightsabers.  This is an Agility-based combat skill.
+Changed the Lightsaber weapon to use the new Lightsaber skill.
+
+File Changes:
+
+Modified Data/Gear.xml to fix price of Cybernetic Leg (Mod II) implant.
+Modified Data/Armor.xml to change hard points of Padded Armor
+Modified Data/Weapons.xml to fix price of shock gloves and to add the new Lightsaber skill to the lightsaber.
+Modified Data/Skills.xml to include the new Lightsaber skill.
+Modified Data/Specializations/Survivalist.xml to fix connection problem in tree
+Modified Data/Specializations/Gadgeteer.xml to fix connection problem in tree
+Modified Data/ItemDescriptors.xml to add the following new descriptors:
+  DIFFSUBLONG (Decrease Long Range Difficulty)
+  DIFFSUBLONGEXT (Decrease Long and Extreme Range Difficulty)
+
+Modified Data/ItemDescriptors.xml to add <QualDesc> descriptions to all untyped descriptors (ones that aren't skills, qualities, talents, or characteristics).
+Modified Data/ItemAttachments.xml to:
+  Use DIFFSUBLONGEXT in place of a miscellaneous descriptor for the Telescopic Optical Sight attachment.
+  Fixed price of Vacuum Sealed armor mod
+Modified the following files in Data/Species to add new innate weapons:
+  Barabel.xml
+  Cathar.xml
+  Gamorrean.xml
+  Trandoshan.xml
+
+Added the following new files to Data/Species:
+  Shistavanen.xml
+  Sluissi.xml
+  Snivvian.xml
+  Squib.xml
+  Sullustan.xml
+
+Added the following new files to Data/SpeciesImages:
+  SHIST.png
+  SLUISSI.png
+  SNIIVVIAN.png
+  SQUIB.png
+  SULLUSTAN.png
+
+Added the following new directory to Data:
+  Adversaries
+
+Added the following new files to Data\Adversaries:
+  Adver01.xml through Adver65.xml (66 new files)
+
+  
+Release 1.0.0.6
+
+Fix a strange issue where clicking on the descriptive text in obligations and motivations would cause the text box to lose focus after each character typed.
+For obligation size, now using a numeric up/down control to validate for numeric entry only.  Before, adding a non-numeric value for Size would crash the program.
+Added a checkbox to the Equipment pane called "Show Purchasable Items Only".  If clicked, the current equipment grid will only show items that you can purchase with your current number of credits.  This checkbox does not affect item attachments.
+On page 4 of the character sheet, modified the weapon grid.  Added the following columns:  DAM (damage), CRIT (critical number), RANGE (range).  These numbers are the same as the ones used on the first page and reflect the weapon's attributes as wieled by the character.  That is, all attachments, talents, etc., have been factored in.
+On page 4 of the character sheet, modified the armor grid.  Added the following columns:  SOAK (soak value), MDEF (melee defense), RDEF (ranged defense).  These numbers are only what the armor contributes to your thresholds, including any mods such as Superior Armor.
+Fixed a problem with the Tinkerer talent.  If you chose a piece of equipment to add HP to, then chose another one, the first would still have the HP.  The count would also say "-1", assuming you only have one rank in Tinkerer.  It will now properly modify the HP of your equipment.
+Added editors for Obligation, Class, Hook, Specializations, Careers, Motivations, and Talents.
+Since you can now modify talents, I changed the way special choices work for talents.  Depending on the talent, you can choose new career skills (e.g., Well Rounded), choose a set of skills for some specific purpose (e.g., Deadly Accuracy), choose a characteristic (e.g., Dedication), or add HP (e.g., Tinkerer).  Before, it only supported one of these at a time.  It will now support all of them in a single talent (assuming you want to create some balance-shattering super talent).  When you click on the "Play" button, it will cycle through all of the choice dialogs you've configured.  Also, the tool tip of the "Play" button will reflect all choices.
+When editing items in the data editor, the descriptions would be set back to their defaults.  It will now save the previous description.
+Changed the default description for species to follow the format in the Core Rulebook.  It will now default with stubs for Physiology, Society, Homeworld, and Language. This should make entering the description easier, as you won't have to copy text from another species.
+The editor will now verify that user skills, specializations, and talents aren't being referenced by other items before allowing them to be removed.  If they're used elsewhere, it'll tell you where they're being used so you can remove the reference(s) first.  This will help ensure data integrity.
+In the editor, each time you modified an existing item, it would give it a new key.  Now it will retain the original key.  Added items will still get a new key.
+When editing Motivations and Species, the editor will now attempt to keep all option choice, option, and specific motivation keys that were already in place.  Before, when you edited Species (the Motivation editor is new with this release), each option choice and option would get a new key each time, which usually differed from the original stock key.  As long as the name of the various items remains the same, the same key will now be used.  This will also be useful for editing the description for specific motivations within a particular motivation.
+Updated the documentation to include the new editors.
+Added "The Outsider" to Classes.xml
+Re-added Cathar.xml back to the Data/Species directory.  I had fixed it (it had the wrong descriptive text), but then forgot to include it in later releases.
+Added the following additional species (from Menagerie 2.0): Noghri, Ortolan, Quarren, Ryn, and Selkath.
+
+Data File Changes:
+
+Modified Classes.xml to include "The Outsider" class
+
+Replaced the following Species file under Data\Species:
+
+Cathar.xml
+
+Added the following Species files under Data\Species:
+
+Noghri.xml
+Ortolan.xml
+Quarren.xml
+Ryn.xml
+Selkath.xml
+
+Added the following image files under Data\SpeciesImages:
+
+NOGHRI.png
+ORTOLAN.png
+QUARREN.png
+RYN.png
+SELKATH.png
+
+
+Release 1.0.0.5
+
+Fixed an issue where printing would crash if you added force powers.
+Fixed another force power issue where unselected abilities wouldn't stay unselected if you switched between powers.
+Fixed all scaling issues by making both the generator and the editor DPI-aware.  No matter what your DPI setting, everything should look good, including the character sheet.  If you find the application is too large, check your DPI setting (Right-click your desktop, click "Personalize", click on Font Size (DPI) to the left).  If it's set to 120, try making it 96, which is the default.  Either way, all windows should scale properly now.
+When choosing a portrait, the stock image combo box defaulted to no selection.  If you clicked "Choose" at that point, the program would crash.  The combo box will now default to the first species.
+Added the following additional species (from Menagerie 2.0):  Kubaz, Mon Calamari, Nagai, Nautolan, Neimoidian, and Nikto.
+
+Data File Changes:
+
+Added the following Species files under Data\Species:
+
+Kubaz.xml
+Mon Calamari.xml
+Nagai.xml
+Nautolan.xml
+Neimoidian.xml
+Nikto.xml
+
+Added the following image files under Data\SpeciesImages:
+
+KUBAZ.png
+MONCAL.png
+NAGAI.png
+NAUTOLAN.png
+NEIM.png
+NIKTO.png
+
+
+Release 1.0.0.4
+
+In Weapons.xml, changed Bowcaster skill to Ranged - Heavy, instead of Ranged - Light.
+In Talents.xml, fixed the spelling of the Indistinguishable talent.
+New Naming Convention:  If you're adding Careers, Specializations, Species, or Force Powers by hand, please note that the file name must be the name of the item you're adding with ".xml" at the end.  For instance, if you add a species and give it the name "Really Nasty Dude" (in the <Name> tag), then you must call the file "Really Nasty Dude.xml".  For this reason, please only use characters in the name that are valid characters for file names under Windows.
+An issue was fixed with multiple instances of unranked talents in the trees.  If you choose an unranked talent in one tree, and it becomes available in another tree, the second one is received automatically and costs no extra XP.  Such talents will now automatically become selected.  The downside of this is that I have to ensure data integrity and prevent loss of other talents, or corruption of talents.  So, if you unselect the original unranked talent (the one that costs XP), and you still have a "free" instance of it somewhere, one of the "free" instances will then become the "purchased" talent and XP is recalculated accordingly.  This will then cause the talent you just unselected to become selected again, because it is now seen as "free".  In order to unselect such talents, you'll need to unselect the talent ABOVE them.  Then you'll be able to unselect the other as normal.
+Added Species to the data editor.  You can now edit and add new species through the data editor.
+Modified the character load function to validate species.  If a saved character has a species that has been removed, it will default to Human.
+Modified the character load function to validate species options, just in case options have been removed or added.
+Added talents to species option choices.  This was supported in the XML, but as no stock species used it, I hadn't implemented it in code.  It is now implemented.  Talents acquired in such a way will show up as coming from a species option on page 3 of the character sheet.
+Modified the documentation to include the species editor.
+Added four more species:  Herglic, Ithorian, Jawa, and Klatooinian.
+Archive will now include this document.
+
+Data File Changes:
+
+Modified Weapons.xml to fix skill for Bowcaster
+Modified Talents.xml to fix misspelling of Indistinguishable talent
+Renamed the following Specialization files under Data/Specializations:
+
+   "Mercenary.xml" to "Mercenary Soldier.xml"
+
+Renamed the following Career files under Data/Careers:
+
+   "BountyHunter.xml" to "Bounty Hunter.xml"
+
+Renamed the following Species files under Data/Species:
+
+   "Twilek.xml" to "Twi'lek.xml"
+
+Added the following Species files under Data\Species:
+
+Herglic.xml
+Ithorian.xml
+Jawa.xml
+Klatooinian.xml
+
+Added the following image files under Data\SpeciesImages:
+
+HERGLIC.png
+ITHORIAN.png
+JAWA.png
+KLATOO.png
+
+
+Release 1.0.0.3
+
+Due to popular demand, I designed and added a new "simplified" style of character sheet.  This sheet has all of the features of the full-color sheet, but is very ink- and toner-friendly.  If you make lots of changes to your characters, and don't want to waste a bunch of ink every time you print them out, try this new sheet style.  If a pretty sheet is important, or if you're printing to a PDF, use the original full-color sheet.  To change the style of sheet, just choose the "Sheet Style" dropdown in the Print dialog.
+Cached print pages, so they only need to be rendered once.  This means that switching back and forth between color and simplified sheets, or changing printer settings, should be much faster after the first time.
+Modified the wording for encumbrance.  Shortened encumbered text and added unencumbered text for any encumbrance at or below threshold.
+Added version info for the generator and editor.
+Added the following new species, from the 2.0 Menagerie:  Falleen, Farghul, Gamorrean, Givin, Gotal, Gran, Gungan.
+
+Data File Changes:
+
+Added the following Species files under Data\Species:
+
+Falleen.xml
+Farghul.xml
+Gamorrean.xml
+Givin.xml
+Gotal.xml
+Gran.xml
+Gungan.xml
+
+Added the following image files under Data/SpeciesImages:
+
+FALLEEN.png
+FARGHUL.png
+GAMORREAN.png
+GIVIN.png
+GOTAL.png
+GRAN.png
+GUNGAN.png
+
+
+Release 1.0.0.2
+
+Removed Discipline skill modifier from Droid species.
+Modified Encumbrance.  Instead of losing your free maneuver if your encumbrance exceeds or is at your Brawn, you now lose it if your encumbrance exceeds or is at your encumbrance threshold, plus your Brawn.
+Set background of all character sheet pages to stretch to fit the given size.  This may prevent certain bitmap sizing issues reported by some people.
+On the Species pane, "Wound Threshold" was appearing twice by mistake.  The second occurrence was supposed to be "Strain Threshold", which it now is.
+Modified how species option is displayed on page 3 of the character sheet.  It will now display up to three options, will grow or shrink the description row as needed, and will remove all rows that are not used.
+Modified the way species portraits are stored.  Originally, they were stored as resources in the application.  However, so new species can be added along with their portraits, they are now stored in the "Data\SpeciesImages" directory.  The name of each portrait is "<key>.png", where "<key>" is the key for the species.  So, as an example, the Trandoshan portrait would be stored as "Data\SpeciesImages\TRAND.png".  Obviously, they must be in PNG format.  This has the secondary effect of making the executable smaller, in case you're wondering why the new one isn't as large as the old one.
+Modified the select portrait dialog to support all species portraits using the new external portrait feature.
+Added the following "unofficial" species (with some modifications):  Aqualish, Arkanian, Arkanian Offshoot, Barabel, Bith, Caamasi, Cathar, Cerean, Chadra-Fan, Chiss, Clawdite, Dashade, Defel, Devaronian, Dug, Duros, Ewok.  This information comes from "The Unofficial Species Menagerie" by Jonathan "Donovan Morningfire" Stevens, amongst others, which can be found at various places on the web.  Most descriptive information and images obtained from Wookieepedia (www.wookieepedia.com).
+
+Data File Changes:
+
+Modified Gear.xml to include protective goggles for Defel
+Added the following Species files under Data\Species:
+  Aqualish.xml
+  Arkanian.xml
+  Arkanian Offshoot.xml
+  Barabel.xml
+  Bith.xml
+  Caamasi.xml
+  Cathar.xml
+  Cerean.xml
+  Chadra-Fan.xml
+  Chiss.xml
+  Clawdite.xml
+  Dashade.xml
+  Defel.xml
+  Devaronian.xml
+  Dug.xml
+  Duros.xml
+  Ewok.xml
+Added all files under Data\SpeciesImages
+
+
+Release 1.0.0.1
+
+Fixed armor encumbrance calculation, subtracting 3 from encumbrance value if equipped, to a minimum of 0.
+Added MedPac to Gear.xml
+Fixed the encumbrance of Emergency Medpac in Gear.xml
+Fixed XP calculation for skills by taking total rank XP and subtracting non-purchased rank XP
+Modified wound and strain calculations by using only starting Brawn and Willpower (species base, plus purchased), from page 31.
+Fixed Rodian starting characteristic values
+Fixed minor issue with the character's "dirty" flag being set whenever a new character was loaded and its credits or earned XP total was different than the previous character's.  This would cause the newly-loaded character to appear as being modified, enabling the "Save" button and prompting for it to be saved if a new character was loaded.
+Fixed dice pool display for skills, which was not creating a proper dice pool based on skill rank and characteristic score, according to page 19.
+Fixed the anchor of the "About" button so it stays in the proper place if the window is resized.
+Some people were reporting graphical issues at lower resolution.  For the bottom summary panel, I forced the stat panel to stretch to fit a fixed size, then re-positioned the various text and values to match.  I'm hoping this will fix that problem.
+When selecting talents in a specialization tree, un-selecting a top-level talent would correctly un-select all dependent talents, but would only return XP for the talent that was clicked. If another talent was then selected or un-selected, the XP calculation would correct itself.  The XP calculation will now be performed correctly after all dependent talents have become un-selected.
+

@@ -1,0 +1,1254 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Armors>
+  <Armor>
+    <Key>AEG</Key>
+    <Name>Adverse Environmental Gear</Name>
+    <Description>
+      [H3]Adverse Environmental Gear[h3]
+      Please see page 169 of the Edge of the Empire Core Rulebook, page 184 of the Age of Rebellion Core Rulebook, or page 178 of the Force and Destiny Core Rulebook, for details.
+    </Description>
+    <Defense>0</Defense>
+    <Soak>1</Soak>
+    <Price>500</Price>
+    <Encumbrance>2</Encumbrance>
+    <HP>1</HP>
+    <Rarity>1</Rarity>
+  </Armor>
+  <Armor>
+    <Key>AC</Key>
+    <Name>Armored Clothing</Name>
+    <Description>
+      [H3]Armored Clothing[h3]
+      Please see page 169 of the Edge of the Empire Core Rulebook, page 184 of the Age of Rebellion Core Rulebook, or page 178 of the Force and Destiny Core Rulebook, for details.
+    </Description>
+    <Defense>1</Defense>
+    <Soak>1</Soak>
+    <Price>1000</Price>
+    <Encumbrance>3</Encumbrance>
+    <HP>1</HP>
+    <Rarity>6</Rarity>
+  </Armor>
+  <Armor>
+    <Key>ARMROBE</Key>
+    <Name>Armored Robes</Name>
+    <Description>
+      [H3]Armored Robes[h3]
+      Please see page 179 of the Force and Destiny Core Rulebook for details.
+    </Description>
+    <Source>Force and Destiny Core Rulebook</Source>
+    <Defense>1</Defense>
+    <Soak>2</Soak>
+    <Price>4500</Price>
+	<Restricted>true</Restricted>
+    <Encumbrance>3</Encumbrance>
+    <HP>2</HP>
+    <Rarity>8</Rarity>
+  </Armor>
+  <Armor>
+    <Key>CONROBE</Key>
+    <Name>Concealing Robes</Name>
+    <Description>
+      [H3]Concealing Robes[h3]
+      Please see page 179 of the Force and Destiny Core Rulebook for details.
+    </Description>
+    <Source>Force and Destiny Core Rulebook</Source>
+    <Defense>0</Defense>
+    <Soak>1</Soak>
+    <Price>150</Price>
+    <Encumbrance>1</Encumbrance>
+    <HP>0</HP>
+    <Rarity>2</Rarity>
+    <BaseMods>
+      <Mod>
+        <MiscDesc>
+          Add [SETBACK] to checks to notice or recognize an individual wearing concealing robes.
+        </MiscDesc>
+        <Count>1</Count>
+      </Mod>
+    </BaseMods>
+  </Armor>
+  <Armor>
+    <Key>HBA</Key>
+    <Name>Heavy Battle Armor</Name>
+    <Description>
+      [H3]Heavy Battle Armor[h3]
+      Please see page 170 of the Edge of the Empire Core Rulebook, or page 184 of the Age of Rebellion Core Rulebook, for details.
+    </Description>
+    <Sources>
+      <Source>Edge of the Empire Core Rulebook</Source>
+      <Source>Age of Rebellion Core Rulebook</Source>
+    </Sources>
+    <Categories>
+      <Category>Sealed</Category>
+    </Categories>
+    <Defense>1</Defense>
+    <Soak>2</Soak>
+    <Price>5000</Price>
+    <Restricted>true</Restricted>
+    <Encumbrance>6</Encumbrance>
+    <HP>4</HP>
+    <Rarity>7</Rarity>
+  </Armor>
+  <Armor>
+    <Key>HC</Key>
+    <Name>Heavy Clothing</Name>
+    <Description>
+      [H3]Heavy Clothing[h3]
+      Please see page 169 of the Edge of the Empire Core Rulebook, page 185 of the Age of Rebellion Core Rulebook, or page 180 of the Force and Destiny Core Rulebook for details.
+    </Description>
+    <Defense>0</Defense>
+    <Soak>1</Soak>
+    <Price>50</Price>
+    <Encumbrance>1</Encumbrance>
+    <HP>0</HP>
+    <Rarity>0</Rarity>
+  </Armor>
+  <Armor>
+    <Key>LAM</Key>
+    <Name>Laminate</Name>
+    <Description>
+      [H3]Laminate (Stormtrooper Armor)[h3]
+      Please see page 169 of the Edge of the Empire Core Rulebook, or page 185 of the Age of Rebellion Core Rulebook, for details.
+    </Description>
+    <Sources>
+      <Source>Edge of the Empire Core Rulebook</Source>
+      <Source>Age of Rebellion Core Rulebook</Source>
+    </Sources>
+    <Categories>
+      <Category>Sealed</Category>
+    </Categories>
+    <Defense>0</Defense>
+    <Soak>2</Soak>
+    <Price>2500</Price>
+    <Encumbrance>4</Encumbrance>
+    <HP>3</HP>
+    <Rarity>5</Rarity>
+  </Armor>
+  <Armor>
+    <Key>PDS</Key>
+    <Name>Personal Deflector Shield</Name>
+    <Description>
+      [H3]Personal Deflector Shield[h3]
+      Please see page 170 of the Edge of the Empire Core Rulebook, or page 185 of the Age of Rebellion Core Rulebook, for details.
+    </Description>
+    <Sources>
+      <Source>Edge of the Empire Core Rulebook</Source>
+      <Source>Age of Rebellion Core Rulebook</Source>
+    </Sources>
+    <Defense>2</Defense>
+    <Soak>0</Soak>
+    <Price>10000</Price>
+    <Encumbrance>3</Encumbrance>
+    <HP>0</HP>
+    <Rarity>8</Rarity>
+  </Armor>
+  <Armor>
+    <Key>PAD</Key>
+    <Name>Padded Armor</Name>
+    <Description>
+      [H3]Padded Armor[h3]
+      Please see page 169 of the Edge of the Empire Core Rulebook, page 185 of the Age of Rebellion Core Rulebook, or page 180 of the Force and Destiny Core Rulebook for details.
+    </Description>
+    <Defense>0</Defense>
+    <Soak>2</Soak>
+    <Price>500</Price>
+    <Encumbrance>2</Encumbrance>
+    <HP>0</HP>
+    <Rarity>1</Rarity>
+  </Armor>
+  <Armor>
+    <Key>ENVIROSUIT</Key>
+    <Name>Enviro-suit</Name>
+    <Description>
+      [H3]Enviro-suit[h3]
+      Please see page 44 of the Enter the Unknown Sourcebook for details.
+    </Description>
+    <Categories>
+      <Category>Sealed</Category>
+    </Categories>
+    <Source>Enter the Unknown</Source>
+    <Defense>0</Defense>
+    <Soak>2</Soak>
+    <Price>750</Price>
+    <Encumbrance>2</Encumbrance>
+    <HP>1</HP>
+    <Rarity>2</Rarity>
+    <BaseMods>
+      <Mod>
+        <MiscDesc>Suffer [SETBACK] to any Agility- or Perception-based checks</MiscDesc>
+        <Count>1</Count>
+      </Mod>
+    </BaseMods>
+  </Armor>
+  <Armor>
+    <Key>CRASHSUIT</Key>
+    <Name>A/KT Shockrider Crash Suit</Name>
+    <Description>
+      [H3]A/KT Shockrider Crash Suit[h3]
+      Please see page 45 of the Enter the Unknown Sourcebook, or page 42 of the Stay on Target Sourcebook, for details.
+    </Description>
+    <Sources>
+      <Source>Enter the Unknown</Source>
+      <Source>Stay on Target</Source>
+    </Sources>
+    <Defense>0</Defense>
+    <Soak>2</Soak>
+    <Price>3000</Price>
+    <Encumbrance>2</Encumbrance>
+    <HP>1</HP>
+    <Rarity>3</Rarity>
+    <BaseMods>
+      <Mod>
+        <Key />
+        <Count>1</Count>
+        <MiscDesc>Reduces strain received from Critical Hits to the wearer's vehicle by 1 (min 1).</MiscDesc>
+      </Mod>
+      <Mod>
+        <Key />
+        <Count>1</Count>
+        <MiscDesc>Reduce damage from fires and weapons with the Burn quality by 1.</MiscDesc>
+      </Mod>
+    </BaseMods>
+  </Armor>
+  <Armor>
+    <Key>UTILITYVEST</Key>
+    <Name>A/KT Tracker Utility Vest</Name>
+    <Description>
+      [H3]A/KT Tracker Utility Vest[h3]
+      Please see page 45 of the Enter the Unknown Sourcebook for details.
+    </Description>
+    <Source>Enter the Unknown</Source>
+    <Defense>0</Defense>
+    <Soak>0</Soak>
+    <Price>100</Price>
+    <Encumbrance>0</Encumbrance>
+    <HP>1</HP>
+    <Rarity>2</Rarity>
+    <BaseMods>
+      <Mod>
+        <Key>ENCTADD</Key>
+        <Count>2</Count>
+      </Mod>
+    </BaseMods>
+  </Armor>
+  <Armor>
+    <Key>MOUNTARMOR</Key>
+    <Name>A/KT Mountaineer Armor</Name>
+    <Description>
+      [H3]A/KT Mountaineer Armor[h3]
+      Please see page 45 of the Enter the Unknown Sourcebook for details.
+    </Description>
+    <Source>Enter the Unknown</Source>
+    <Defense>1</Defense>
+    <Soak>1</Soak>
+    <Price>1800</Price>
+    <Encumbrance>3</Encumbrance>
+    <HP>2</HP>
+    <Rarity>6</Rarity>
+    <BaseMods>
+      <Mod>
+        <MiscDesc>Grants [BOOST][BOOST] to all Athletics skill checks made to climb or rappel</MiscDesc>
+        <Count>1</Count>
+      </Mod>
+    </BaseMods>
+  </Armor>
+  <Armor>
+    <Key>CATCHVEST</Key>
+    <Name>Catch Vest</Name>
+    <Description>
+      [H3]Catch Vest[h3]
+      Please see page 99 of the Suns of Fortune Sourcebook for details.
+    </Description>
+    <Source>Suns of Fortune</Source>
+    <Defense>0</Defense>
+    <Soak>1</Soak>
+    <Price>300</Price>
+    <Encumbrance>1</Encumbrance>
+    <HP>0</HP>
+    <Rarity>3</Rarity>
+    <BaseMods>
+      <Mod>
+        <MiscDesc>Has soak value of 2 against all energy-based weapons</MiscDesc>
+        <Count>1</Count>
+      </Mod>
+    </BaseMods>
+  </Armor>
+  <Armor>
+    <Key>NOMADCOAT</Key>
+    <Name>Nomad Greatcoat</Name>
+    <Description>
+      [H3]Nomad Greatcoat[h3]
+      Please see page 99 of the Suns of Fortune Sourcebook for details.
+    </Description>
+    <Source>Suns of Fortune</Source>
+    <Defense>0</Defense>
+    <Soak>1</Soak>
+    <Price>100</Price>
+    <Encumbrance>1</Encumbrance>
+    <HP>0</HP>
+    <Rarity>4</Rarity>
+    <BaseMods>
+      <Mod>
+        <MiscDesc>Reduces difficulty of Resilience checks made to resist the effects of extreme cold by 1</MiscDesc>
+        <Count>1</Count>
+      </Mod>
+      <Mod>
+        <MiscDesc>Removes [SETBACK] added to checks due to extreme cold</MiscDesc>
+        <Count>1</Count>
+      </Mod>
+    </BaseMods>
+  </Armor>
+  <Armor>
+    <Key>MODARMORIII</Key>
+    <Name>Type III "Berethron" Personal Modular Armor</Name>
+    <Description>
+      [H3]Type III "Berethron" Personal Modular Armor[h3]
+      Please see page 99 of the Suns of Fortune Sourcebook for details.
+    </Description>
+    <Source>Suns of Fortune</Source>
+    <Defense>1</Defense>
+    <Soak>1</Soak>
+    <Price>1250</Price>
+    <Restricted>true</Restricted>
+    <Encumbrance>3</Encumbrance>
+    <HP>3</HP>
+    <Rarity>6</Rarity>
+  </Armor>
+  <Armor>
+    <Key>FLIGHTTX3</Key>
+    <Name>TX-3 Combat Flight Suit</Name>
+    <Description>
+      [H3]TX-3 Combat Flight Suit[h3]
+      Please see page 99 of the Suns of Fortune Sourcebook for details.
+    </Description>
+    <Source>Suns of Fortune</Source>
+    <Categories>
+      <Category>Sealed</Category>
+    </Categories>
+    <Defense>1</Defense>
+    <Soak>0</Soak>
+    <Price>3000</Price>
+    <Restricted>true</Restricted>
+    <Encumbrance>4</Encumbrance>
+    <HP>2</HP>
+    <Rarity>6</Rarity>
+  </Armor>
+  
+  <!-- Dangerous Covenants -->
+  <Armor>
+    <Key>BEASTHIDE</Key>
+    <Name>Beast-Hide Armor</Name>
+    <Description>
+      [H3]Beast-Hide Armor[h3]
+      Please see page 49 of the Dangerous Covenants Sourcebook for details.
+    </Description>
+    <Source>Dangerous Covenants</Source>
+    <Type />
+    <Categories />
+    <Encumbrance>3</Encumbrance>
+    <HP>0</HP>
+    <Price>300</Price>
+    <Rarity>2</Rarity>
+    <Restricted>false</Restricted>
+    <Defense>0</Defense>
+    <Soak>1</Soak>
+    <BaseMods>
+      <Mod>
+        <Key />
+        <Count>1</Count>
+        <Index>0</Index>
+        <MiscDesc>Add [ADVANTAGE] to Coercion checks and [THREAT] to Charm checks. </MiscDesc>
+
+        <DefZone />
+      </Mod>
+    </BaseMods>
+  </Armor>
+  <Armor>
+    <Key>CHARGESUIT</Key>
+    <Name>"Storm" Charge Suit</Name>
+    <Description>
+      [H3]"Storm" Charge Suit[h3]
+      Please see page 50 of the Dangerous Covenants Sourcebook for details.
+    </Description>
+    <Source>Dangerous Covenants</Source>
+    <Type />
+    <Categories />
+    <Encumbrance>3</Encumbrance>
+    <HP>0</HP>
+    <Price>2000</Price>
+    <Rarity>6</Rarity>
+    <Restricted>false</Restricted>
+    <Defense>0</Defense>
+    <Soak>2</Soak>
+    <BaseMods />
+  </Armor>
+  <Armor>
+    <Key>FLAKVEST</Key>
+    <Name>Mk. III Flak Vest</Name>
+    <Description>
+      [H3]Mk. III Flak Vest[h3]
+      Please see page 49 of the Dangerous Covenants Sourcebook for details.
+    </Description>
+    <Source>Dangerous Covenants</Source>
+    <Type />
+    <Categories />
+    <Encumbrance>3</Encumbrance>
+    <HP>1</HP>
+    <Price>300</Price>
+    <Rarity>2</Rarity>
+    <Restricted>false</Restricted>
+    <Defense>0</Defense>
+    <Soak>1</Soak>
+    <BaseMods>
+      <Mod>
+        <Key />
+        <Count>1</Count>
+        <Index>0</Index>
+        <MiscDesc>Add +1 Soak against damage from the Blast quality.</MiscDesc>
+
+        <DefZone />
+      </Mod>
+    </BaseMods>
+  </Armor>
+  <Armor>
+    <Key>PROTECTOR</Key>
+    <Name>Protector 1 Combat Armor</Name>
+    <Description>
+      [H3]Protector 1 Combat Armor[h3]
+      Please see page 49 of the Dangerous Covenants Sourcebook for details.
+    </Description>
+    <Source>Dangerous Covenants</Source>
+    <Type />
+    <Categories>
+      <Category>Sealed</Category>
+    </Categories>
+    <Encumbrance>4</Encumbrance>
+    <HP>3</HP>
+    <Price>5500</Price>
+    <Rarity>7</Rarity>
+    <Restricted>true</Restricted>
+    <Defense>1</Defense>
+    <Soak>2</Soak>
+    <BaseMods />
+  </Armor>
+  <Armor>
+    <Key>STEELSKIN</Key>
+    <Name>"Steelskin" Anti-Concussive Armor</Name>
+    <Description>
+      [H3]"Steelskin" Anti-Concussive Armor[h3]
+      Please see page 49 of the Dangerous Covenants Sourcebook for details.
+    </Description>
+    <Source>Dangerous Covenants</Source>
+    <Type />
+    <Categories>
+      <Category>Sealed</Category>
+    </Categories>
+    <Encumbrance>8</Encumbrance>
+    <HP>1</HP>
+    <Price>6500</Price>
+    <Rarity>7</Rarity>
+    <Restricted>true</Restricted>
+    <Defense>0</Defense>
+    <Soak>3</Soak>
+    <BaseMods>
+      <Mod>
+        <Key />
+        <Count>1</Count>
+        <Index>0</Index>
+        <MiscDesc>Add [SETBACK] to all Brawn- and Agility-based checks.  Reduce the duration of disoriented or staggered condition by 1 round.</MiscDesc>
+
+        <DefZone />
+      </Mod>
+    </BaseMods>
+  </Armor>
+  <Armor>
+    <Key>POWARMOR</Key>
+    <Name>PX-11 "Battlement" Powered Armor</Name>
+    <Description>
+      [H3]PX-11 "Battlement" Powered Armor[h3]
+      Please see page 51 of the Dangerous Covenants Sourcebook for details.
+    </Description>
+    <Source>Dangerous Covenants</Source>
+    <Type />
+    <Categories>
+      <Category>Sealed</Category>
+    </Categories>
+    <Encumbrance>3</Encumbrance>
+    <HP>3</HP>
+    <Price>9000</Price>
+    <Rarity>9</Rarity>
+    <Restricted>true</Restricted>
+    <Defense>1</Defense>
+    <Soak>3</Soak>
+    <BaseMods>
+      <Mod>
+        <Key>ATHL</Key>
+        <Count>1</Count>
+        <Index>0</Index>
+        <MiscDesc />
+
+        <DefZone />
+      </Mod>
+      <Mod>
+        <Key>BR</Key>
+        <Count>1</Count>
+        <Index>0</Index>
+        <MiscDesc />
+
+        <DefZone />
+      </Mod>
+      <Mod>
+        <Key />
+        <Count>1</Count>
+        <Index>0</Index>
+        <MiscDesc>Remove [SETBACK][SETBACK] from Perception, Vigilance, and combat checks imposed by darkness, smoke, or similar environmental factors that obscure vision.</MiscDesc>
+
+        <DefZone />
+      </Mod>
+    </BaseMods>
+  </Armor>
+  <Armor>
+    <Key>TAILOREDJACKET</Key>
+    <Name>Tailored Armored Jacket</Name>
+    <Description>
+      [H3]Tailored Armored Jacket[h3]
+      Please see page 44 of the Far Horizons Sourcebook for details.
+    </Description>
+    <Source>Far Horizons</Source>
+
+    <Type />
+    <Categories />
+    <Encumbrance>1</Encumbrance>
+    <HP>0</HP>
+    <Price>6200</Price>
+    <Rarity>7</Rarity>
+    <Restricted>false</Restricted>
+    <BaseMods>
+      <Mod>
+        <Key />
+        <Count>1</Count>
+        <Index>0</Index>
+        <MiscDesc>Add [ADVANTAGE] to any successful Charm, Deception, or Negotation checks.</MiscDesc>
+        <DefZone />
+        <VehicleWeaponUpgrades />
+        <SelectedVehicleWeaponIndex>-1</SelectedVehicleWeaponIndex>
+        <DieModifiers />
+      </Mod>
+    </BaseMods>
+    <Defense>0</Defense>
+    <Soak>2</Soak>
+  </Armor>
+  <Armor>
+    <Key>REINFENVIRO</Key>
+    <Name>Reinforced Environment Gear</Name>
+    <Description>
+      [H3]Reinforced Environment Gear[h3]
+      Please see page 44 of the Far Horizons Sourcebook for details.
+    </Description>
+    <Source>Far Horizons</Source>
+
+    <Type />
+    <Categories>
+      <Category>Sealed</Category>
+    </Categories>
+    <Encumbrance>2</Encumbrance>
+    <HP>2</HP>
+    <Price>850</Price>
+    <Rarity>4</Rarity>
+    <Restricted>false</Restricted>
+    <BaseMods>
+      <Mod>
+        <Key />
+        <Count>1</Count>
+        <Index>0</Index>
+        <MiscDesc>Removes [SETBACK] imposed by environmental conditions.</MiscDesc>
+        <DefZone />
+        <VehicleWeaponUpgrades />
+        <SelectedVehicleWeaponIndex>-1</SelectedVehicleWeaponIndex>
+        <DieModifiers />
+      </Mod>
+      <Mod>
+        <Key />
+        <Count>1</Count>
+        <Index>0</Index>
+        <MiscDesc>Add [BOOST] to Resilience checks to resist toxic atmospheres or airborne toxins.</MiscDesc>
+        <DefZone />
+        <VehicleWeaponUpgrades />
+        <SelectedVehicleWeaponIndex>-1</SelectedVehicleWeaponIndex>
+        <DieModifiers />
+      </Mod>
+    </BaseMods>
+    <Defense>0</Defense>
+    <Soak>1</Soak>
+  </Armor>
+  <Armor>
+    <Key>RIOTARMOR</Key>
+    <Name>Mk.IV Riot Armor</Name>
+    <Description>
+      [H3]Mk.IV Riot Armor[h3]
+      Please see page 44 of the Far Horizons Sourcebook for details.
+    </Description>
+    <Source>Far Horizons</Source>
+
+    <Type />
+    <Categories>
+      <Category>Sealed</Category>
+    </Categories>
+    <Encumbrance>3</Encumbrance>
+    <HP>1</HP>
+    <Price>1850</Price>
+    <Rarity>6</Rarity>
+    <Restricted>true</Restricted>
+    <BaseMods>
+      <Mod>
+        <Key />
+        <Count>1</Count>
+        <Index>0</Index>
+        <MiscDesc>Built-in breath mask</MiscDesc>
+        <DefZone />
+        <VehicleWeaponUpgrades />
+        <SelectedVehicleWeaponIndex>-1</SelectedVehicleWeaponIndex>
+        <DieModifiers />
+      </Mod>
+      <Mod>
+        <Key />
+        <Count>1</Count>
+        <Index>0</Index>
+        <MiscDesc>Reduce duration of disoriented or staggered results by one round (minimum of one round).</MiscDesc>
+        <DefZone />
+        <VehicleWeaponUpgrades />
+        <SelectedVehicleWeaponIndex>-1</SelectedVehicleWeaponIndex>
+        <DieModifiers />
+      </Mod>
+    </BaseMods>
+    <Defense>1</Defense>
+    <Soak>1</Soak>
+  </Armor>
+  <Armor>
+    <Key>WINGCOMMANDER</Key>
+    <Name>A/KT Wing Commander Armored Flight Suit</Name>
+    <Description>
+      [H3]A/KT Wing Commander Armored Flight Suit[h3]
+      Please see page 42 of the Stay on Target Sourcebook for details.
+    </Description>
+    <Source>Stay on Target</Source>
+    <Type />
+    <Categories>
+      <Category>Sealed</Category>
+    </Categories>
+    <Defense>1</Defense>
+    <Soak>1</Soak>
+    <Price>1500</Price>
+    <Encumbrance>3</Encumbrance>
+    <HP>1</HP>
+    <Rarity>6</Rarity>
+    <Restricted>false</Restricted>
+    <BaseMods>
+      <Mod>
+        <Key />
+        <Count>1</Count>
+        <MiscDesc>Reduces strain received from Critical Hits to the wearer's vehicle by 1 (min 1).</MiscDesc>
+      </Mod>
+      <Mod>
+        <Key />
+        <Count>1</Count>
+        <MiscDesc>Reduce damage from fires and weapons with the Burn quality by 1.</MiscDesc>
+      </Mod>
+    </BaseMods>
+  </Armor>
+  <Armor>
+    <Key>RIDINGTACK</Key>
+    <Name>Caballerin-Series Riding Tack</Name>
+    <Description>
+      [H3]Caballerin-Series Riding Tack[h3]
+      Please see page 42 of the Stay on Target Sourcebook for details.
+    </Description>
+    <Source>Stay on Target</Source>
+    <Type />
+    <Categories>
+    </Categories>
+    <Defense>0</Defense>
+    <Soak>0</Soak>
+    <Price>250</Price>
+    <Encumbrance>2</Encumbrance>
+    <HP>0</HP>
+    <Rarity>4</Rarity>
+    <Restricted>false</Restricted>
+    <BaseMods>
+      <Mod>
+        <Key />
+        <Count>1</Count>
+        <MiscDesc>May only be worn by a beast.</MiscDesc>
+      </Mod>
+      <Mod>
+        <Key />
+        <Count>1</Count>
+        <MiscDesc>May ride a beast without suffering bareback penalty.</MiscDesc>
+      </Mod>
+    </BaseMods>
+  </Armor>
+  <Armor>
+    <Key>CAPARIBEAST</Key>
+    <Name>Capari-Series Padded Beast Armor</Name>
+    <Description>
+      [H3]Capari-Series Padded Beast Armor[h3]
+      Please see page 43 of the Stay on Target Sourcebook for details.
+    </Description>
+    <Source>Stay on Target</Source>
+    <Type />
+    <Categories>
+    </Categories>
+    <Defense>0</Defense>
+    <Soak>2</Soak>
+    <Price>2500</Price>
+    <Encumbrance>4</Encumbrance>
+    <HP>0</HP>
+    <Rarity>5</Rarity>
+    <Restricted>false</Restricted>
+    <BaseMods>
+      <Mod>
+        <Key />
+        <Count>1</Count>
+        <MiscDesc>May only be worn by a beast.</MiscDesc>
+      </Mod>
+      <Mod>
+        <Key />
+        <Count>1</Count>
+        <MiscDesc>May ride a beast without suffering bareback penalty.</MiscDesc>
+      </Mod>
+    </BaseMods>
+  </Armor>
+  <Armor>
+    <Key>DESTRIBEAST</Key>
+    <Name>Destri-Series Laminated Beast Armor</Name>
+    <Description>
+      [H3]Destri-Series Laminated Beast Armor[h3]
+      Please see page 43 of the Stay on Target Sourcebook for details.
+    </Description>
+    <Source>Stay on Target</Source>
+    <Type />
+    <Categories>
+    </Categories>
+    <Defense>0</Defense>
+    <Soak>4</Soak>
+    <Price>8500</Price>
+    <Encumbrance>7</Encumbrance>
+    <HP>1</HP>
+    <Rarity>7</Rarity>
+    <Restricted>false</Restricted>
+    <BaseMods>
+      <Mod>
+        <Key />
+        <Count>1</Count>
+        <MiscDesc>May only be worn by a beast.</MiscDesc>
+      </Mod>
+      <Mod>
+        <Key />
+        <Count>1</Count>
+        <MiscDesc>May ride a beast without suffering bareback penalty.</MiscDesc>
+      </Mod>
+    </BaseMods>
+  </Armor>
+  <Armor>
+    <Key>MEGAFAUNA</Key>
+    <Name>H-Series Megafauna Carriage</Name>
+    <Description>
+      [H3]H-Series Megafauna Carriage[h3]
+      Please see page 43 of the Stay on Target Sourcebook for details.
+    </Description>
+    <Source>Stay on Target</Source>
+    <Type />
+    <Categories>
+    </Categories>
+    <Defense>1</Defense>
+    <Soak>0</Soak>
+    <Price>5500</Price>
+    <Encumbrance>5</Encumbrance>
+    <HP>2</HP>
+    <Rarity>7</Rarity>
+    <Restricted>false</Restricted>
+    <BaseMods>
+      <Mod>
+        <Key />
+        <Count>1</Count>
+        <MiscDesc>May only be worn by a beast.</MiscDesc>
+      </Mod>
+      <Mod>
+        <Key />
+        <Count>1</Count>
+        <MiscDesc>May ride a beast without suffering bareback penalty.</MiscDesc>
+      </Mod>
+    </BaseMods>
+  </Armor>
+  <Armor>
+    <Key>HUTTSHELLARMOR</Key>
+    <Name>Hutt Shell Armor</Name>
+    <Description>
+      [H3]Hutt Shell Armor[h3]
+      Please see page 104 of the Lords of Nal Hutta Sourcebook for details.
+    </Description>
+    <Source>Lords of Nal Hutta</Source>
+    <Type />
+    <Categories>
+      <Category>Sealed</Category>
+    </Categories>
+    <Defense>2</Defense>
+    <Soak>2</Soak>
+    <Price>25000</Price>
+    <Encumbrance>6</Encumbrance>
+    <HP>4</HP>
+    <Rarity>9</Rarity>
+    <Restricted>true</Restricted>
+    <BaseMods>
+      <Mod>
+        <Key />
+        <Count>1</Count>
+        <MiscDesc>May only be worn by a Hutt.</MiscDesc>
+      </Mod>
+      <Mod>
+        <Key />
+        <Count>1</Count>
+        <MiscDesc>Allows wearer to hover up to five meters above the ground.</MiscDesc>
+      </Mod>
+      <Mod>
+        <Key />
+        <Count>1</Count>
+        <MiscDesc>Allows wearer to ignore the affects of Awkward and Ponderous abilities.</MiscDesc>
+      </Mod>
+      <Mod>
+        <Key />
+        <Count>1</Count>
+        <MiscDesc>Does not have to spend additional maneuvers when navigating difficult terrain.</MiscDesc>
+      </Mod>
+    </BaseMods>
+  </Armor>
+  <Armor>
+    <Key>SAKSHADOW</Key>
+    <Name>Sakiyan Shadowsuit</Name>
+    <Description>
+      [H3]Sakiyan Shadowsuit[h3]
+      Please see page 105 of the Lords of Nal Hutta Sourcebook for details.
+    </Description>
+    <Source>Lords of Nal Hutta</Source>
+    <Type />
+    <Categories>
+    </Categories>
+    <Defense>0</Defense>
+    <Soak>1</Soak>
+    <Price>2500</Price>
+    <Encumbrance>1</Encumbrance>
+    <HP>1</HP>
+    <Rarity>8</Rarity>
+    <Restricted>false</Restricted>
+    <BaseMods>
+      <Mod>
+        <Key />
+        <Count>1</Count>
+        <MiscDesc>Grants [BOOST][BOOST] to Stealth checks.</MiscDesc>
+        <DieModifiers>
+          <DieModifier>
+            <SkillKey>STEAL</SkillKey>
+            <BoostCount>2</BoostCount>
+          </DieModifier>
+        </DieModifiers>
+      </Mod>
+    </BaseMods>
+  </Armor>
+
+
+
+  <Armor>
+    <Key>BLASTVEST</Key>
+    <Name>Blast Vest</Name>
+    <Description>
+      [H3]Blast Vest[h3]
+      Please see page 47 of the Fly Casual Sourcebook for details.
+    </Description>
+    <Source>Fly Casual</Source>
+    <Type />
+    <Categories />
+    <Encumbrance>3</Encumbrance>
+    <HP>1</HP>
+    <Price>200</Price>
+    <Rarity>3</Rarity>
+    <Restricted>false</Restricted>
+    <BaseMods>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>Armor gains +2 soak when wearer suffers damage from a slugthrower or other physical projectile.</MiscDesc>
+      </Mod>
+    </BaseMods>
+    <Defense>0</Defense>
+    <Soak>1</Soak>
+  </Armor>
+  <Armor>
+    <Key>MIMETICSUIT</Key>
+    <Name>Mimetic Suit</Name>
+    <Description>
+      [H3]Mimetic Suit[h3]
+      Please see page 47 of the Fly Casual Sourcebook for details.
+    </Description>
+    <Source>Fly Casual</Source>
+    <Type />
+    <Categories />
+    <Encumbrance>2</Encumbrance>
+    <HP>2</HP>
+    <Price>8000</Price>
+    <Rarity>8</Rarity>
+    <Restricted>true</Restricted>
+    <BaseMods>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>Upgrade the ability of Stealth checks twice while suit is active.</MiscDesc>
+        <DieModifiers>
+          <DieModifier>
+            <SkillKey>STEAL</SkillKey>
+            <UpgradeAbilityCount>2</UpgradeAbilityCount>
+          </DieModifier>
+        </DieModifiers>
+      </Mod>
+    </BaseMods>
+    <Defense>1</Defense>
+    <Soak>1</Soak>
+  </Armor>
+  <Armor>
+    <Key>SMUGGLERSTRENCHCOAT</Key>
+    <Name>Smuggler's Trenchcoat</Name>
+    <Description>
+      [H3]Smuggler's Trenchcoat[h3]
+      Please see page 47 of the Fly Casual Sourcebook for details.
+    </Description>
+    <Source>Fly Casual</Source>
+    <Type />
+    <Categories />
+    <Encumbrance>3</Encumbrance>
+    <HP>0</HP>
+    <Price>1650</Price>
+    <Rarity>7</Rarity>
+    <Restricted>false</Restricted>
+    <BaseMods>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>Checks to find anything hidden within a smuggler's trenchcoat are opposed by the Skulduggery of the wearer.</MiscDesc>
+      </Mod>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>The coat can conceal up to 2 encumbrance worth of items.</MiscDesc>
+      </Mod>
+    </BaseMods>
+    <Defense>1</Defense>
+    <Soak>1</Soak>
+  </Armor>
+  
+  <!--Desperate Allies-->
+
+  <Armor>
+    <Key>BANAL</Key>
+    <Name>Banal Apparel</Name>
+    <Description>
+      [H3]Banal Apparel[h3]
+      Please see page 47 of the Desperate Allies Sourcebook for details.
+    </Description>
+    <Source>Desperate Allies</Source>
+    <Type />
+    <Categories>
+    </Categories>
+    <Defense>0</Defense>
+    <Soak>0</Soak>
+    <Price>25</Price>
+    <Encumbrance>0</Encumbrance>
+    <HP>0</HP>
+    <Rarity>0</Rarity>
+    <Restricted>false</Restricted>
+    <BaseMods>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>Opposing characters upgrade the difficulty of checks to identify wearer once.</MiscDesc>
+      </Mod>
+    </BaseMods>
+  </Armor>
+  <Armor>
+    <Key>CARGOCL</Key>
+    <Name>Cargo Apparel</Name>
+    <Description>
+      [H3]Cargo Apparel[h3]
+      Please see page 47 of the Desperate Allies Sourcebook for details.
+    </Description>
+    <Source>Desperate Allies</Source>
+    <Type />
+    <Categories>
+    </Categories>
+    <Defense>0</Defense>
+    <Soak>0</Soak>
+    <Price>30</Price>
+    <Encumbrance>1</Encumbrance>
+    <HP>0</HP>
+    <Rarity>0</Rarity>
+    <Restricted>false</Restricted>
+    <BaseMods>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>Can carry three items of enumbrance 1 without it affecting encumbrance value.</MiscDesc>
+      </Mod>
+    </BaseMods>
+  </Armor>
+  <Armor>
+    <Key>DIPROBE</Key>
+    <Name>Diplomat's Robes</Name>
+    <Description>
+      [H3]Diplomat's Robes[h3]
+      Please see page 47 of the Desperate Allies Sourcebook for details.
+    </Description>
+    <Source>Desperate Allies</Source>
+    <Type />
+    <Categories>
+    </Categories>
+    <Defense>0</Defense>
+    <Soak>0</Soak>
+    <Price>400</Price>
+    <Encumbrance>2</Encumbrance>
+    <HP>0</HP>
+    <Rarity>6</Rarity>
+    <Restricted>false</Restricted>
+    <BaseMods>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>Add [BOOST] to social checks claiming diplomatic authority, accessing classified data, and bypassing normal protocol.</MiscDesc>
+      </Mod>
+    </BaseMods>
+  </Armor>
+  <Armor>
+    <Key>FLAREJACK</Key>
+    <Name>Flare Jacket</Name>
+    <Description>
+      [H3]Flare Jacket[h3]
+      Please see page 48 of the Desperate Allies Sourcebook for details.
+    </Description>
+    <Source>Desperate Allies</Source>
+    <Type />
+    <Categories>
+    </Categories>
+    <Defense>0</Defense>
+    <Soak>1</Soak>
+    <Price>1500</Price>
+    <Encumbrance>3</Encumbrance>
+    <HP>0</HP>
+    <Rarity>8</Rarity>
+    <Restricted>false</Restricted>
+    <BaseMods>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>Once per encounter, can trigger flare charge. Everyone in short range makes [B]Hard ([DI][DI][DI]) Vigilance check[b]. Fail means staggered for 1 round, plus 1 round per [TH][TH][TH].</MiscDesc>
+      </Mod>
+    </BaseMods>
+  </Armor>
+  <Armor>
+    <Key>HAULHARN</Key>
+    <Name>Hauling Harness</Name>
+    <Description>
+      [H3]Hauling Harness[h3]
+      Please see page 48 of the Desperate Allies Sourcebook for details.
+    </Description>
+    <Source>Desperate Allies</Source>
+    <Type />
+    <Categories>
+    </Categories>
+    <Defense>1</Defense>
+    <Soak>1</Soak>
+    <Price>1000</Price>
+    <Encumbrance>3</Encumbrance>
+    <HP>2</HP>
+    <Rarity>6</Rarity>
+    <Restricted>false</Restricted>
+    <BaseMods>
+      <Mod>
+        <Key>ENCTADD</Key>
+        <Count>6</Count>
+      </Mod>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>Upgrade difficulty of combat checks twice.</MiscDesc>
+      </Mod>
+    </BaseMods>
+  </Armor>
+  <Armor>
+    <Key>HOLOCOST</Key>
+    <Name>Holographic Costume</Name>
+    <Description>
+      [H3]Holographic Costume[h3]
+      Please see page 48 of the Desperate Allies Sourcebook for details.
+    </Description>
+    <Source>Desperate Allies</Source>
+    <Type />
+    <Categories>
+    </Categories>
+    <Defense>1</Defense>
+    <Soak>0</Soak>
+    <Price>750</Price>
+    <Encumbrance>2</Encumbrance>
+    <HP>0</HP>
+    <Rarity>8</Rarity>
+    <Restricted>false</Restricted>
+    <BaseMods>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>[B]Easy ([DI]) Computers check to record new garment, [B]Daunting ([DI][DI][DI][DI]) Computers check[b] to record facsimile of garment.</MiscDesc>
+      </Mod>
+    </BaseMods>
+  </Armor>
+  <Armor>
+    <Key>LECOUT</Key>
+    <Name>Lector's Outfit</Name>
+    <Description>
+      [H3]Lector's Outfit[h3]
+      Please see page 48 of the Desperate Allies Sourcebook for details.
+    </Description>
+    <Source>Desperate Allies</Source>
+    <Type />
+    <Categories>
+    </Categories>
+    <Defense>0</Defense>
+    <Soak>1</Soak>
+    <Price>525</Price>
+    <Encumbrance>2</Encumbrance>
+    <HP>1</HP>
+    <Rarity>6</Rarity>
+    <Restricted>false</Restricted>
+    <BaseMods>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>Add [BO] to social checks involving large groups of listeners.</MiscDesc>
+      </Mod>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>Can be heard clearly at considerable range.</MiscDesc>
+      </Mod>
+    </BaseMods>
+  </Armor>
+  <Armor>
+    <Key>NOBREG</Key>
+    <Name>Noble Regalia</Name>
+    <Description>
+      [H3]Noble Regalia[h3]
+      Please see page 49 of the Desperate Allies Sourcebook for details.
+    </Description>
+    <Source>Desperate Allies</Source>
+    <Type />
+    <Categories>
+    </Categories>
+    <Defense>0</Defense>
+    <Soak>0</Soak>
+    <Price>750</Price>
+    <Encumbrance>1</Encumbrance>
+    <HP>3</HP>
+    <Rarity>7</Rarity>
+    <Restricted>false</Restricted>
+    <BaseMods>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>Downgrade difficulty of social checks to interact with nobility or subordinates once.</MiscDesc>
+      </Mod>
+    </BaseMods>
+  </Armor>
+  <Armor>
+    <Key>PERFATT</Key>
+    <Name>Performer's Attire</Name>
+    <Description>
+      [H3]Performer's Attire[h3]
+      Please see page 49 of the Desperate Allies Sourcebook for details.
+    </Description>
+    <Source>Desperate Allies</Source>
+    <Type />
+    <Categories>
+    </Categories>
+    <Defense>0</Defense>
+    <Soak>0</Soak>
+    <Price>50</Price>
+    <Encumbrance>0</Encumbrance>
+    <HP>0</HP>
+    <Rarity>4</Rarity>
+    <Restricted>false</Restricted>
+    <BaseMods>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>Add [BO] to checks to perform or attract attention.</MiscDesc>
+      </Mod>
+    </BaseMods>
+  </Armor>
+  <Armor>
+    <Key>POWCAPARM</Key>
+    <Name>Powered Capacitive Armor</Name>
+    <Description>
+      [H3]Powered Capacitive Armor[h3]
+      Please see page 49 of the Desperate Allies Sourcebook for details.
+    </Description>
+    <Source>Desperate Allies</Source>
+    <Type />
+    <Categories>
+    </Categories>
+    <Defense>1</Defense>
+    <Soak>1</Soak>
+    <Price>3000</Price>
+    <Encumbrance>4</Encumbrance>
+    <HP>2</HP>
+    <Rarity>8</Rarity>
+    <Restricted>true</Restricted>
+    <BaseMods>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>As maneuver, power up and add +1 defense and +1 soak, but lose free maneuver.</MiscDesc>
+      </Mod>
+    </BaseMods>
+  </Armor>
+  <Armor>
+    <Key>RESPROBES</Key>
+    <Name>Resplendent Robes</Name>
+    <Description>
+      [H3]Resplendent Robes[h3]
+      Please see page 49 of the Desperate Allies Sourcebook for details.
+    </Description>
+    <Source>Desperate Allies</Source>
+    <Type />
+    <Categories>
+    </Categories>
+    <Defense>0</Defense>
+    <Soak>1</Soak>
+    <Price>500</Price>
+    <Encumbrance>2</Encumbrance>
+    <HP>0</HP>
+    <Rarity>5</Rarity>
+    <Restricted>false</Restricted>
+    <BaseMods>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>If wearer draws attention to himself, allies in medium range add [BO] to Perception, Skulduggery, and Stealth checks.</MiscDesc>
+      </Mod>
+    </BaseMods>
+  </Armor>
+  <Armor>
+    <Key>SECSKIN</Key>
+    <Name>Second Skin Armor</Name>
+    <Description>
+      [H3]Second Skin Armor[h3]
+      Please see page 49 of the Desperate Allies Sourcebook for details.
+    </Description>
+    <Source>Desperate Allies</Source>
+    <Type />
+    <Categories>
+    </Categories>
+    <Defense>1</Defense>
+    <Soak>1</Soak>
+    <Price>2000</Price>
+    <Encumbrance>2</Encumbrance>
+    <HP>0</HP>
+    <Rarity>7</Rarity>
+    <Restricted>false</Restricted>
+    <BaseMods>
+      <Mod>
+        <Count>1</Count>
+        <MiscDesc>Add [SE][SE] to Perception checks to notice second skin armor on the wearer.</MiscDesc>
+      </Mod>
+    </BaseMods>
+  </Armor>
+
+</Armors>

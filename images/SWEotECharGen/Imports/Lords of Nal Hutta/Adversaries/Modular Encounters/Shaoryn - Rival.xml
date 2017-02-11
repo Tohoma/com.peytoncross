@@ -1,0 +1,451 @@
+<?xml version="1.0"?>
+<Adversary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LastChanged>2015-02-20T16:28:31.857</LastChanged>
+  <NotPersisted>false</NotPersisted>
+  <FileName>Adver577.xml</FileName>
+  <Name>Shaoryn</Name>
+  <Key>3f00b039-d834-4693-a545-2d8b0bce7863</Key>
+  <Description />
+  <Category>Lords of Nal Hutta - Modular Encounters</Category>
+  <Characteristics>
+    <CharCharacteristic>
+      <Key>BR</Key>
+      <Name>Brawn</Name>
+      <Description />
+      <Source />
+      <Sources />
+      <Custom>Base</Custom>
+      <Rank>
+        <ForSkills>false</ForSkills>
+        <ForChars>false</ForChars>
+        <StartingRanks>1</StartingRanks>
+        <SpeciesRanks>0</SpeciesRanks>
+        <CareerRanks>0</CareerRanks>
+        <TalentRanks>0</TalentRanks>
+        <ObligationRanks>0</ObligationRanks>
+        <DutyRanks>0</DutyRanks>
+        <AttachRanks>0</AttachRanks>
+        <ItemRanks>0</ItemRanks>
+        <CyberRanks>0</CyberRanks>
+        <PurchasedRanks>2</PurchasedRanks>
+        <CharRanks>0</CharRanks>
+        <InjuryRanks>0</InjuryRanks>
+      </Rank>
+    </CharCharacteristic>
+    <CharCharacteristic>
+      <Key>AG</Key>
+      <Name>Agility</Name>
+      <Description />
+      <Source />
+      <Sources />
+      <Custom>Base</Custom>
+      <Rank>
+        <ForSkills>false</ForSkills>
+        <ForChars>false</ForChars>
+        <StartingRanks>1</StartingRanks>
+        <SpeciesRanks>0</SpeciesRanks>
+        <CareerRanks>0</CareerRanks>
+        <TalentRanks>0</TalentRanks>
+        <ObligationRanks>0</ObligationRanks>
+        <DutyRanks>0</DutyRanks>
+        <AttachRanks>0</AttachRanks>
+        <ItemRanks>0</ItemRanks>
+        <CyberRanks>0</CyberRanks>
+        <PurchasedRanks>2</PurchasedRanks>
+        <CharRanks>0</CharRanks>
+        <InjuryRanks>0</InjuryRanks>
+      </Rank>
+    </CharCharacteristic>
+    <CharCharacteristic>
+      <Key>INT</Key>
+      <Name>Intellect</Name>
+      <Description />
+      <Source />
+      <Sources />
+      <Custom>Base</Custom>
+      <Rank>
+        <ForSkills>false</ForSkills>
+        <ForChars>false</ForChars>
+        <StartingRanks>1</StartingRanks>
+        <SpeciesRanks>0</SpeciesRanks>
+        <CareerRanks>0</CareerRanks>
+        <TalentRanks>0</TalentRanks>
+        <ObligationRanks>0</ObligationRanks>
+        <DutyRanks>0</DutyRanks>
+        <AttachRanks>0</AttachRanks>
+        <ItemRanks>0</ItemRanks>
+        <CyberRanks>0</CyberRanks>
+        <PurchasedRanks>1</PurchasedRanks>
+        <CharRanks>0</CharRanks>
+        <InjuryRanks>0</InjuryRanks>
+      </Rank>
+    </CharCharacteristic>
+    <CharCharacteristic>
+      <Key>CUN</Key>
+      <Name>Cunning</Name>
+      <Description />
+      <Source />
+      <Sources />
+      <Custom>Base</Custom>
+      <Rank>
+        <ForSkills>false</ForSkills>
+        <ForChars>false</ForChars>
+        <StartingRanks>1</StartingRanks>
+        <SpeciesRanks>0</SpeciesRanks>
+        <CareerRanks>0</CareerRanks>
+        <TalentRanks>0</TalentRanks>
+        <ObligationRanks>0</ObligationRanks>
+        <DutyRanks>0</DutyRanks>
+        <AttachRanks>0</AttachRanks>
+        <ItemRanks>0</ItemRanks>
+        <CyberRanks>0</CyberRanks>
+        <PurchasedRanks>2</PurchasedRanks>
+        <CharRanks>0</CharRanks>
+        <InjuryRanks>0</InjuryRanks>
+      </Rank>
+    </CharCharacteristic>
+    <CharCharacteristic>
+      <Key>WIL</Key>
+      <Name>Willpower</Name>
+      <Description />
+      <Source />
+      <Sources />
+      <Custom>Base</Custom>
+      <Rank>
+        <ForSkills>false</ForSkills>
+        <ForChars>false</ForChars>
+        <StartingRanks>1</StartingRanks>
+        <SpeciesRanks>0</SpeciesRanks>
+        <CareerRanks>0</CareerRanks>
+        <TalentRanks>0</TalentRanks>
+        <ObligationRanks>0</ObligationRanks>
+        <DutyRanks>0</DutyRanks>
+        <AttachRanks>0</AttachRanks>
+        <ItemRanks>0</ItemRanks>
+        <CyberRanks>0</CyberRanks>
+        <PurchasedRanks>1</PurchasedRanks>
+        <CharRanks>0</CharRanks>
+        <InjuryRanks>0</InjuryRanks>
+      </Rank>
+    </CharCharacteristic>
+    <CharCharacteristic>
+      <Key>PR</Key>
+      <Name>Presence</Name>
+      <Description />
+      <Source />
+      <Sources />
+      <Custom>Base</Custom>
+      <Rank>
+        <ForSkills>false</ForSkills>
+        <ForChars>false</ForChars>
+        <StartingRanks>1</StartingRanks>
+        <SpeciesRanks>0</SpeciesRanks>
+        <CareerRanks>0</CareerRanks>
+        <TalentRanks>0</TalentRanks>
+        <ObligationRanks>0</ObligationRanks>
+        <DutyRanks>0</DutyRanks>
+        <AttachRanks>0</AttachRanks>
+        <ItemRanks>0</ItemRanks>
+        <CyberRanks>0</CyberRanks>
+        <PurchasedRanks>0</PurchasedRanks>
+        <CharRanks>0</CharRanks>
+        <InjuryRanks>0</InjuryRanks>
+      </Rank>
+    </CharCharacteristic>
+  </Characteristics>
+  <Talents>
+    <CharTalent>
+      <Key>ADV</Key>
+      <Col>0</Col>
+      <Row>0</Row>
+      <Purchased>false</Purchased>
+      <Free>false</Free>
+      <Ranks>1</Ranks>
+      <BonusChars />
+      <Sources />
+      <CareerSkills />
+      <SelectedSkills />
+    </CharTalent>
+  </Talents>
+  <ForceAbilities />
+  <Skills>
+    <CharSkill>
+      <Key>BRAWL</Key>
+      <Name />
+      <Description />
+      <Source />
+      <Sources />
+      <Custom>Base</Custom>
+      <Rank>
+        <ForSkills>false</ForSkills>
+        <ForChars>false</ForChars>
+        <StartingRanks>0</StartingRanks>
+        <SpeciesRanks>0</SpeciesRanks>
+        <CareerRanks>0</CareerRanks>
+        <TalentRanks>0</TalentRanks>
+        <ObligationRanks>0</ObligationRanks>
+        <DutyRanks>0</DutyRanks>
+        <AttachRanks>0</AttachRanks>
+        <ItemRanks>0</ItemRanks>
+        <CyberRanks>0</CyberRanks>
+        <PurchasedRanks>2</PurchasedRanks>
+        <CharRanks>0</CharRanks>
+        <InjuryRanks>0</InjuryRanks>
+      </Rank>
+      <isCareer>false</isCareer>
+      <CharKeyOverride />
+    </CharSkill>
+    <CharSkill>
+      <Key>DECEP</Key>
+      <Name />
+      <Description />
+      <Source />
+      <Sources />
+      <Custom>Base</Custom>
+      <Rank>
+        <ForSkills>false</ForSkills>
+        <ForChars>false</ForChars>
+        <StartingRanks>0</StartingRanks>
+        <SpeciesRanks>0</SpeciesRanks>
+        <CareerRanks>0</CareerRanks>
+        <TalentRanks>0</TalentRanks>
+        <ObligationRanks>0</ObligationRanks>
+        <DutyRanks>0</DutyRanks>
+        <AttachRanks>0</AttachRanks>
+        <ItemRanks>0</ItemRanks>
+        <CyberRanks>0</CyberRanks>
+        <PurchasedRanks>4</PurchasedRanks>
+        <CharRanks>0</CharRanks>
+        <InjuryRanks>0</InjuryRanks>
+      </Rank>
+      <isCareer>false</isCareer>
+      <CharKeyOverride />
+    </CharSkill>
+    <CharSkill>
+      <Key>DISC</Key>
+      <Name />
+      <Description />
+      <Source />
+      <Sources />
+      <Custom>Base</Custom>
+      <Rank>
+        <ForSkills>false</ForSkills>
+        <ForChars>false</ForChars>
+        <StartingRanks>0</StartingRanks>
+        <SpeciesRanks>0</SpeciesRanks>
+        <CareerRanks>0</CareerRanks>
+        <TalentRanks>0</TalentRanks>
+        <ObligationRanks>0</ObligationRanks>
+        <DutyRanks>0</DutyRanks>
+        <AttachRanks>0</AttachRanks>
+        <ItemRanks>0</ItemRanks>
+        <CyberRanks>0</CyberRanks>
+        <PurchasedRanks>2</PurchasedRanks>
+        <CharRanks>0</CharRanks>
+        <InjuryRanks>0</InjuryRanks>
+      </Rank>
+      <isCareer>false</isCareer>
+      <CharKeyOverride />
+    </CharSkill>
+    <CharSkill>
+      <Key>STEAL</Key>
+      <Name />
+      <Description />
+      <Source />
+      <Sources />
+      <Custom>Base</Custom>
+      <Rank>
+        <ForSkills>false</ForSkills>
+        <ForChars>false</ForChars>
+        <StartingRanks>0</StartingRanks>
+        <SpeciesRanks>0</SpeciesRanks>
+        <CareerRanks>0</CareerRanks>
+        <TalentRanks>0</TalentRanks>
+        <ObligationRanks>0</ObligationRanks>
+        <DutyRanks>0</DutyRanks>
+        <AttachRanks>0</AttachRanks>
+        <ItemRanks>0</ItemRanks>
+        <CyberRanks>0</CyberRanks>
+        <PurchasedRanks>3</PurchasedRanks>
+        <CharRanks>0</CharRanks>
+        <InjuryRanks>0</InjuryRanks>
+      </Rank>
+      <isCareer>false</isCareer>
+      <CharKeyOverride />
+    </CharSkill>
+  </Skills>
+  <Experience>
+    <ExperienceRanks>
+      <ForSkills>false</ForSkills>
+      <ForChars>false</ForChars>
+      <StartingRanks>0</StartingRanks>
+      <SpeciesRanks>0</SpeciesRanks>
+      <CareerRanks>0</CareerRanks>
+      <TalentRanks>0</TalentRanks>
+      <ObligationRanks>0</ObligationRanks>
+      <DutyRanks>0</DutyRanks>
+      <AttachRanks>0</AttachRanks>
+      <ItemRanks>0</ItemRanks>
+      <CyberRanks>0</CyberRanks>
+      <PurchasedRanks>0</PurchasedRanks>
+      <CharRanks>0</CharRanks>
+      <InjuryRanks>0</InjuryRanks>
+    </ExperienceRanks>
+    <UsedExperience>290</UsedExperience>
+  </Experience>
+  <Attributes>
+    <SoakValue>
+      <ForSkills>false</ForSkills>
+      <ForChars>false</ForChars>
+      <StartingRanks>0</StartingRanks>
+      <SpeciesRanks>0</SpeciesRanks>
+      <CareerRanks>0</CareerRanks>
+      <TalentRanks>0</TalentRanks>
+      <ObligationRanks>0</ObligationRanks>
+      <DutyRanks>0</DutyRanks>
+      <AttachRanks>0</AttachRanks>
+      <ItemRanks>0</ItemRanks>
+      <CyberRanks>0</CyberRanks>
+      <PurchasedRanks>0</PurchasedRanks>
+      <CharRanks>3</CharRanks>
+      <InjuryRanks>0</InjuryRanks>
+    </SoakValue>
+    <WoundThreshold>
+      <ForSkills>false</ForSkills>
+      <ForChars>false</ForChars>
+      <StartingRanks>10</StartingRanks>
+      <SpeciesRanks>0</SpeciesRanks>
+      <CareerRanks>0</CareerRanks>
+      <TalentRanks>0</TalentRanks>
+      <ObligationRanks>0</ObligationRanks>
+      <DutyRanks>0</DutyRanks>
+      <AttachRanks>0</AttachRanks>
+      <ItemRanks>0</ItemRanks>
+      <CyberRanks>0</CyberRanks>
+      <PurchasedRanks>0</PurchasedRanks>
+      <CharRanks>2</CharRanks>
+      <InjuryRanks>0</InjuryRanks>
+    </WoundThreshold>
+    <StrainThreshold>
+      <ForSkills>false</ForSkills>
+      <ForChars>false</ForChars>
+      <StartingRanks>0</StartingRanks>
+      <SpeciesRanks>0</SpeciesRanks>
+      <CareerRanks>0</CareerRanks>
+      <TalentRanks>0</TalentRanks>
+      <ObligationRanks>0</ObligationRanks>
+      <DutyRanks>0</DutyRanks>
+      <AttachRanks>0</AttachRanks>
+      <ItemRanks>0</ItemRanks>
+      <CyberRanks>0</CyberRanks>
+      <PurchasedRanks>0</PurchasedRanks>
+      <CharRanks>1</CharRanks>
+      <InjuryRanks>0</InjuryRanks>
+    </StrainThreshold>
+    <DefenseRanged>
+      <ForSkills>false</ForSkills>
+      <ForChars>false</ForChars>
+      <StartingRanks>0</StartingRanks>
+      <SpeciesRanks>0</SpeciesRanks>
+      <CareerRanks>0</CareerRanks>
+      <TalentRanks>0</TalentRanks>
+      <ObligationRanks>0</ObligationRanks>
+      <DutyRanks>0</DutyRanks>
+      <AttachRanks>0</AttachRanks>
+      <ItemRanks>0</ItemRanks>
+      <CyberRanks>0</CyberRanks>
+      <PurchasedRanks>0</PurchasedRanks>
+      <CharRanks>0</CharRanks>
+      <InjuryRanks>0</InjuryRanks>
+    </DefenseRanged>
+    <DefenseMelee>
+      <ForSkills>false</ForSkills>
+      <ForChars>false</ForChars>
+      <StartingRanks>0</StartingRanks>
+      <SpeciesRanks>0</SpeciesRanks>
+      <CareerRanks>0</CareerRanks>
+      <TalentRanks>0</TalentRanks>
+      <ObligationRanks>0</ObligationRanks>
+      <DutyRanks>0</DutyRanks>
+      <AttachRanks>0</AttachRanks>
+      <ItemRanks>0</ItemRanks>
+      <CyberRanks>0</CyberRanks>
+      <PurchasedRanks>0</PurchasedRanks>
+      <CharRanks>0</CharRanks>
+      <InjuryRanks>0</InjuryRanks>
+    </DefenseMelee>
+    <ForceRating>
+      <ForSkills>false</ForSkills>
+      <ForChars>false</ForChars>
+      <StartingRanks>0</StartingRanks>
+      <SpeciesRanks>0</SpeciesRanks>
+      <CareerRanks>0</CareerRanks>
+      <TalentRanks>0</TalentRanks>
+      <ObligationRanks>0</ObligationRanks>
+      <DutyRanks>0</DutyRanks>
+      <AttachRanks>0</AttachRanks>
+      <ItemRanks>0</ItemRanks>
+      <CyberRanks>0</CyberRanks>
+      <PurchasedRanks>2</PurchasedRanks>
+      <CharRanks>0</CharRanks>
+      <InjuryRanks>0</InjuryRanks>
+    </ForceRating>
+  </Attributes>
+  <Weapons />
+  <Armor />
+  <Gear />
+  <Abilities>
+    <AdvAbility>
+      <Key>0</Key>
+      <Name>Drain Life</Name>
+      <Description>Whenever a shaoryn inflicts damage on a target after soak, it heals half that many wounds, rounded up.</Description>
+      <Source />
+      <Sources />
+      <Custom>Base</Custom>
+      <DieModifiers />
+    </AdvAbility>
+    <AdvAbility>
+      <Key>1</Key>
+      <Name>Force Power: Influence</Name>
+      <Description>[DA]: Inflicts 2 strain on target in short range.  [DA]: Succeed at an [B]opposed Discipline vs. Discipline check[b] to force one target within short range to adopt an emotional state, or believe something even if it is untrue, for four minutes or four rounds in combat.</Description>
+      <Source />
+      <Sources />
+      <Custom>Base</Custom>
+      <DieModifiers />
+    </AdvAbility>
+  </Abilities>
+  <Items />
+  <SpecialWeapons>
+    <AdvWeapon>
+      <Key>0</Key>
+      <Name>Grasping Limbs</Name>
+      <Description />
+      <Source />
+      <Sources />
+      <Custom>Base</Custom>
+      <SkillKey>BRAWL</SkillKey>
+      <Damage>5</Damage>
+      <DamageAdd>0</DamageAdd>
+      <Crit>5</Crit>
+      <Range>Engaged</Range>
+      <Descriptors>
+        <Descriptor>
+          <Key>ENSNARE</Key>
+          <Count>3</Count>
+          <Index>0</Index>
+          <MiscDesc />
+          <DefZone />
+          <QualReplace>false</QualReplace>
+          <SkillIsCareer>false</SkillIsCareer>
+          <SkillIsRanked>false</SkillIsRanked>
+          <VehicleWeaponUpgrades />
+          <SelectedVehicleWeaponIndex>-1</SelectedVehicleWeaponIndex>
+          <DieModifiers />
+        </Descriptor>
+      </Descriptors>
+    </AdvWeapon>
+  </SpecialWeapons>
+  <SpecialArmor />
+  <AutoRecalc>true</AutoRecalc>
+  <Type>Rival</Type>
+</Adversary>

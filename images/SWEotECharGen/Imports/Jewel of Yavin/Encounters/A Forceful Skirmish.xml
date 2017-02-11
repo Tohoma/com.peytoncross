@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<Encounter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>4f107793-91a7-4c22-8fde-26c66dd34c80</Key>
+  <Name>A Forceful Skirmish</Name>
+  <Description />
+  <Source />
+  <Custom>Base</Custom>
+  <Campaign />
+  <Adventure>Jewel of Yavin</Adventure>
+  <Location>Museum Auction Room</Location>
+  <Notes />
+  <EncGroups>
+    <EncGroup>
+      <Key>703f4e7a-ee7d-4333-88ee-0203b456ed57</Key>
+      <AdvKey>3de7b4de-a6dd-4c5a-8461-8d38842a7143</AdvKey>
+      <asGroup>false</asGroup>
+      <asRival>false</asRival>
+      <Count>1</Count>
+      <AltName />
+    </EncGroup>
+  </EncGroups>
+  <Vehicles />
+  <Rosters />
+  <FileName>Enc54.xml</FileName>
+</Encounter>

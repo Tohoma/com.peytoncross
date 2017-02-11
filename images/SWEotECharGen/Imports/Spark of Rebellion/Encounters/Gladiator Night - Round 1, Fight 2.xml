@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<Encounter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LastChanged>2015-08-16T19:22:10.453</LastChanged>
+  <NotPersisted>false</NotPersisted>
+  <FileName>Enc162.xml</FileName>
+  <Name>Gladiator Night - Round 1, Fight 2</Name>
+  <Key>e38a5fcf-df45-4a89-a2ce-038d74432541</Key>
+  <Description />
+  <Campaign />
+  <Adventure>Spark of Rebellion</Adventure>
+  <Location>Gladiator Arena</Location>
+  <Notes>This is the second fight, Borbig Drob the Houk VS. W'Jilee the Whipid.
+[P]
+These are two bruisers with high strength, the focus on the match should be who the strongest of the two compeditors are. If one of your PC's is a someone who focused on strength and wishes to compete, simply swap out one of the compeditors for them and see if they really are the strongest fighter around.
+[P]
+The winner will proceed to round 2, use these encounters as a template to make round 2, and round 3 (the finals).</Notes>
+  <EncGroups>
+    <EncGroup>
+      <Key>f597277e-c586-4e93-b184-15c1d431dff8</Key>
+      <AdvKey>d98d7f36-1251-4777-b2a6-a01bd16026a0</AdvKey>
+      <asGroup>false</asGroup>
+      <asRival>false</asRival>
+      <Count>1</Count>
+      <AltName />
+    </EncGroup>
+    <EncGroup>
+      <Key>d637469b-bed3-48dc-8fa2-794d245f1794</Key>
+      <AdvKey>7a7a8c5f-132c-4c9c-ba33-8b81cd7bccfc</AdvKey>
+      <asGroup>false</asGroup>
+      <asRival>false</asRival>
+      <Count>1</Count>
+      <AltName />
+    </EncGroup>
+  </EncGroups>
+  <Vehicles />
+  <Rosters />
+</Encounter>

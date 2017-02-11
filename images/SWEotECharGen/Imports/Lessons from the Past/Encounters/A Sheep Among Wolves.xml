@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<Encounter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LastChanged>2015-08-13T10:04:43.423</LastChanged>
+  <NotPersisted>false</NotPersisted>
+  <FileName>Enc176.xml</FileName>
+  <Name>A Sheep Among Wolves</Name>
+  <Key>7dd3ab66-da4a-433b-9989-3b7f975da547</Key>
+  <Description />
+  <Campaign />
+  <Adventure>Lessons from the Past</Adventure>
+  <Location>Phelar University campus, Eriadu</Location>
+  <Notes />
+  <EncGroups>
+    <EncGroup>
+      <Key>4314fe03-31c3-415c-8006-84b8c1e14229</Key>
+      <AdvKey>2eca0c83-7257-4475-8c45-0773b557ef13</AdvKey>
+      <asGroup>true</asGroup>
+      <asRival>false</asRival>
+      <Count>1</Count>
+      <AltName />
+    </EncGroup>
+  </EncGroups>
+  <Vehicles />
+  <Rosters />
+</Encounter>

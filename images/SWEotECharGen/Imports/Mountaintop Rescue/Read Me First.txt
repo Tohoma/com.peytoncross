@@ -1,0 +1,9 @@
+Mountaintop Rescue
+------------------
+
+This folder contains adversaries and encounters that can be used with the "Mountaintop Rescue" adventure found in the Force and Destiny Beginners Game.  To include these new items in your system:
+
+
+1. Run the GM Tools.
+2. Import all adversaries found in the "Mountaintop Rescue\Adversaries" folder.  Use the "Import" button on the Adversaries pane.  These adversaries are required for the encounters to work properly.
+3. Import the encounters found in the "Mountaintop Rescue\Encounters" folder.  Use the "Import" button on the Encounters pane.

@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<Encounter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LastChanged>2014-10-01T09:00:48.203</LastChanged>
+  <NotPersisted>false</NotPersisted>
+  <FileName>Enc127.xml</FileName>
+  <Name>Ep1 - Tactical Retreat</Name>
+  <Key>d74de329-43b3-448f-b8e8-2eba460391d7</Key>
+  <Description />
+  <Campaign />
+  <Adventure>Onslaught at Arda I</Adventure>
+  <Location>Arda I</Location>
+  <Notes>The actual number of sandtroopers depends on whether or not the Alliance won the final phase of the Mass Combat.  If they did, there should be sandtroopers equalling twice the number of PCs, divided into minion groups of 4.  If the Imperials won the final phase, there should be sandtroopers equallying three times the numbe of PCs, divided into minion groups of 3.[P]
+The base encounter will assume that the Imperials won the final phase and that there are six PCs.  Adjust the numbers according to the actual situation.</Notes>
+  <EncGroups>
+    <EncGroup>
+      <Key>6d67d368-bf50-4537-9902-954bdce14814</Key>
+      <AdvKey>79567589-7b13-40d7-a460-fad4b3ea9ead</AdvKey>
+      <asGroup>false</asGroup>
+      <asRival>false</asRival>
+      <Count>1</Count>
+      <AltName />
+    </EncGroup>
+    <EncGroup>
+      <Key>3a68faca-9802-4394-be21-12dd1f4d9280</Key>
+      <AdvKey>37fc1251-3594-4980-a61f-293db20f04e8</AdvKey>
+      <asGroup>true</asGroup>
+      <asRival>false</asRival>
+      <Count>3</Count>
+      <AltName />
+    </EncGroup>
+    <EncGroup>
+      <Key>b3621af8-9162-41c2-9227-5562985b98cf</Key>
+      <AdvKey>37fc1251-3594-4980-a61f-293db20f04e8</AdvKey>
+      <asGroup>true</asGroup>
+      <asRival>false</asRival>
+      <Count>3</Count>
+      <AltName />
+    </EncGroup>
+    <EncGroup>
+      <Key>8b3840a9-6047-4411-aee8-bff1aa9f4bf9</Key>
+      <AdvKey>37fc1251-3594-4980-a61f-293db20f04e8</AdvKey>
+      <asGroup>true</asGroup>
+      <asRival>false</asRival>
+      <Count>3</Count>
+      <AltName />
+    </EncGroup>
+    <EncGroup>
+      <Key>5a40654b-36be-4f0d-b70e-f6fc5464a69c</Key>
+      <AdvKey>37fc1251-3594-4980-a61f-293db20f04e8</AdvKey>
+      <asGroup>true</asGroup>
+      <asRival>false</asRival>
+      <Count>3</Count>
+      <AltName />
+    </EncGroup>
+    <EncGroup>
+      <Key>50e5f77d-9850-488b-b2cf-9ed958c23f62</Key>
+      <AdvKey>37fc1251-3594-4980-a61f-293db20f04e8</AdvKey>
+      <asGroup>true</asGroup>
+      <asRival>false</asRival>
+      <Count>3</Count>
+      <AltName />
+    </EncGroup>
+    <EncGroup>
+      <Key>348bedc3-1444-41de-a7a9-9c18f0068712</Key>
+      <AdvKey>37fc1251-3594-4980-a61f-293db20f04e8</AdvKey>
+      <asGroup>true</asGroup>
+      <asRival>false</asRival>
+      <Count>3</Count>
+      <AltName />
+    </EncGroup>
+  </EncGroups>
+  <Vehicles />
+  <Rosters />
+</Encounter>

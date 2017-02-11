@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<Encounter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>996e7dd0-6d0d-47fe-ba29-e30cbb9bfc97</Key>
+  <Name>Remote Banking Droid</Name>
+  <Description />
+  <Source />
+  <Custom>Base</Custom>
+  <Campaign />
+  <Adventure>Jewel of Yavin</Adventure>
+  <Location>Cloud City, Various Parts</Location>
+  <Notes>Use this encounter when attempting to kidnap a remote banking droid.  The three banking droids at the various locations around Cloud City are included.</Notes>
+  <EncGroups>
+    <EncGroup>
+      <Key>68b91e86-3567-4e1b-9a32-456ae1e26fc1</Key>
+      <AdvKey>ce7b6cda-dd45-4b5a-a6e8-2805812d0875</AdvKey>
+      <asGroup>false</asGroup>
+      <asRival>false</asRival>
+      <Count>1</Count>
+      <AltName>Dock in Industrial Levels</AltName>
+    </EncGroup>
+    <EncGroup>
+      <Key>4153aee9-a253-43c9-908a-0cc807e127ec</Key>
+      <AdvKey>ce7b6cda-dd45-4b5a-a6e8-2805812d0875</AdvKey>
+      <asGroup>false</asGroup>
+      <asRival>false</asRival>
+      <Count>1</Count>
+      <AltName>Bar Near Port Town</AltName>
+    </EncGroup>
+    <EncGroup>
+      <Key>c61f1f76-76b9-4579-a0b6-20450c96664d</Key>
+      <AdvKey>ce7b6cda-dd45-4b5a-a6e8-2805812d0875</AdvKey>
+      <asGroup>false</asGroup>
+      <asRival>false</asRival>
+      <Count>1</Count>
+      <AltName>Warehouse in Tourist District</AltName>
+    </EncGroup>
+  </EncGroups>
+  <Vehicles />
+  <Rosters />
+  <FileName>Enc51.xml</FileName>
+</Encounter>

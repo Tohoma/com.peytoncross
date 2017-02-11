@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<Encounter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>47f00828-b747-4431-8338-453f2e5a5c17</Key>
+  <Name>Hard Bargain</Name>
+  <Description />
+  <Source />
+  <Custom>Base</Custom>
+  <Campaign />
+  <Adventure />
+  <Location>Gorn's Emporium</Location>
+  <Notes>Module encounter from "Suns of Fortune", page 124</Notes>
+  <EncGroups>
+    <EncGroup>
+      <Key>7e86f9fe-309d-4e28-8d0d-b4379b72ed98</Key>
+      <AdvKey>9e399854-f855-412b-baa3-1bb28c378720</AdvKey>
+      <asGroup>true</asGroup>
+      <asRival>false</asRival>
+      <Count>2</Count>
+    </EncGroup>
+    <EncGroup>
+      <Key>a16b0bc1-bdf4-40e0-aa53-f2c0ca73c152</Key>
+      <AdvKey>71f77b06-7ccd-4e2b-ba9c-2cc23072a213</AdvKey>
+      <asGroup>false</asGroup>
+      <asRival>false</asRival>
+      <Count>1</Count>
+    </EncGroup>
+    <EncGroup>
+      <Key>b6a38d3b-9bbe-4ade-ae2e-b10e5d1fa6e0</Key>
+      <AdvKey>c6f2ca1a-3c6f-4fb5-8e1c-743c3f8ba26c</AdvKey>
+      <asGroup>false</asGroup>
+      <asRival>false</asRival>
+      <Count>1</Count>
+    </EncGroup>
+    <EncGroup>
+      <Key>8f67f09f-0094-4e06-b887-411fd412169b</Key>
+      <AdvKey>7ccc532a-186f-48bd-803b-c82778c262f9</AdvKey>
+      <asGroup>true</asGroup>
+      <asRival>false</asRival>
+      <Count>2</Count>
+    </EncGroup>
+    <EncGroup>
+      <Key>b0ccbe44-b38a-42ce-9e2b-0cff00e858b6</Key>
+      <AdvKey>a9e883f5-42d3-45ab-9121-663ea8c6f023</AdvKey>
+      <asGroup>false</asGroup>
+      <asRival>false</asRival>
+      <Count>1</Count>
+    </EncGroup>
+    <EncGroup>
+      <Key>698d1395-1bd0-4afc-a7f1-459e4ef9c10b</Key>
+      <AdvKey>255cecf4-83a3-4eb8-a84c-04b4f97bb6dc</AdvKey>
+      <asGroup>false</asGroup>
+      <asRival>false</asRival>
+      <Count>1</Count>
+    </EncGroup>
+    <EncGroup>
+      <Key>f6b4c4ed-d55c-4da4-b285-e9646bbce05e</Key>
+      <AdvKey>874acd8f-e87e-420b-b933-82593fb4b974</AdvKey>
+      <asGroup>false</asGroup>
+      <asRival>false</asRival>
+      <Count>4</Count>
+    </EncGroup>
+  </EncGroups>
+  <Vehicles />
+  <Rosters />
+  <FileName>Enc3.xml</FileName>
+</Encounter>

@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<Encounter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LastChanged>2014-07-17T10:33:15.38</LastChanged>
+  <NotPersisted>false</NotPersisted>
+  <FileName>Enc86.xml</FileName>
+  <Name>Encounter Engineering</Name>
+  <Key>32d94bda-3746-412f-8d91-aedbdfba6500</Key>
+  <Description />
+  <Campaign />
+  <Adventure>Dead in the Water</Adventure>
+  <Location>Shadow Raptor</Location>
+  <Notes>The following optional Rebel crew members may be added to this encounter if needed (requires adversaries from the Age of Rebellion Core Rulebook):
+[P]
+&lt;ul&gt;
+&lt;li&gt;[B]3 Officers[b] (use "Imperial Army Officer")&lt;/li&gt;
+&lt;li&gt;[B]45 Maintenance Techs[b] (use "Rebel Mechanic", 9 groups of 5 each)&lt;/li&gt;
+&lt;/ul&gt;
+[P]
+All Rebel crew members are unarmed.</Notes>
+  <EncGroups>
+    <EncGroup>
+      <Key>70c5de37-f484-456d-9738-051b76720cbf</Key>
+      <AdvKey>4d58821f-1e15-4c18-b74c-56857824df2f</AdvKey>
+      <asGroup>false</asGroup>
+      <asRival>false</asRival>
+      <Count>2</Count>
+      <AltName />
+    </EncGroup>
+    <EncGroup>
+      <Key>84d5e974-947d-4cbd-b2e8-34f3e8a733c9</Key>
+      <AdvKey>4837b778-64bc-4045-9a04-5bcca846b2c4</AdvKey>
+      <asGroup>true</asGroup>
+      <asRival>false</asRival>
+      <Count>1</Count>
+      <AltName />
+    </EncGroup>
+  </EncGroups>
+  <Vehicles />
+  <Rosters />
+</Encounter>

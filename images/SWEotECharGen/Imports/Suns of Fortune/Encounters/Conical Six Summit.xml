@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<Encounter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>b8b90591-db58-41b5-a1cf-519c0586fef8</Key>
+  <Name>Conical Six Summit</Name>
+  <Description />
+  <Source />
+  <Custom>Base</Custom>
+  <Campaign />
+  <Adventure />
+  <Location>Centerpoint Station</Location>
+  <Notes>Module encounter from "Suns of Fortune", page 137</Notes>
+  <EncGroups>
+    <EncGroup>
+      <Key>88475838-4541-4b03-8821-ba3b5829c482</Key>
+      <AdvKey>97c0a855-bb11-458d-8d81-7c599277bfad</AdvKey>
+      <asGroup>true</asGroup>
+      <asRival>false</asRival>
+      <Count>3</Count>
+    </EncGroup>
+  </EncGroups>
+  <Vehicles />
+  <Rosters />
+  <FileName>Enc7.xml</FileName>
+</Encounter>

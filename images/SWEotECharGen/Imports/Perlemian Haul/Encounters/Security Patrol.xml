@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<Encounter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LastChanged>2014-07-16T15:07:50.55</LastChanged>
+  <NotPersisted>false</NotPersisted>
+  <FileName>Enc79.xml</FileName>
+  <Name>Security Patrol</Name>
+  <Key>4eed6886-43f7-4f93-aa2c-537399704adc</Key>
+  <Description />
+  <Campaign />
+  <Adventure>Perlemian Haul</Adventure>
+  <Location>M226  Freighter</Location>
+  <Notes>Use this encounter if the PCs stumble upon a security patrol.  Use the group of four if the alarm has been tripped, and the group of two if there's no alarm.
+[P]
+This encounter may also be used when the PCs try to enter the command module.  Again, if alerted, there are four troopers to deal with.  If not, just the group of two can be used.</Notes>
+  <EncGroups>
+    <EncGroup>
+      <Key>5b87f199-2f75-4c9c-9a7d-8c9840ff9cd3</Key>
+      <AdvKey>2caf0bcf-a35b-44a2-a756-cbf1d18e0f77</AdvKey>
+      <asGroup>true</asGroup>
+      <asRival>false</asRival>
+      <Count>2</Count>
+      <AltName>No alarm has been tripped</AltName>
+    </EncGroup>
+    <EncGroup>
+      <Key>9e9df27a-f2d3-4f00-b36d-8e301b2f1375</Key>
+      <AdvKey>2caf0bcf-a35b-44a2-a756-cbf1d18e0f77</AdvKey>
+      <asGroup>true</asGroup>
+      <asRival>false</asRival>
+      <Count>4</Count>
+      <AltName>Alarm has been tripped</AltName>
+    </EncGroup>
+  </EncGroups>
+  <Vehicles />
+  <Rosters />
+</Encounter>

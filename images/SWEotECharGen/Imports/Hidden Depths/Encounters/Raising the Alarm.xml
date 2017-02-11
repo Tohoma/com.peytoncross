@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<Encounter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LastChanged>2015-08-17T00:14:47.353</LastChanged>
+  <NotPersisted>false</NotPersisted>
+  <FileName>Enc181.xml</FileName>
+  <Name>Raising the Alarm</Name>
+  <Key>28b98601-ff05-405b-920d-58309abe0609</Key>
+  <Description />
+  <Campaign />
+  <Adventure>Hidden Depths</Adventure>
+  <Location>Phemis</Location>
+  <Notes />
+  <EncGroups>
+    <EncGroup>
+      <Key>051ecb0d-294d-4202-9ce8-2c80253ffda9</Key>
+      <AdvKey>bcc3ee59-70b7-45cd-8967-caed5e5b189d</AdvKey>
+      <asGroup>false</asGroup>
+      <asRival>false</asRival>
+      <Count>1</Count>
+      <AltName />
+    </EncGroup>
+  </EncGroups>
+  <Vehicles />
+  <Rosters />
+</Encounter>

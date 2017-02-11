@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<Encounter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LastChanged>2015-08-16T19:40:34.387</LastChanged>
+  <NotPersisted>false</NotPersisted>
+  <FileName>Enc166.xml</FileName>
+  <Name>Who Shot Last? - Discovering the Debris</Name>
+  <Key>7e91d58d-7ae1-4514-86d4-8c10dc4e0c7c</Key>
+  <Description />
+  <Campaign />
+  <Adventure>Spark of Rebellion</Adventure>
+  <Location>Aboard the Fereallis</Location>
+  <Notes>The players along with their Wookiee tracker have located the crashed transport. However trouble is never far behind as the Empire has dispatched a party of Stormtroopers to investigate the crash on suspicion of Rebel activity.
+[P]
+The Stormtrooper could arrive before, during, or after the PC's have located the crash site, it is up to the GM to decide when they arrive and could base this upon previous dice rolls for tracking the crash site.</Notes>
+  <EncGroups>
+    <EncGroup>
+      <Key>d0cb74b0-a083-4dc0-a8ff-168aaa7f6a8c</Key>
+      <AdvKey>e3bfd5a6-4d8b-4f58-a9d4-3323c79728e3</AdvKey>
+      <asGroup>false</asGroup>
+      <asRival>false</asRival>
+      <Count>1</Count>
+      <AltName />
+    </EncGroup>
+    <EncGroup>
+      <Key>4ecd7174-be3e-4672-a669-aadb6aad58db</Key>
+      <AdvKey>a089008d-6f1a-43d7-bc38-ddff55ffeace</AdvKey>
+      <asGroup>true</asGroup>
+      <asRival>false</asRival>
+      <Count>3</Count>
+      <AltName />
+    </EncGroup>
+    <EncGroup>
+      <Key>25f353e4-6c11-45af-b53f-2d8e79dc2156</Key>
+      <AdvKey>a089008d-6f1a-43d7-bc38-ddff55ffeace</AdvKey>
+      <asGroup>true</asGroup>
+      <asRival>false</asRival>
+      <Count>3</Count>
+      <AltName />
+    </EncGroup>
+    <EncGroup>
+      <Key>7ed13a28-0e5b-4871-80f0-eb16fe00e115</Key>
+      <AdvKey>06c7ab88-2094-4dbe-96c8-0232d59b2248</AdvKey>
+      <asGroup>false</asGroup>
+      <asRival>false</asRival>
+      <Count>1</Count>
+      <AltName />
+    </EncGroup>
+  </EncGroups>
+  <Vehicles />
+  <Rosters />
+</Encounter>

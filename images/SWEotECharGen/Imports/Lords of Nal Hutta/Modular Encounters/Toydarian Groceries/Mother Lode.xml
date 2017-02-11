@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<Encounter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LastChanged>2015-02-20T16:38:51.7</LastChanged>
+  <NotPersisted>false</NotPersisted>
+  <FileName>Enc157.xml</FileName>
+  <Name>Mother Lode</Name>
+  <Key>0f255ddc-5cc1-4d24-b9ee-a3303b46ed00</Key>
+  <Description />
+  <Campaign />
+  <Adventure>Lords of Nal Hutta - Toydarian Grocery Shopping</Adventure>
+  <Location>Toydaria</Location>
+  <Notes>Adjust the number of Shaoryn to equal the number of PCs in the group.</Notes>
+  <EncGroups>
+    <EncGroup>
+      <Key>66f5384e-e5d1-4810-abcf-4828b636e0fa</Key>
+      <AdvKey>3f00b039-d834-4693-a545-2d8b0bce7863</AdvKey>
+      <asGroup>false</asGroup>
+      <asRival>false</asRival>
+      <Count>5</Count>
+      <AltName />
+    </EncGroup>
+  </EncGroups>
+  <Vehicles />
+  <Rosters />
+</Encounter>

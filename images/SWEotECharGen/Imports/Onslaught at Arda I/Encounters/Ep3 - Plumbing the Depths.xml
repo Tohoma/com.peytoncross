@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<Encounter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LastChanged>2014-10-01T11:59:20.137</LastChanged>
+  <NotPersisted>false</NotPersisted>
+  <FileName>Enc137.xml</FileName>
+  <Name>Ep3 - Plumbing the Depths</Name>
+  <Key>c1777ff0-ae01-40d9-af46-907265876e67</Key>
+  <Description />
+  <Campaign />
+  <Adventure>Onslaught at Arda I</Adventure>
+  <Location>Ord Radama</Location>
+  <Notes />
+  <EncGroups>
+    <EncGroup>
+      <Key>811b6ce3-134f-4210-a9bc-dc03388692ac</Key>
+      <AdvKey>cb59aa01-c43b-4998-b1c1-b8ed83904d5b</AdvKey>
+      <asGroup>true</asGroup>
+      <asRival>false</asRival>
+      <Count>3</Count>
+      <AltName />
+    </EncGroup>
+    <EncGroup>
+      <Key>ec6c28fd-45f4-446b-a553-ec71baf57fda</Key>
+      <AdvKey>cb59aa01-c43b-4998-b1c1-b8ed83904d5b</AdvKey>
+      <asGroup>true</asGroup>
+      <asRival>false</asRival>
+      <Count>3</Count>
+      <AltName />
+    </EncGroup>
+  </EncGroups>
+  <Vehicles />
+  <Rosters />
+</Encounter>

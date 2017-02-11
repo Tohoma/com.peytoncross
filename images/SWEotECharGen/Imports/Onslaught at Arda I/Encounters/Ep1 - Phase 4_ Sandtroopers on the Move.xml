@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<Encounter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LastChanged>2014-10-01T09:00:13.67</LastChanged>
+  <NotPersisted>false</NotPersisted>
+  <FileName>Enc126.xml</FileName>
+  <Name>Ep1 - Phase 4: Sandtroopers on the Move</Name>
+  <Key>d5b7c297-7bc6-402f-8309-ed6484a832c2</Key>
+  <Description />
+  <Campaign />
+  <Adventure>Onslaught at Arda I</Adventure>
+  <Location>Arda I</Location>
+  <Notes>This encounter contains 32 sandtroopers.  However, the PCs don't have to take them on by themselves.  Some of the squads may be occupied by other Rebel forces.  The PCs may also use the Arda I Anti-Infantry Laser Cannons found in Phase 2 to help take them down.  If they engage with the sandtroopers, one squad should provide ample challenge to the PCs.</Notes>
+  <EncGroups>
+    <EncGroup>
+      <Key>cfa017a2-bf54-4826-92ed-d3c9a9aa9a6b</Key>
+      <AdvKey>37fc1251-3594-4980-a61f-293db20f04e8</AdvKey>
+      <asGroup>true</asGroup>
+      <asRival>false</asRival>
+      <Count>8</Count>
+      <AltName>1st Platoon, 1st Squad</AltName>
+    </EncGroup>
+    <EncGroup>
+      <Key>5022d318-277b-4de2-8f5b-33d7b3952754</Key>
+      <AdvKey>37fc1251-3594-4980-a61f-293db20f04e8</AdvKey>
+      <asGroup>true</asGroup>
+      <asRival>false</asRival>
+      <Count>8</Count>
+      <AltName>1st Platoon, 2nd Squad</AltName>
+    </EncGroup>
+    <EncGroup>
+      <Key>6d36138b-0155-455e-82b1-bf3de7149878</Key>
+      <AdvKey>37fc1251-3594-4980-a61f-293db20f04e8</AdvKey>
+      <asGroup>true</asGroup>
+      <asRival>false</asRival>
+      <Count>8</Count>
+      <AltName>2nd Platoon, 1st Squad</AltName>
+    </EncGroup>
+    <EncGroup>
+      <Key>2da1de66-49bc-43be-a2d6-f3b1cf6a088d</Key>
+      <AdvKey>37fc1251-3594-4980-a61f-293db20f04e8</AdvKey>
+      <asGroup>true</asGroup>
+      <asRival>false</asRival>
+      <Count>8</Count>
+      <AltName>2nd Platoon, 2nd Squad</AltName>
+    </EncGroup>
+  </EncGroups>
+  <Vehicles />
+  <Rosters />
+</Encounter>

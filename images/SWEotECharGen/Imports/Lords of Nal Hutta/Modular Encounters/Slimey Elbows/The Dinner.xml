@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<Encounter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LastChanged>2015-02-21T15:57:06.543</LastChanged>
+  <NotPersisted>false</NotPersisted>
+  <FileName>Enc160.xml</FileName>
+  <Name>The Dinner</Name>
+  <Key>8f0e17bb-2d1a-45ed-aefe-f4f70da7719b</Key>
+  <Description />
+  <Campaign />
+  <Adventure>Lords of Nal Hutta - Rubbing Slimy Elbows</Adventure>
+  <Location>Wheeta Palace, Nal Hutta</Location>
+  <Notes>This event comes after "The Dance".  There should be one massiff present for every two participants (PCs and NPCs alike), so adjust count accordingly.  Use the encounter sheet for "The Dance" to continue keeping track of the NPC groups.</Notes>
+  <EncGroups>
+    <EncGroup>
+      <Key>782aef32-2aa7-4864-bc2a-fd388d79312f</Key>
+      <AdvKey>9577a28c-1862-410f-a4b8-5fc41a840174</AdvKey>
+      <asGroup>false</asGroup>
+      <asRival>false</asRival>
+      <Count>8</Count>
+      <AltName />
+    </EncGroup>
+  </EncGroups>
+  <Vehicles />
+  <Rosters />
+</Encounter>

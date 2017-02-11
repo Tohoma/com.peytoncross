@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<Encounter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LastChanged>2014-07-16T14:38:16.897</LastChanged>
+  <NotPersisted>false</NotPersisted>
+  <FileName>Enc74.xml</FileName>
+  <Name>Martle Station Patrol</Name>
+  <Key>56933b1c-29cc-47b1-9d97-431f2856a5cc</Key>
+  <Description />
+  <Campaign />
+  <Adventure>Perlemian Haul</Adventure>
+  <Location>Martle Station</Location>
+  <Notes>Use this encounter when an Imperial patrol is required at Martle Station.</Notes>
+  <EncGroups>
+    <EncGroup>
+      <Key>f5718d81-4c3b-4082-93a9-277040bf99dc</Key>
+      <AdvKey>a9e73780-2443-4620-a89c-f2fd3bf86a9d</AdvKey>
+      <asGroup>true</asGroup>
+      <asRival>false</asRival>
+      <Count>2</Count>
+      <AltName />
+    </EncGroup>
+  </EncGroups>
+  <Vehicles />
+  <Rosters />
+</Encounter>

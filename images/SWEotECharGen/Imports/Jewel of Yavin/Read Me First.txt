@@ -1,0 +1,11 @@
+The Jewel of Yavin
+------------------
+
+This folder contains adversaries, encounters, and a data set that can be used with "The Jewel of Yavin" adventure by FFG.  To include these new items in your system:
+
+1. Run the data editor and Import the data set found in the "Data Set" folder.  This data set contains the Velker "vehicle", plus the Velker vehicle's two vehicle weapons.  If you don't plan on using the Velker during the Grand Prix, you don't need to import the data set.
+2. Run the GM Tools.
+3. Import all adversaries found in the "Adversaries" folder in the "Jewel of Yavin Import" folder.  Use the "Import" button on the Adversaries pane.  These adversaries are required for the encounters to work properly.
+4. Import the encounters found in the "Encounters" folder in the "Jewel of Yavin Import" folder.  Use the "Import" button on the Encounters pane.
+
+Note on the Velker:  The Velker, as defined in the adventure, is actually a vehicle, which can be found in the data set import.  In order to create a proper roster for this "vehicle", a Velker adversary is also included.  The Grand Prix encounter uses both the vehicle version and the adversary version to create a roster entry for the Velker, with the "adversary" providing "pilot" and "gunner" positions in the "vehicle".  When using the Velkor in an encounter, ignore the adversary's wound and soak and only keep track of the Vehicle roster entry.  The adversary version is only there to provide the skills required to "fly" and "attack" with the Velker vehicle.  When you are finished with "The Jewel of Yavin", you can safely remove the "Jewel of Yavin" data set so the Velkor and its custom weapons won't clutter up your vehicle list.  If you don't want to bother with the Velker at all, don't import the data set, and remove the Velker adversary from your adversaries in GM Tools.  This will automatically remove it from the Grand Prix encounter as well.

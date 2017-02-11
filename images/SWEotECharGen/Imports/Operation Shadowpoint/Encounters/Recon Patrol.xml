@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<Encounter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LastChanged>2014-08-14T11:31:14.22</LastChanged>
+  <NotPersisted>false</NotPersisted>
+  <FileName>Enc105.xml</FileName>
+  <Name>Recon Patrol</Name>
+  <Key>344d194e-0338-4645-a750-37ae536f4e5c</Key>
+  <Description />
+  <Campaign />
+  <Adventure>Operation: Shadowpoint</Adventure>
+  <Location>Onderon Jungle</Location>
+  <Notes>Use this encounter as the basis for the Recon Patrol event seed.</Notes>
+  <EncGroups>
+    <EncGroup>
+      <Key>bbcc96a0-38de-494e-b88a-0d1fca05f325</Key>
+      <AdvKey>44e74608-acae-49c4-9df8-04bf74cb5efd</AdvKey>
+      <asGroup>false</asGroup>
+      <asRival>false</asRival>
+      <Count>5</Count>
+      <AltName />
+    </EncGroup>
+  </EncGroups>
+  <Vehicles />
+  <Rosters />
+</Encounter>

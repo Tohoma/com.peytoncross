@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<Encounter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LastChanged>2014-08-14T11:27:11.497</LastChanged>
+  <NotPersisted>false</NotPersisted>
+  <FileName>Enc104.xml</FileName>
+  <Name>Securing the Signal</Name>
+  <Key>94402740-8ea4-4d75-8ab5-4d3155519703</Key>
+  <Description />
+  <Campaign />
+  <Adventure>Operation: Shadowpoint</Adventure>
+  <Location>Iziz City</Location>
+  <Notes>This encounter may be modified as the GM sees fit.  It only includes the front and rear entrance guards, as well as the patrol.  Gaav Fennro is also added in case he takes part in the encounter.</Notes>
+  <EncGroups>
+    <EncGroup>
+      <Key>8c5d2839-654e-4c15-af24-eeb4b4040081</Key>
+      <AdvKey>7403709a-3433-40d9-8526-a1ca8ee33de9</AdvKey>
+      <asGroup>true</asGroup>
+      <asRival>false</asRival>
+      <Count>2</Count>
+      <AltName>Front Guard</AltName>
+    </EncGroup>
+    <EncGroup>
+      <Key>7007fd55-0a9a-4a71-b07a-d3353d5b1186</Key>
+      <AdvKey>7403709a-3433-40d9-8526-a1ca8ee33de9</AdvKey>
+      <asGroup>true</asGroup>
+      <asRival>false</asRival>
+      <Count>2</Count>
+      <AltName>Rear Guard</AltName>
+    </EncGroup>
+    <EncGroup>
+      <Key>d0c32292-5d50-4f0b-beb8-8db2f96c06bf</Key>
+      <AdvKey>7403709a-3433-40d9-8526-a1ca8ee33de9</AdvKey>
+      <asGroup>true</asGroup>
+      <asRival>false</asRival>
+      <Count>2</Count>
+      <AltName>Patrol</AltName>
+    </EncGroup>
+    <EncGroup>
+      <Key>f67a74bc-c2ae-4577-9e4f-ed1c0cc68144</Key>
+      <AdvKey>2a86890b-686e-4884-ada4-cb92542fa883</AdvKey>
+      <asGroup>false</asGroup>
+      <asRival>false</asRival>
+      <Count>1</Count>
+      <AltName />
+    </EncGroup>
+  </EncGroups>
+  <Vehicles />
+  <Rosters />
+</Encounter>

@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<Encounter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LastChanged>2014-07-17T11:24:44.47</LastChanged>
+  <NotPersisted>false</NotPersisted>
+  <FileName>Enc92.xml</FileName>
+  <Name>Turnabout is Fair Play - Garage</Name>
+  <Key>7a1f562c-b359-4d7f-848f-764ebef2cc6a</Key>
+  <Description />
+  <Campaign />
+  <Adventure>Dead in the Water</Adventure>
+  <Location>KA Ltd. Factory, Ganaang, Teagan</Location>
+  <Notes>TJ-11 will be found here only if it jumped to hyperspace in the previous episode.</Notes>
+  <EncGroups>
+    <EncGroup>
+      <Key>5e52d7ef-217e-496a-b86e-256ea333f75d</Key>
+      <AdvKey>4837b778-64bc-4045-9a04-5bcca846b2c4</AdvKey>
+      <asGroup>true</asGroup>
+      <asRival>false</asRival>
+      <Count>5</Count>
+      <AltName />
+    </EncGroup>
+    <EncGroup>
+      <Key>aedc6c02-0bc3-4163-963e-b7fbdcd97e65</Key>
+      <AdvKey>ffc4fc4d-d210-4c72-a624-763483fdfab6</AdvKey>
+      <asGroup>false</asGroup>
+      <asRival>false</asRival>
+      <Count>1</Count>
+      <AltName />
+    </EncGroup>
+    <EncGroup>
+      <Key>be4139f2-286a-4078-9047-ec2a42f3f74e</Key>
+      <AdvKey>6f18a3f8-d7f4-43e1-8a40-b25f6f9955a4</AdvKey>
+      <asGroup>false</asGroup>
+      <asRival>false</asRival>
+      <Count>1</Count>
+      <AltName />
+    </EncGroup>
+  </EncGroups>
+  <Vehicles />
+  <Rosters />
+</Encounter>

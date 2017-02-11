@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<Encounter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LastChanged>2015-08-17T16:13:17.307</LastChanged>
+  <NotPersisted>false</NotPersisted>
+  <FileName>Enc188.xml</FileName>
+  <Name>Enc 6: Wolfpack</Name>
+  <Key>ca704e94-6f19-4f17-a0b8-1dac1a914931</Key>
+  <Description />
+  <Campaign />
+  <Adventure>Mountaintop Rescue</Adventure>
+  <Location>Mt. Tellec, Spintir</Location>
+  <Notes />
+  <EncGroups>
+    <EncGroup>
+      <Key>26e748b8-9887-4212-919a-cb1c865db8c5</Key>
+      <AdvKey>f9c59686-9e4c-4f47-a66e-93fa7fcf31d8</AdvKey>
+      <asGroup>true</asGroup>
+      <asRival>false</asRival>
+      <Count>3</Count>
+      <AltName>Main Entrance</AltName>
+    </EncGroup>
+    <EncGroup>
+      <Key>ab83be7c-7c5e-4708-b61c-4d8ea2096487</Key>
+      <AdvKey>f9c59686-9e4c-4f47-a66e-93fa7fcf31d8</AdvKey>
+      <asGroup>true</asGroup>
+      <asRival>false</asRival>
+      <Count>3</Count>
+      <AltName>Prowling</AltName>
+    </EncGroup>
+  </EncGroups>
+  <Vehicles />
+  <Rosters />
+</Encounter>

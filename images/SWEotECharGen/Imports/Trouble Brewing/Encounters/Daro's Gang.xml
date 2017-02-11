@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<Encounter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LastChanged>2014-07-22T17:35:59.577</LastChanged>
+  <NotPersisted>false</NotPersisted>
+  <FileName>Enc99.xml</FileName>
+  <Name>Daro's Gang</Name>
+  <Key>3587bade-5074-4517-b802-ec22474f0413</Key>
+  <Description />
+  <Campaign />
+  <Adventure>Trouble Brewing</Adventure>
+  <Location>Formos Spaceport</Location>
+  <Notes>Please see page 428 of the Edge of the Empire Core Rulebook for details.</Notes>
+  <EncGroups>
+    <EncGroup>
+      <Key>9f0968e6-8a1f-4d38-9ec3-994ca1a2d547</Key>
+      <AdvKey>4056515e-26f0-488d-8895-443b46c355e1</AdvKey>
+      <asGroup>false</asGroup>
+      <asRival>false</asRival>
+      <Count>1</Count>
+      <AltName />
+    </EncGroup>
+    <EncGroup>
+      <Key>8b17ddf4-9f68-436f-83d2-49fd35b1d326</Key>
+      <AdvKey>e28bcf73-71f7-484b-af85-d8c34d2ace77</AdvKey>
+      <asGroup>true</asGroup>
+      <asRival>false</asRival>
+      <Count>1</Count>
+      <AltName />
+    </EncGroup>
+    <EncGroup>
+      <Key>42cedc0c-c789-45ed-8882-ee8029e460a3</Key>
+      <AdvKey>c2eb9422-528c-44ac-b0a9-9069d06036ec</AdvKey>
+      <asGroup>true</asGroup>
+      <asRival>false</asRival>
+      <Count>1</Count>
+      <AltName />
+    </EncGroup>
+    <EncGroup>
+      <Key>6bb204ba-64c4-432d-9a7e-6e4cf1b560e3</Key>
+      <AdvKey>120b7ebc-4563-412e-a798-ac77a54ed2e0</AdvKey>
+      <asGroup>false</asGroup>
+      <asRival>false</asRival>
+      <Count>1</Count>
+      <AltName />
+    </EncGroup>
+    <EncGroup>
+      <Key>5e1cf1cc-77f5-4f8a-9961-bfa1f021f411</Key>
+      <AdvKey>d3104c27-dff5-4567-b41e-e1826dba582b</AdvKey>
+      <asGroup>true</asGroup>
+      <asRival>false</asRival>
+      <Count>1</Count>
+      <AltName />
+    </EncGroup>
+  </EncGroups>
+  <Vehicles />
+  <Rosters />
+</Encounter>

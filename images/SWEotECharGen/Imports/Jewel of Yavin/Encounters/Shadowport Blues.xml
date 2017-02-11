@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<Encounter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>7d10747a-8c61-4612-a468-591d8aa9c126</Key>
+  <Name>Shadowport Blues</Name>
+  <Description />
+  <Source />
+  <Custom>Base</Custom>
+  <Campaign />
+  <Adventure>Jewel of Yavin</Adventure>
+  <Location>Market Row, Port Town</Location>
+  <Notes>There should be one thug per PC, so adjust accordingly.  See page 24 of The Jewel of Yavin for details.</Notes>
+  <EncGroups>
+    <EncGroup>
+      <Key>d80f1000-4510-4b8a-9d49-8b274963c12b</Key>
+      <AdvKey>943ddd57-fb33-446b-8bbb-b2d36eba65e8</AdvKey>
+      <asGroup>false</asGroup>
+      <asRival>false</asRival>
+      <Count>1</Count>
+      <AltName />
+    </EncGroup>
+    <EncGroup>
+      <Key>4aa7bac6-7d5e-4ad9-8a30-ae4781419b46</Key>
+      <AdvKey>815e4535-f628-44e2-9230-5ec0793c84d3</AdvKey>
+      <asGroup>false</asGroup>
+      <asRival>false</asRival>
+      <Count>6</Count>
+      <AltName />
+    </EncGroup>
+    <EncGroup>
+      <Key>4c7e5f63-30e6-4535-b43e-ea15ed7f9a37</Key>
+      <AdvKey>e4503ec6-2bb7-43ee-ba5c-0625080650c2</AdvKey>
+      <asGroup>false</asGroup>
+      <asRival>false</asRival>
+      <Count>1</Count>
+      <AltName />
+    </EncGroup>
+  </EncGroups>
+  <Vehicles />
+  <Rosters />
+  <FileName>Enc50.xml</FileName>
+</Encounter>

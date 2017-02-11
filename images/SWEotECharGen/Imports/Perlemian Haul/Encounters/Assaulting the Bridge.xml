@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<Encounter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LastChanged>2014-07-16T15:11:15.403</LastChanged>
+  <NotPersisted>false</NotPersisted>
+  <FileName>Enc80.xml</FileName>
+  <Name>Assaulting the Bridge</Name>
+  <Key>fb8e3727-96a8-4c1f-811d-6305de8093c5</Key>
+  <Description />
+  <Campaign />
+  <Adventure>Perlemian Haul</Adventure>
+  <Location>M226  Freighter</Location>
+  <Notes />
+  <EncGroups>
+    <EncGroup>
+      <Key>aa84759e-f5db-4af8-8096-e10770c7b3a3</Key>
+      <AdvKey>db6fcce7-5a2c-4ae9-8f9b-2a2db886a96e</AdvKey>
+      <asGroup>false</asGroup>
+      <asRival>false</asRival>
+      <Count>1</Count>
+      <AltName />
+    </EncGroup>
+    <EncGroup>
+      <Key>928bd3e7-c40a-4c56-bed6-0a3c04392684</Key>
+      <AdvKey>1c930f77-1f68-421f-bd98-d8f7bf61efa0</AdvKey>
+      <asGroup>false</asGroup>
+      <asRival>false</asRival>
+      <Count>1</Count>
+      <AltName />
+    </EncGroup>
+    <EncGroup>
+      <Key>03153c0b-3d12-4202-b90d-ae78938bf9ef</Key>
+      <AdvKey>d64bd33d-6d20-4718-95bf-5743e88fefb5</AdvKey>
+      <asGroup>true</asGroup>
+      <asRival>false</asRival>
+      <Count>3</Count>
+      <AltName>Commanded by Noor</AltName>
+    </EncGroup>
+    <EncGroup>
+      <Key>f28b5119-819c-4648-a701-6cb0833c07ff</Key>
+      <AdvKey>d64bd33d-6d20-4718-95bf-5743e88fefb5</AdvKey>
+      <asGroup>true</asGroup>
+      <asRival>false</asRival>
+      <Count>3</Count>
+      <AltName>Commanded by Troo</AltName>
+    </EncGroup>
+    <EncGroup>
+      <Key>0728096c-4f01-4e6f-9987-834a739861c7</Key>
+      <AdvKey>2caf0bcf-a35b-44a2-a756-cbf1d18e0f77</AdvKey>
+      <asGroup>true</asGroup>
+      <asRival>false</asRival>
+      <Count>1</Count>
+      <AltName />
+    </EncGroup>
+  </EncGroups>
+  <Vehicles />
+  <Rosters />
+</Encounter>

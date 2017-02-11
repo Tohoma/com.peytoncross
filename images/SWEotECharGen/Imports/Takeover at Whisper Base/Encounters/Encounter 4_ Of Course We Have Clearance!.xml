@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<Encounter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LastChanged>2014-07-22T15:52:10.227</LastChanged>
+  <NotPersisted>false</NotPersisted>
+  <FileName>Enc96.xml</FileName>
+  <Name>Encounter 4: Of Course We Have Clearance!</Name>
+  <Key>a47a1ab1-11c0-43bd-a398-d23aac5fff83</Key>
+  <Description />
+  <Campaign />
+  <Adventure>Takeover at Whisper Base</Adventure>
+  <Location>Onderon</Location>
+  <Notes>Please see page 17 of the Age of Rebellion Beginner Game Adventure Book for details.</Notes>
+  <EncGroups>
+    <EncGroup>
+      <Key>e03448f7-f248-4943-a49a-713ccad6f6bb</Key>
+      <AdvKey>36b66798-9ddd-4888-8999-82b2faaf4223</AdvKey>
+      <asGroup>false</asGroup>
+      <asRival>false</asRival>
+      <Count>4</Count>
+      <AltName />
+    </EncGroup>
+  </EncGroups>
+  <Vehicles />
+  <Rosters />
+</Encounter>

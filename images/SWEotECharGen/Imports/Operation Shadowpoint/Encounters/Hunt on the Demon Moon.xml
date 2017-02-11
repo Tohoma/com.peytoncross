@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<Encounter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LastChanged>2014-08-14T11:41:09.747</LastChanged>
+  <NotPersisted>false</NotPersisted>
+  <FileName>Enc107.xml</FileName>
+  <Name>Hunt on the Demon Moon</Name>
+  <Key>c46793d7-8cb8-4437-a1d0-e12fc32ced9d</Key>
+  <Description />
+  <Campaign />
+  <Adventure>Operation: Shadowpoint</Adventure>
+  <Location>Dxun</Location>
+  <Notes>This encounter can be whatever the GM wants it to be.  Included are typical prey for the hunt.  Add, modify, or remove as you see fit.</Notes>
+  <EncGroups>
+    <EncGroup>
+      <Key>cf775c24-26a5-4bb0-b110-5a83fcbbe94d</Key>
+      <AdvKey>b465f992-cf1a-45a2-96ef-c9bd758114f3</AdvKey>
+      <asGroup>true</asGroup>
+      <asRival>false</asRival>
+      <Count>5</Count>
+      <AltName />
+    </EncGroup>
+    <EncGroup>
+      <Key>3fa8afb4-1b83-4595-9937-0f851193556c</Key>
+      <AdvKey>b465f992-cf1a-45a2-96ef-c9bd758114f3</AdvKey>
+      <asGroup>true</asGroup>
+      <asRival>false</asRival>
+      <Count>5</Count>
+      <AltName />
+    </EncGroup>
+    <EncGroup>
+      <Key>4aad9019-ee31-41df-a0f0-5caea8909871</Key>
+      <AdvKey>339bb48e-7d0c-455a-97f4-a7f5b42a29a8</AdvKey>
+      <asGroup>false</asGroup>
+      <asRival>false</asRival>
+      <Count>3</Count>
+      <AltName />
+    </EncGroup>
+    <EncGroup>
+      <Key>b3d72a30-249d-4a7e-bc18-c02cf2e1bd88</Key>
+      <AdvKey>a2e8f114-9a91-4428-b977-8b8ffed5803b</AdvKey>
+      <asGroup>false</asGroup>
+      <asRival>false</asRival>
+      <Count>1</Count>
+      <AltName />
+    </EncGroup>
+    <EncGroup>
+      <Key>b14f125d-578b-4d23-a274-213f1b18deb4</Key>
+      <AdvKey>15abe16a-b6a2-46bd-b945-a116574679c4</AdvKey>
+      <asGroup>false</asGroup>
+      <asRival>false</asRival>
+      <Count>1</Count>
+      <AltName />
+    </EncGroup>
+  </EncGroups>
+  <Vehicles />
+  <Rosters />
+</Encounter>

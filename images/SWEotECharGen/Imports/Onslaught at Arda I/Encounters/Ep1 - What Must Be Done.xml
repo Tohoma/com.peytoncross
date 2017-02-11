@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<Encounter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LastChanged>2014-10-01T09:01:02.903</LastChanged>
+  <NotPersisted>false</NotPersisted>
+  <FileName>Enc128.xml</FileName>
+  <Name>Ep1 - What Must Be Done</Name>
+  <Key>da4f6bd3-56bc-4fa0-b2dd-142e9fbb64f0</Key>
+  <Description />
+  <Campaign />
+  <Adventure>Onslaught at Arda I</Adventure>
+  <Location>Arda I</Location>
+  <Notes>If Captain Balrekk is still alive, he replaces the sandtrooper sergeant.</Notes>
+  <EncGroups>
+    <EncGroup>
+      <Key>77f84aa0-f57a-4c4f-ae4b-15cec79850bc</Key>
+      <AdvKey>0389de66-de6e-4624-bdee-4f039b3d3583</AdvKey>
+      <asGroup>false</asGroup>
+      <asRival>false</asRival>
+      <Count>1</Count>
+      <AltName />
+    </EncGroup>
+    <EncGroup>
+      <Key>b4c15b26-d7cb-456a-8eed-2e48258b96b1</Key>
+      <AdvKey>37fc1251-3594-4980-a61f-293db20f04e8</AdvKey>
+      <asGroup>true</asGroup>
+      <asRival>false</asRival>
+      <Count>3</Count>
+      <AltName />
+    </EncGroup>
+    <EncGroup>
+      <Key>18947f1d-8ba1-4955-8afa-13dc0b45f019</Key>
+      <AdvKey>37fc1251-3594-4980-a61f-293db20f04e8</AdvKey>
+      <asGroup>true</asGroup>
+      <asRival>false</asRival>
+      <Count>3</Count>
+      <AltName />
+    </EncGroup>
+  </EncGroups>
+  <Vehicles />
+  <Rosters />
+</Encounter>

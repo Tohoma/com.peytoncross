@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<Encounter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LastChanged>2014-02-20T20:14:58</LastChanged>
+  <NotPersisted>false</NotPersisted>
+  <FileName>Enc26.xml</FileName>
+  <Name>Nexu Stalking</Name>
+  <Key>48f8fd71-d09c-4829-9893-81f24a7d0f5f</Key>
+  <Description />
+  <Campaign />
+  <Adventure>Beyond the Rim</Adventure>
+  <Location>Cholganna</Location>
+  <Notes>A solitary nexu is stalking the characters.  If the PCs are keeping an acitve watch or are alerted to the nexu's presence, they may make an [B]opposed Perception vs. Stealth check[b].  If the PCs are distracted by other events, the nexu instead makes an [B]opposed Stealth vs. Perception check[b].  Add [SETBACK][SETBACK] if watchful PCs might notice the nexu.</Notes>
+  <EncGroups>
+    <EncGroup>
+      <Key>143bba49-a9ff-4cd1-94da-794677efa460</Key>
+      <AdvKey>4b2db9fd-7036-4bc7-aab0-5fddb7ad3efa</AdvKey>
+      <asGroup>false</asGroup>
+      <asRival>false</asRival>
+      <Count>1</Count>
+      <AltName />
+    </EncGroup>
+  </EncGroups>
+  <Vehicles />
+  <Rosters />
+</Encounter>

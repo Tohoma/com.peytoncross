@@ -1,0 +1,9 @@
+Lessons from the Past
+---------------------
+
+This folder contains adversaries and encounters that can be used with the "Lessons from the Past" adventure found in the Force and Destiny Core Rulebook.  To include these new items in your system:
+
+
+1. Run the GM Tools.
+2. Import all adversaries found in the "Lessons from the Past\Adversaries" folder.  Use the "Import" button on the Adversaries pane.  These adversaries are required for the encounters to work properly.
+3. Import the encounters found in the "Lessons from the Past\Encounters" folder.  Use the "Import" button on the Encounters pane.

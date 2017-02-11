@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<Encounter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>0ff3bcff-13f3-4645-9081-2e391f846b28</Key>
+  <Name>Guards in the Museum</Name>
+  <Description />
+  <Source />
+  <Custom>Base</Custom>
+  <Campaign />
+  <Adventure>Jewel of Yavin</Adventure>
+  <Location>Figg &amp; Associates Art Museum</Location>
+  <Notes>This encounter contains both squads of guards, plus the security droid.  Each squad is divided into three patrols.  See page 77 of The Jewel of Yavin for details.</Notes>
+  <EncGroups>
+    <EncGroup>
+      <Key>25e84771-97a7-4162-b399-810ef0b82f49</Key>
+      <AdvKey>fa05572d-ab92-4e2e-862b-a17c7ea2994b</AdvKey>
+      <asGroup>false</asGroup>
+      <asRival>false</asRival>
+      <Count>1</Count>
+      <AltName>Squad A, Patrol 1</AltName>
+    </EncGroup>
+    <EncGroup>
+      <Key>37acf6e5-5bf6-4dae-88fb-b37c53f7c07c</Key>
+      <AdvKey>120c8327-4a52-4694-9069-0b6b2005cf7c</AdvKey>
+      <asGroup>false</asGroup>
+      <asRival>false</asRival>
+      <Count>1</Count>
+      <AltName>Squad A, Patrol 1</AltName>
+    </EncGroup>
+    <EncGroup>
+      <Key>ab48aba4-cdfa-4375-8236-4bb8e2b2e00b</Key>
+      <AdvKey>120c8327-4a52-4694-9069-0b6b2005cf7c</AdvKey>
+      <asGroup>true</asGroup>
+      <asRival>false</asRival>
+      <Count>2</Count>
+      <AltName>Squad A, Patrol 2</AltName>
+    </EncGroup>
+    <EncGroup>
+      <Key>3d76384e-1ee2-4d39-a9d0-b8f5ac829bbe</Key>
+      <AdvKey>120c8327-4a52-4694-9069-0b6b2005cf7c</AdvKey>
+      <asGroup>true</asGroup>
+      <asRival>false</asRival>
+      <Count>2</Count>
+      <AltName>Squad A, Patrol 3</AltName>
+    </EncGroup>
+    <EncGroup>
+      <Key>a3ca7d58-6944-4612-9771-4fa567051510</Key>
+      <AdvKey>2cecb73c-2bda-4d44-9fc8-b4607260b66d</AdvKey>
+      <asGroup>false</asGroup>
+      <asRival>false</asRival>
+      <Count>1</Count>
+      <AltName>Squad B, Patrol 1</AltName>
+    </EncGroup>
+    <EncGroup>
+      <Key>792c9f8c-5678-4ca6-9098-de22d8a0e3f4</Key>
+      <AdvKey>120c8327-4a52-4694-9069-0b6b2005cf7c</AdvKey>
+      <asGroup>false</asGroup>
+      <asRival>false</asRival>
+      <Count>1</Count>
+      <AltName>Squad B, Patrol 1</AltName>
+    </EncGroup>
+    <EncGroup>
+      <Key>b5311558-5742-4e49-9643-9327d244ee09</Key>
+      <AdvKey>120c8327-4a52-4694-9069-0b6b2005cf7c</AdvKey>
+      <asGroup>true</asGroup>
+      <asRival>false</asRival>
+      <Count>2</Count>
+      <AltName>Squad B, Patrol 2</AltName>
+    </EncGroup>
+    <EncGroup>
+      <Key>1f08bbed-6818-4424-a5e6-cb79d4006bfc</Key>
+      <AdvKey>120c8327-4a52-4694-9069-0b6b2005cf7c</AdvKey>
+      <asGroup>true</asGroup>
+      <asRival>false</asRival>
+      <Count>2</Count>
+      <AltName>Squad B, Patrol 3</AltName>
+    </EncGroup>
+    <EncGroup>
+      <Key>0dd47855-abf3-4a56-b343-82d79d5e991e</Key>
+      <AdvKey>d34f9b8c-8a25-44ac-86fa-9f689bf33762</AdvKey>
+      <asGroup>false</asGroup>
+      <asRival>false</asRival>
+      <Count>1</Count>
+      <AltName>On Patrol</AltName>
+    </EncGroup>
+  </EncGroups>
+  <Vehicles />
+  <Rosters />
+  <FileName>Enc53.xml</FileName>
+</Encounter>

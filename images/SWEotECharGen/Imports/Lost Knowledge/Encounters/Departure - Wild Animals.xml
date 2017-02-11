@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<Encounter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LastChanged>2014-09-04T08:23:28.203</LastChanged>
+  <NotPersisted>false</NotPersisted>
+  <FileName>Enc109.xml</FileName>
+  <Name>Departure - Wild Animals</Name>
+  <Key>9f5fa0ea-3202-45c1-9be3-5ade1b2feec3</Key>
+  <Description />
+  <Campaign />
+  <Adventure>Lost Knowledge</Adventure>
+  <Location>Athiss Wilderness</Location>
+  <Notes>See page 244 of the Force and Destiny Beta Rulebook for details.</Notes>
+  <EncGroups>
+    <EncGroup>
+      <Key>4b352196-5840-413c-bcf2-7679912f93e3</Key>
+      <AdvKey>0412e5ff-00f8-4765-a6d1-6bc2b052479c</AdvKey>
+      <asGroup>true</asGroup>
+      <asRival>false</asRival>
+      <Count>3</Count>
+      <AltName />
+    </EncGroup>
+    <EncGroup>
+      <Key>bace726e-28e7-46fe-85ac-2963c1092d55</Key>
+      <AdvKey>0412e5ff-00f8-4765-a6d1-6bc2b052479c</AdvKey>
+      <asGroup>true</asGroup>
+      <asRival>false</asRival>
+      <Count>3</Count>
+      <AltName />
+    </EncGroup>
+  </EncGroups>
+  <Vehicles />
+  <Rosters />
+</Encounter>

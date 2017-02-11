@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<Encounter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LastChanged>2015-08-16T19:36:53.173</LastChanged>
+  <NotPersisted>false</NotPersisted>
+  <FileName>Enc165.xml</FileName>
+  <Name>Who Shot Last? - Locating the Landmark</Name>
+  <Key>d48edbca-8e34-4d89-b328-43582c378ba1</Key>
+  <Description />
+  <Campaign />
+  <Adventure>Spark of Rebellion</Adventure>
+  <Location>The Jungle</Location>
+  <Notes>While out looking for the obelisk described by the distress signal, the PC's and their guide, Kraykatta have been ambushed by a dianoga!</Notes>
+  <EncGroups>
+    <EncGroup>
+      <Key>35b215e7-7450-45bd-aad3-78a91d12e111</Key>
+      <AdvKey>e3bfd5a6-4d8b-4f58-a9d4-3323c79728e3</AdvKey>
+      <asGroup>false</asGroup>
+      <asRival>false</asRival>
+      <Count>1</Count>
+      <AltName />
+    </EncGroup>
+    <EncGroup>
+      <Key>bd63c605-410f-4fd4-8857-5facb3eea7b3</Key>
+      <AdvKey>a639494a-56c8-4618-9b4c-b75fa5175149</AdvKey>
+      <asGroup>false</asGroup>
+      <asRival>false</asRival>
+      <Count>1</Count>
+      <AltName />
+    </EncGroup>
+  </EncGroups>
+  <Vehicles />
+  <Rosters />
+</Encounter>

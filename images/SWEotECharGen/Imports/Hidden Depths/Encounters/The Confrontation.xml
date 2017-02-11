@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<Encounter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LastChanged>2015-08-17T13:19:47.17</LastChanged>
+  <NotPersisted>false</NotPersisted>
+  <FileName>Enc184.xml</FileName>
+  <Name>The Confrontation</Name>
+  <Key>e306dbd8-f01a-46e3-aabd-8e81acff0612</Key>
+  <Description />
+  <Campaign />
+  <Adventure>Hidden Depths</Adventure>
+  <Location>Phemis</Location>
+  <Notes>If the PCs hang around for more than 10 minutes, see "The Confrontation: Reinforcements" for what arrives.</Notes>
+  <EncGroups>
+    <EncGroup>
+      <Key>a5e658fd-5278-43ee-bebc-a7ab123be625</Key>
+      <AdvKey>ca12702f-bbf7-4477-bba3-7e72f3f7f940</AdvKey>
+      <asGroup>false</asGroup>
+      <asRival>false</asRival>
+      <Count>1</Count>
+      <AltName />
+    </EncGroup>
+    <EncGroup>
+      <Key>c96e7732-8da9-44e2-8509-5c0233111583</Key>
+      <AdvKey>76d42031-8636-4d2e-a314-1e73f3e64dca</AdvKey>
+      <asGroup>true</asGroup>
+      <asRival>false</asRival>
+      <Count>3</Count>
+      <AltName>With Ironarm</AltName>
+    </EncGroup>
+    <EncGroup>
+      <Key>051a4557-9599-4d85-85a1-3c72b2b0c875</Key>
+      <AdvKey>76d42031-8636-4d2e-a314-1e73f3e64dca</AdvKey>
+      <asGroup>true</asGroup>
+      <asRival>false</asRival>
+      <Count>3</Count>
+      <AltName>Guarding ship</AltName>
+    </EncGroup>
+    <EncGroup>
+      <Key>e92214be-cb57-48b3-9bd3-6049f8ee0b43</Key>
+      <AdvKey>bcc3ee59-70b7-45cd-8967-caed5e5b189d</AdvKey>
+      <asGroup>false</asGroup>
+      <asRival>false</asRival>
+      <Count>1</Count>
+      <AltName />
+    </EncGroup>
+    <EncGroup>
+      <Key>10b92876-a1da-4a37-839c-dfe5906419ba</Key>
+      <AdvKey>76d42031-8636-4d2e-a314-1e73f3e64dca</AdvKey>
+      <asGroup>true</asGroup>
+      <asRival>false</asRival>
+      <Count>2</Count>
+      <AltName>End of 4th Round</AltName>
+    </EncGroup>
+    <EncGroup>
+      <Key>72c3f8e3-48c3-4888-81c1-e5b5b2175374</Key>
+      <AdvKey>76d42031-8636-4d2e-a314-1e73f3e64dca</AdvKey>
+      <asGroup>true</asGroup>
+      <asRival>false</asRival>
+      <Count>4</Count>
+      <AltName>End of 10th Round</AltName>
+    </EncGroup>
+    <EncGroup>
+      <Key>b1d68998-b58d-4a37-a5b0-069a90b0a799</Key>
+      <AdvKey>76d42031-8636-4d2e-a314-1e73f3e64dca</AdvKey>
+      <asGroup>true</asGroup>
+      <asRival>false</asRival>
+      <Count>4</Count>
+      <AltName>End of 10th Round</AltName>
+    </EncGroup>
+    <EncGroup>
+      <Key>94d11e5b-3553-4be5-aa85-fca0f34e99b8</Key>
+      <AdvKey>76d42031-8636-4d2e-a314-1e73f3e64dca</AdvKey>
+      <asGroup>true</asGroup>
+      <asRival>false</asRival>
+      <Count>4</Count>
+      <AltName>End of 10th Round</AltName>
+    </EncGroup>
+    <EncGroup>
+      <Key>c124bfcf-afb0-40fb-b2ee-8e173d33cef7</Key>
+      <AdvKey>76d42031-8636-4d2e-a314-1e73f3e64dca</AdvKey>
+      <asGroup>true</asGroup>
+      <asRival>false</asRival>
+      <Count>4</Count>
+      <AltName>End of 10th Round</AltName>
+    </EncGroup>
+  </EncGroups>
+  <Vehicles />
+  <Rosters />
+</Encounter>

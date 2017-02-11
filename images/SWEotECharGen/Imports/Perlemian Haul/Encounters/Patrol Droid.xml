@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<Encounter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LastChanged>2014-07-16T15:01:43.253</LastChanged>
+  <NotPersisted>false</NotPersisted>
+  <FileName>Enc78.xml</FileName>
+  <Name>Patrol Droid</Name>
+  <Key>93d4c5b6-ca10-499a-8c3c-134679522d72</Key>
+  <Description />
+  <Campaign />
+  <Adventure>Perlemian Haul</Adventure>
+  <Location>M226  Freighter</Location>
+  <Notes>Use this encounter if the PCs stumble upon a patrol droid.</Notes>
+  <EncGroups>
+    <EncGroup>
+      <Key>5b78a395-8f06-4ef8-92ca-e6f2cc13c5f0</Key>
+      <AdvKey>0f48ca31-d534-482d-af01-427539da3fe6</AdvKey>
+      <asGroup>true</asGroup>
+      <asRival>false</asRival>
+      <Count>1</Count>
+      <AltName />
+    </EncGroup>
+  </EncGroups>
+  <Vehicles />
+  <Rosters />
+</Encounter>

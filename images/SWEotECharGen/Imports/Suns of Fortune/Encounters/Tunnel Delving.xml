@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<Encounter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>e9ea9d37-5a33-4451-b775-76cc61f83d96</Key>
+  <Name>Tunnel Delving</Name>
+  <Description />
+  <Source />
+  <Custom>Base</Custom>
+  <Campaign />
+  <Adventure />
+  <Location>Scasmirs Island</Location>
+  <Notes>Module encounter from "Suns of Fortune", page 121</Notes>
+  <EncGroups>
+    <EncGroup>
+      <Key>1fbed55d-364f-4e96-b195-226bd9411c6a</Key>
+      <AdvKey>0e037d85-4bb0-4367-8248-2b81e9c66837</AdvKey>
+      <asGroup>false</asGroup>
+      <asRival>false</asRival>
+      <Count>1</Count>
+    </EncGroup>
+    <EncGroup>
+      <Key>dd26076a-bdda-4a5e-b817-c50d3a9d5338</Key>
+      <AdvKey>760fda1b-60c9-480f-af9d-03cba065351d</AdvKey>
+      <asGroup>false</asGroup>
+      <asRival>false</asRival>
+      <Count>3</Count>
+    </EncGroup>
+  </EncGroups>
+  <Vehicles />
+  <Rosters />
+  <FileName>Enc8.xml</FileName>
+</Encounter>

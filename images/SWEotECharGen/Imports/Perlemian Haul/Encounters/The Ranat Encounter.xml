@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<Encounter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LastChanged>2014-07-16T14:59:26.347</LastChanged>
+  <NotPersisted>false</NotPersisted>
+  <FileName>Enc77.xml</FileName>
+  <Name>The Ranat Encounter</Name>
+  <Key>85385deb-42a0-4421-a103-ad45e6edb4f5</Key>
+  <Description />
+  <Campaign />
+  <Adventure>Perlemian Haul</Adventure>
+  <Location>M226  Freighter</Location>
+  <Notes />
+  <EncGroups>
+    <EncGroup>
+      <Key>682c4a77-c8d2-440a-982f-113ea11b3880</Key>
+      <AdvKey>7c221cef-098c-4286-8faa-9642d64572f8</AdvKey>
+      <asGroup>false</asGroup>
+      <asRival>false</asRival>
+      <Count>1</Count>
+      <AltName />
+    </EncGroup>
+    <EncGroup>
+      <Key>ff49f1e1-34d2-4994-a130-5f37336054a6</Key>
+      <AdvKey>13bd40a3-5a7e-4803-8856-3b40181ac4b2</AdvKey>
+      <asGroup>true</asGroup>
+      <asRival>false</asRival>
+      <Count>2</Count>
+      <AltName>Front Group</AltName>
+    </EncGroup>
+    <EncGroup>
+      <Key>9b92740a-a46a-4908-94f4-1f046d20b312</Key>
+      <AdvKey>13bd40a3-5a7e-4803-8856-3b40181ac4b2</AdvKey>
+      <asGroup>true</asGroup>
+      <asRival>false</asRival>
+      <Count>2</Count>
+      <AltName>Back Group</AltName>
+    </EncGroup>
+  </EncGroups>
+  <Vehicles />
+  <Rosters />
+</Encounter>

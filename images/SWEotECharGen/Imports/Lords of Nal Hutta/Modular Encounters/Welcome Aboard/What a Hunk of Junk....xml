@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<Encounter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LastChanged>2015-02-20T13:28:53.48</LastChanged>
+  <NotPersisted>false</NotPersisted>
+  <FileName>Enc152.xml</FileName>
+  <Name>What a Hunk of Junk...</Name>
+  <Key>b2f8713b-da9f-4e13-85e4-acfce08c89b3</Key>
+  <Description />
+  <Campaign />
+  <Adventure>Lords of Nal Hutta - Welcome Aboard</Adventure>
+  <Location>Aboard the Fereallis</Location>
+  <Notes />
+  <EncGroups>
+    <EncGroup>
+      <Key>c6f884e9-63bd-4856-83ae-f1e961b41a0e</Key>
+      <AdvKey>8e2212f1-dfc7-4b41-974f-22933fa6a0cf</AdvKey>
+      <asGroup>false</asGroup>
+      <asRival>false</asRival>
+      <Count>1</Count>
+      <AltName />
+    </EncGroup>
+    <EncGroup>
+      <Key>735e40e0-11f7-4e92-b976-6ce4ef516f32</Key>
+      <AdvKey>f8496959-5e5c-47ad-a526-e3918d99286d</AdvKey>
+      <asGroup>false</asGroup>
+      <asRival>false</asRival>
+      <Count>3</Count>
+      <AltName />
+    </EncGroup>
+    <EncGroup>
+      <Key>73417e57-7f3d-4fa8-a013-c7448a47b68e</Key>
+      <AdvKey>f8496959-5e5c-47ad-a526-e3918d99286d</AdvKey>
+      <asGroup>false</asGroup>
+      <asRival>false</asRival>
+      <Count>3</Count>
+      <AltName />
+    </EncGroup>
+  </EncGroups>
+  <Vehicles />
+  <Rosters />
+</Encounter>

@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<Encounter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LastChanged>2014-08-05T08:54:56.477</LastChanged>
+  <NotPersisted>false</NotPersisted>
+  <FileName>Enc102.xml</FileName>
+  <Name>Vapor Station</Name>
+  <Key>c1a68080-4c8c-4b27-9a40-e41852544c44</Key>
+  <Description />
+  <Campaign />
+  <Adventure>Crates of Krayts</Adventure>
+  <Location>Tatooine</Location>
+  <Notes />
+  <EncGroups>
+    <EncGroup>
+      <Key>ba7ac34b-b340-4ae8-a7be-0113557be692</Key>
+      <AdvKey>c6207e0d-c0ff-4ff0-8227-3b75699194b6</AdvKey>
+      <asGroup>true</asGroup>
+      <asRival>false</asRival>
+      <Count>3</Count>
+      <AltName />
+    </EncGroup>
+    <EncGroup>
+      <Key>2b5e99bd-5ef1-41da-bfa5-dc1747f1d448</Key>
+      <AdvKey>c6207e0d-c0ff-4ff0-8227-3b75699194b6</AdvKey>
+      <asGroup>true</asGroup>
+      <asRival>false</asRival>
+      <Count>3</Count>
+      <AltName />
+    </EncGroup>
+    <EncGroup>
+      <Key>b42b6a7d-9407-4c4c-a12d-a4d10541b233</Key>
+      <AdvKey>8aea9ebe-21ee-47a7-9af6-8ede490d54d2</AdvKey>
+      <asGroup>true</asGroup>
+      <asRival>false</asRival>
+      <Count>4</Count>
+      <AltName />
+    </EncGroup>
+    <EncGroup>
+      <Key>c843fc63-9bf9-47ea-8642-8d81d18dde3d</Key>
+      <AdvKey>8aea9ebe-21ee-47a7-9af6-8ede490d54d2</AdvKey>
+      <asGroup>true</asGroup>
+      <asRival>false</asRival>
+      <Count>4</Count>
+      <AltName />
+    </EncGroup>
+  </EncGroups>
+  <Vehicles />
+  <Rosters />
+</Encounter>

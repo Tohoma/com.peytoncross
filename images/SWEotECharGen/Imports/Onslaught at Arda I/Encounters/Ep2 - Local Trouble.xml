@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<Encounter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LastChanged>2014-10-01T09:20:42.927</LastChanged>
+  <NotPersisted>false</NotPersisted>
+  <FileName>Enc130.xml</FileName>
+  <Name>Ep2 - Local Trouble</Name>
+  <Key>afb348ea-e702-44a4-adb5-6733805330ff</Key>
+  <Description />
+  <Campaign />
+  <Adventure>Onslaught at Arda I</Adventure>
+  <Location>Jagomir</Location>
+  <Notes />
+  <EncGroups>
+    <EncGroup>
+      <Key>01636995-dc85-468a-b2b4-2b2d9eea21d6</Key>
+      <AdvKey>cf7c6511-521e-4f41-b551-6544e60f0c43</AdvKey>
+      <asGroup>false</asGroup>
+      <asRival>false</asRival>
+      <Count>4</Count>
+      <AltName />
+    </EncGroup>
+    <EncGroup>
+      <Key>7c963465-91ae-470b-9a29-4e1a351d9e4c</Key>
+      <AdvKey>4e19fc4d-ea78-4c00-85c5-b2e2f11a698d</AdvKey>
+      <asGroup>false</asGroup>
+      <asRival>false</asRival>
+      <Count>1</Count>
+      <AltName />
+    </EncGroup>
+    <EncGroup>
+      <Key>d54f020e-8067-4938-b331-98852697c85a</Key>
+      <AdvKey>024ee8ef-f17f-4f19-93b6-b7cebf0b2221</AdvKey>
+      <asGroup>true</asGroup>
+      <asRival>false</asRival>
+      <Count>4</Count>
+      <AltName />
+    </EncGroup>
+  </EncGroups>
+  <Vehicles />
+  <Rosters />
+</Encounter>

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<Encounter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LastChanged>2014-10-01T08:59:56.237</LastChanged>
+  <NotPersisted>false</NotPersisted>
+  <FileName>Enc124.xml</FileName>
+  <Name>Ep1 - Phase 1: Canyon Rats</Name>
+  <Key>36a9b4b2-a4a0-49b9-97ab-12f2d490a83a</Key>
+  <Description />
+  <Campaign />
+  <Adventure>Onslaught at Arda I</Adventure>
+  <Location>Arda I</Location>
+  <Notes>There is one encounter in this phase, "Uninvted Guests", as outlined on page 32.  If the PC group are veterans, you may add more doran'enoks to the encounter.</Notes>
+  <EncGroups>
+    <EncGroup>
+      <Key>1d0e08e3-77ee-4cd2-a3af-273901ddf569</Key>
+      <AdvKey>290f48e6-938c-493b-bab6-bf31b50451e6</AdvKey>
+      <asGroup>false</asGroup>
+      <asRival>false</asRival>
+      <Count>1</Count>
+      <AltName />
+    </EncGroup>
+  </EncGroups>
+  <Vehicles />
+  <Rosters />
+</Encounter>

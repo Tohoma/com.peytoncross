@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<Encounter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LastChanged>2015-08-13T10:37:41.473</LastChanged>
+  <NotPersisted>false</NotPersisted>
+  <FileName>Enc180.xml</FileName>
+  <Name>Confronting Garai</Name>
+  <Key>1e70934e-90c5-4a1d-97de-5052b2d0a37f</Key>
+  <Description />
+  <Campaign />
+  <Adventure>Lessons from the Past</Adventure>
+  <Location>Sancuary wreckage</Location>
+  <Notes>This encounter contains three groups of assassin droids.  Typically, use the group of four droids.   If the PCs are prepared, use the two groups of two droids.  If the PCs have three or fewer players, use just the first group of two. </Notes>
+  <EncGroups>
+    <EncGroup>
+      <Key>8fc5a604-31b2-441a-8c4c-b03271108a4b</Key>
+      <AdvKey>a2289b9e-1044-484e-8266-7f3a8ceba7af</AdvKey>
+      <asGroup>false</asGroup>
+      <asRival>false</asRival>
+      <Count>1</Count>
+      <AltName />
+    </EncGroup>
+    <EncGroup>
+      <Key>65d5e1f0-a771-4b20-bd8f-0509d17c2147</Key>
+      <AdvKey>64640a00-549b-4825-8583-6a75f6a0b18b</AdvKey>
+      <asGroup>false</asGroup>
+      <asRival>false</asRival>
+      <Count>4</Count>
+      <AltName>Typical</AltName>
+    </EncGroup>
+    <EncGroup>
+      <Key>c084c802-c3b7-4aa8-9976-4aaa5f8bd63e</Key>
+      <AdvKey>64640a00-549b-4825-8583-6a75f6a0b18b</AdvKey>
+      <asGroup>false</asGroup>
+      <asRival>false</asRival>
+      <Count>2</Count>
+      <AltName>Few players, prepared</AltName>
+    </EncGroup>
+    <EncGroup>
+      <Key>81ff0784-d39d-48a9-9838-7c72332ba887</Key>
+      <AdvKey>64640a00-549b-4825-8583-6a75f6a0b18b</AdvKey>
+      <asGroup>false</asGroup>
+      <asRival>false</asRival>
+      <Count>2</Count>
+      <AltName>Prepared</AltName>
+    </EncGroup>
+  </EncGroups>
+  <Vehicles />
+  <Rosters />
+</Encounter>

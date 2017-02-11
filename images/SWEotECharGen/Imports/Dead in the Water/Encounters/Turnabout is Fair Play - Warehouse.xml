@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<Encounter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LastChanged>2014-07-17T11:31:20.217</LastChanged>
+  <NotPersisted>false</NotPersisted>
+  <FileName>Enc93.xml</FileName>
+  <Name>Turnabout is Fair Play - Warehouse</Name>
+  <Key>8a1b84be-aeeb-4482-be6a-e6b12dbba5c2</Key>
+  <Description />
+  <Campaign />
+  <Adventure>Dead in the Water</Adventure>
+  <Location>KA Ltd. Factory, Ganaang, Teagan</Location>
+  <Notes />
+  <EncGroups>
+    <EncGroup>
+      <Key>922d8dac-b5bd-4203-8b45-c713ff5ad299</Key>
+      <AdvKey>7403709a-3433-40d9-8526-a1ca8ee33de9</AdvKey>
+      <asGroup>true</asGroup>
+      <asRival>false</asRival>
+      <Count>2</Count>
+      <AltName />
+    </EncGroup>
+    <EncGroup>
+      <Key>f68cbacf-d858-451f-b3a2-8ce25806fe01</Key>
+      <AdvKey>b219ed07-8585-40b8-8d46-7f612522596c</AdvKey>
+      <asGroup>false</asGroup>
+      <asRival>false</asRival>
+      <Count>1</Count>
+      <AltName />
+    </EncGroup>
+    <EncGroup>
+      <Key>35988e31-37c3-4438-a938-7476e5fe91ff</Key>
+      <AdvKey>be3be908-15f0-4ad4-a06d-9bc7e6a8455a</AdvKey>
+      <asGroup>false</asGroup>
+      <asRival>false</asRival>
+      <Count>1</Count>
+      <AltName>Lucien - human</AltName>
+    </EncGroup>
+    <EncGroup>
+      <Key>f6b04a08-c977-47e7-a940-33ce36ec873a</Key>
+      <AdvKey>be3be908-15f0-4ad4-a06d-9bc7e6a8455a</AdvKey>
+      <asGroup>false</asGroup>
+      <asRival>false</asRival>
+      <Count>1</Count>
+      <AltName>Tobias - Devon</AltName>
+    </EncGroup>
+    <EncGroup>
+      <Key>7a53aec8-8015-44b1-b619-071935b9ef52</Key>
+      <AdvKey>ff3d5145-70dd-45c1-a9ee-c7381280e5f7</AdvKey>
+      <asGroup>false</asGroup>
+      <asRival>false</asRival>
+      <Count>1</Count>
+      <AltName />
+    </EncGroup>
+    <EncGroup>
+      <Key>851ff747-2aec-4ea3-8721-ad757e6d5189</Key>
+      <AdvKey>ffc4fc4d-d210-4c72-a624-763483fdfab6</AdvKey>
+      <asGroup>false</asGroup>
+      <asRival>false</asRival>
+      <Count>1</Count>
+      <AltName>On Round 3</AltName>
+    </EncGroup>
+    <EncGroup>
+      <Key>7a468dd6-777c-4b56-a5fc-5d66eb819196</Key>
+      <AdvKey>7403709a-3433-40d9-8526-a1ca8ee33de9</AdvKey>
+      <asGroup>true</asGroup>
+      <asRival>false</asRival>
+      <Count>5</Count>
+      <AltName>On Round 3</AltName>
+    </EncGroup>
+  </EncGroups>
+  <Vehicles />
+  <Rosters />
+</Encounter>

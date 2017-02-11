@@ -1,0 +1,14 @@
+Spark of Rebellion
+------------------
+
+This folder contains adversaries, encounters, and a data set with new species, weapons, vehicles, and more for support of the "Spark of Rebellion" fan-made source book (based on the popular "Star Wars: Rebels" television show).  To include this data in your system:
+
+1. Run the Data Editor.
+2. At the top, click "Import" and import the data set found in the "Spark of Rebellion\Data Sets" folder.
+3. Run the Character Generator.
+4. Click the "Options" button at the top, and make sure the "Spark of Rebellion" souce is selected.
+5. Run the GM Tools.
+6. From the Adversaries pane, click the "Import" button to import the adversaries found in the "Spark of Rebellion\Adversaries" folder.  These adversaries are required for the encounters to work properly.
+7. From the Encounters pane, click the "Import" button to import the encounters found in the "Spark of Rebellion\Encounters" folder.
+
+Special thanks goes out to Rancor Publishing for their excellent work on "Spark of Rebellion", as well as most of the legwork getting this data ready for the character generator.

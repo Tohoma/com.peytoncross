@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<Encounter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>723267f2-1808-4582-8b1d-6ee086c378a6</Key>
+  <Name>Restricted Hangar Bay</Name>
+  <Description />
+  <Source />
+  <Custom>Base</Custom>
+  <Campaign />
+  <Adventure>Operation: Shell Game</Adventure>
+  <Location>Hammer Spacestation, Restricted Hangar Bay</Location>
+  <Notes>Use this encounter if the PCs decide on the "direct approach" to the Shell Cracker prototype hangar.</Notes>
+  <EncGroups>
+    <EncGroup>
+      <Key>3b29dff3-bad5-4561-bb6a-f038eddf956b</Key>
+      <AdvKey>d9458142-91e5-41f5-acc4-4b786df6deec</AdvKey>
+      <asGroup>true</asGroup>
+      <asRival>false</asRival>
+      <Count>10</Count>
+      <AltName>Checkpoint One</AltName>
+    </EncGroup>
+    <EncGroup>
+      <Key>595560d3-615d-4751-a3c1-258dc9416136</Key>
+      <AdvKey>d9458142-91e5-41f5-acc4-4b786df6deec</AdvKey>
+      <asGroup>true</asGroup>
+      <asRival>false</asRival>
+      <Count>10</Count>
+      <AltName>Checkpoint Two</AltName>
+    </EncGroup>
+    <EncGroup>
+      <Key>f2fb719f-9d6b-48ad-9423-5b010f97e139</Key>
+      <AdvKey>d9458142-91e5-41f5-acc4-4b786df6deec</AdvKey>
+      <asGroup>true</asGroup>
+      <asRival>false</asRival>
+      <Count>6</Count>
+      <AltName>Inside Hangar</AltName>
+    </EncGroup>
+    <EncGroup>
+      <Key>b99974ed-52aa-4b3f-9392-615e710dc01d</Key>
+      <AdvKey>e5df7708-e6d3-4254-a948-018e374f4db6</AdvKey>
+      <asGroup>true</asGroup>
+      <asRival>false</asRival>
+      <Count>12</Count>
+      <AltName>Inside Hangar</AltName>
+    </EncGroup>
+  </EncGroups>
+  <Vehicles />
+  <Rosters />
+  <FileName>Enc46.xml</FileName>
+</Encounter>

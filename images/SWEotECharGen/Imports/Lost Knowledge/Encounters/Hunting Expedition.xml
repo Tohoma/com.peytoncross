@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<Encounter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LastChanged>2014-09-04T08:32:17.067</LastChanged>
+  <NotPersisted>false</NotPersisted>
+  <FileName>Enc110.xml</FileName>
+  <Name>Hunting Expedition</Name>
+  <Key>5c458576-df63-4a79-ad58-535d9bc48215</Key>
+  <Description />
+  <Campaign />
+  <Adventure>Lost Knowledge</Adventure>
+  <Location>Athiss Wilderness</Location>
+  <Notes>This encounter can be modified depending on the size of the PC's party.  As it, it assumes six party members.  There should Deranged Expedition Guides numbering half the size of the party, plus two minion groups of Expedition Hunters with three minions each.</Notes>
+  <EncGroups>
+    <EncGroup>
+      <Key>dd0ada45-19ed-4857-bb80-ec122727ee77</Key>
+      <AdvKey>d8047024-cbb5-4a85-b571-ad25089ba064</AdvKey>
+      <asGroup>false</asGroup>
+      <asRival>false</asRival>
+      <Count>3</Count>
+      <AltName />
+    </EncGroup>
+    <EncGroup>
+      <Key>580ce69f-a522-4b02-ba21-a3193df8d2d0</Key>
+      <AdvKey>ca5697b5-4184-4806-9c6b-da370ef4d6bd</AdvKey>
+      <asGroup>true</asGroup>
+      <asRival>false</asRival>
+      <Count>3</Count>
+      <AltName />
+    </EncGroup>
+    <EncGroup>
+      <Key>88abc0bb-ac92-460a-ae0a-32962ed43b05</Key>
+      <AdvKey>ca5697b5-4184-4806-9c6b-da370ef4d6bd</AdvKey>
+      <asGroup>true</asGroup>
+      <asRival>false</asRival>
+      <Count>3</Count>
+      <AltName />
+    </EncGroup>
+  </EncGroups>
+  <Vehicles />
+  <Rosters />
+</Encounter>

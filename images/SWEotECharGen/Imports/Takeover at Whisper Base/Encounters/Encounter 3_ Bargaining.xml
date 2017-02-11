@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<Encounter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LastChanged>2014-07-22T15:50:23.977</LastChanged>
+  <NotPersisted>false</NotPersisted>
+  <FileName>Enc95.xml</FileName>
+  <Name>Encounter 3: Bargaining</Name>
+  <Key>cb7ca951-ca0f-452d-8353-f6603bf4c15c</Key>
+  <Description />
+  <Campaign />
+  <Adventure>Takeover at Whisper Base</Adventure>
+  <Location>Onderon</Location>
+  <Notes>Please see page 14 of the Age of Rebellion Beginner Game Adventure Book for details.</Notes>
+  <EncGroups>
+    <EncGroup>
+      <Key>f9cfe599-20da-4463-a140-8b46168d679b</Key>
+      <AdvKey>096ac942-6688-4f29-bfb4-a24c26dbd75c</AdvKey>
+      <asGroup>false</asGroup>
+      <asRival>false</asRival>
+      <Count>1</Count>
+      <AltName />
+    </EncGroup>
+  </EncGroups>
+  <Vehicles />
+  <Rosters />
+</Encounter>
