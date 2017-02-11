@@ -1,4 +1,0 @@
-﻿Force and Destiny Beta Import
------------------------------
-
-This directory used to contain all adversaries found in the Force and Destiny Beta Rulebook.  With the release of Force and Destiny Core Rulebook, this import now only contains adversaries from the Beta Rulebook that were removed from the Core Rulebook.  All other adversaries will now be found in the "Force and Destiny Core" Import directory.

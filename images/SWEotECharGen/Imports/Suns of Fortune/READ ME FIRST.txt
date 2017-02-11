@@ -1,6 +1,0 @@
-Suns of Fortune Imports
------------------------
-
-This directory contains all adversaries, custom vehicles, and modular encounters found in the "Suns of Fortune" sourcebook.  To use these features, run the GM Tools and import all adversaries, stock vehicles, and encounters in this folder from their respective pane.  If you only plan on using the vehicles in the pre-generated encounters, you do not need to import the stock vehicles.  However, they're available for import if you want to re-use them elsewhere.
-
-NOTE:  The encounters use two adversaries found in the CRB:  Aqualish Thug and Barabel Enforcer.  These adversaries must have been imported from release 1.1.0.6 or greater.  If they were imported, or came stock with earlier versions, they won't work with these encounters.  What you must do is remove all CRB adversaries, then import them all again from the latest release.
